@@ -62,9 +62,21 @@ always : PROCESS
 -- variable declarations                                      
 BEGIN                                                         
         -- code executes for every event on sensitivity list
-	clk <= '0';  d<= "0000";  wait for 10 ns;
-	d <= "0101"; wait for 10 ns;
-	clk <= '1'; wait for 10 ns;
+	clk <= '0';  
+	d<= "0001";  
+	wait for 10 ns;
+	
+	clk <= '1';  
+	d<= "0001";  
+	wait for 10 ns;
+	
+     
+	d<= "0111";  
+	wait for 10 ns;
+   
+	clk <= '0';
+   d<= "0111";  
+	wait for 10 ns;	
 WAIT;                                                        
 END PROCESS always;                                          
 END example_arch;

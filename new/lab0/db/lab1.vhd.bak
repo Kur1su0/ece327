@@ -1,0 +1,15 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+
+ENTITY part1 IS
+    PORT( x,s,y : IN std_logic;
+          m     : OUT std_logic);
+
+END part1;
+
+ARCHITECTURE LogicFunc OF part1 IS:
+BEGIN:
+    m <= (x AND NOT (s) ) OR (s AND y);
+END LogicFunc;
+
+

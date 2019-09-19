@@ -1,4 +1,27 @@
-|example
+|example_board
+SW[0] => example:dut.d[0]
+SW[1] => example:dut.d[1]
+SW[2] => example:dut.d[2]
+SW[3] => example:dut.d[3]
+SW[4] => example:dut.clk
+SW[5] => ~NO_FANOUT~
+SW[6] => ~NO_FANOUT~
+SW[7] => ~NO_FANOUT~
+SW[8] => ~NO_FANOUT~
+SW[9] => ~NO_FANOUT~
+LEDR[0] << example:dut.q[0]
+LEDR[1] << example:dut.q[1]
+LEDR[2] << example:dut.q[2]
+LEDR[3] << example:dut.q[3]
+LEDR[4] << <GND>
+LEDR[5] << <GND>
+LEDR[6] << <GND>
+LEDR[7] << <GND>
+LEDR[8] << <GND>
+LEDR[9] << <GND>
+
+
+|example_board|example:dut
 d[0] => internal_d[0].DATAIN
 d[1] => internal_d[1].DATAIN
 d[2] => internal_d[2].DATAIN
