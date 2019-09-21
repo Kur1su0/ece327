@@ -1,0 +1,52 @@
+# do lab1_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Copying /usr/commercial_amd64/altera/16.0/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/users/zicew/ece327/new/lab1/p3.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:08:45 on Sep 21,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/ece327/new/lab1/p3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity part3
+# -- Compiling architecture LogicFunc3 of part3
+# End time: 19:08:45 on Sep 21,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {/users/zicew/ece327/new/lab1/simulation/modelsim/part3.vht}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:08:45 on Sep 21,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/ece327/new/lab1/simulation/modelsim/part3.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity part3_vhd_tst
+# -- Compiling architecture part3_arch of part3_vhd_tst
+# End time: 19:08:45 on Sep 21,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  part3_vhd_tst
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" part3_vhd_tst 
+# Start time: 19:08:45 on Sep 21,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.part3_vhd_tst(part3_arch)
+# Loading work.part3(logicfunc3)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# End time: 19:16:30 on Sep 21,2019, Elapsed time: 0:07:45
+# Errors: 0, Warnings: 0

@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "nxt_fib_output[0]",
+					"strict" : false
+				},
+				{
+					"name" : "nxt_fib_output[1]",
+					"strict" : false
+				},
+				{
+					"name" : "nxt_fib_output[2]",
+					"strict" : false
+				},
+				{
+					"name" : "nxt_fib_output[3]",
+					"strict" : false
+				},
+				{
+					"name" : "nxt_fib_output[4]",
+					"strict" : false
+				},
+				{
+					"name" : "nxt_fib_input[0]",
+					"strict" : false
+				},
+				{
+					"name" : "nxt_fib_input[1]",
+					"strict" : false
+				},
+				{
+					"name" : "nxt_fib_input[3]",
+					"strict" : false
+				},
+				{
+					"name" : "nxt_fib_input[2]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

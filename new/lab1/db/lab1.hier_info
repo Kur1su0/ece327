@@ -1,0 +1,27 @@
+|part3
+nxt_fib_input[0] => Mux0.IN19
+nxt_fib_input[0] => Mux1.IN19
+nxt_fib_input[0] => Mux2.IN19
+nxt_fib_input[0] => Mux3.IN19
+nxt_fib_input[0] => Mux4.IN10
+nxt_fib_input[1] => Mux0.IN18
+nxt_fib_input[1] => Mux1.IN18
+nxt_fib_input[1] => Mux2.IN18
+nxt_fib_input[1] => Mux3.IN18
+nxt_fib_input[1] => Mux4.IN9
+nxt_fib_input[2] => Mux0.IN17
+nxt_fib_input[2] => Mux1.IN17
+nxt_fib_input[2] => Mux2.IN17
+nxt_fib_input[2] => Mux3.IN17
+nxt_fib_input[3] => Mux0.IN16
+nxt_fib_input[3] => Mux1.IN16
+nxt_fib_input[3] => Mux2.IN16
+nxt_fib_input[3] => Mux3.IN16
+nxt_fib_input[3] => Mux4.IN8
+nxt_fib_output[0] << Mux4.DB_MAX_OUTPUT_PORT_TYPE
+nxt_fib_output[1] << Mux3.DB_MAX_OUTPUT_PORT_TYPE
+nxt_fib_output[2] << Mux2.DB_MAX_OUTPUT_PORT_TYPE
+nxt_fib_output[3] << Mux1.DB_MAX_OUTPUT_PORT_TYPE
+nxt_fib_output[4] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
