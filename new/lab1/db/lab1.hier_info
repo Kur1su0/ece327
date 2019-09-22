@@ -1,51 +1,175 @@
-|lab1_board4
-SW[0] => part4:dut.seg_fib_input[0]
-SW[1] => part4:dut.seg_fib_input[1]
-SW[2] => part4:dut.seg_fib_input[2]
-SW[3] => part4:dut.seg_fib_input[3]
-HEX0[0] << part4:dut.seg_fib_output[0]
-HEX0[1] << part4:dut.seg_fib_output[1]
-HEX0[2] << part4:dut.seg_fib_output[2]
-HEX0[3] << part4:dut.seg_fib_output[3]
-HEX0[4] << part4:dut.seg_fib_output[4]
-HEX0[5] << part4:dut.seg_fib_output[5]
-HEX0[6] << part4:dut.seg_fib_output[6]
+|lab1_board5
+SW8 => part5:dut.switcher
+SW[0] => part5:dut.cur_fib[0]
+SW[1] => part5:dut.cur_fib[1]
+SW[2] => part5:dut.cur_fib[2]
+SW[3] => part5:dut.cur_fib[3]
+HEX0[0] << part5:dut.seg_out[0]
+HEX0[1] << part5:dut.seg_out[1]
+HEX0[2] << part5:dut.seg_out[2]
+HEX0[3] << part5:dut.seg_out[3]
+HEX0[4] << part5:dut.seg_out[4]
+HEX0[5] << part5:dut.seg_out[5]
+HEX0[6] << part5:dut.seg_out[6]
+LEDR8 << part5:dut.is_valid
 
 
-|lab1_board4|part4:dut
-seg_fib_input[0] => Mux1.IN19
-seg_fib_input[0] => Mux2.IN19
-seg_fib_input[0] => Mux3.IN19
-seg_fib_input[0] => Mux4.IN19
-seg_fib_input[0] => Mux5.IN19
-seg_fib_input[0] => Mux6.IN19
-seg_fib_input[1] => Mux0.IN10
-seg_fib_input[1] => Mux1.IN18
-seg_fib_input[1] => Mux2.IN18
-seg_fib_input[1] => Mux3.IN18
-seg_fib_input[1] => Mux4.IN18
-seg_fib_input[1] => Mux5.IN18
-seg_fib_input[1] => Mux6.IN18
-seg_fib_input[2] => Mux0.IN9
-seg_fib_input[2] => Mux1.IN17
-seg_fib_input[2] => Mux2.IN17
-seg_fib_input[2] => Mux3.IN17
-seg_fib_input[2] => Mux4.IN17
-seg_fib_input[2] => Mux5.IN17
-seg_fib_input[2] => Mux6.IN17
-seg_fib_input[3] => Mux0.IN8
-seg_fib_input[3] => Mux1.IN16
-seg_fib_input[3] => Mux2.IN16
-seg_fib_input[3] => Mux3.IN16
-seg_fib_input[3] => Mux4.IN16
-seg_fib_input[3] => Mux5.IN16
-seg_fib_input[3] => Mux6.IN16
-seg_fib_output[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
-seg_fib_output[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
-seg_fib_output[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
-seg_fib_output[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
-seg_fib_output[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
-seg_fib_output[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
-seg_fib_output[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+|lab1_board5|part5:dut
+switcher => p5_comp3:select_fib.switcher_in
+cur_fib[0] => part2:find_valid.fib_input[0]
+cur_fib[0] => part3:find_next.next_fib_input[0]
+cur_fib[0] => p5_comp1:increase_bit.cur_fib_in[0]
+cur_fib[1] => part2:find_valid.fib_input[1]
+cur_fib[1] => part3:find_next.next_fib_input[1]
+cur_fib[1] => p5_comp1:increase_bit.cur_fib_in[1]
+cur_fib[2] => part2:find_valid.fib_input[2]
+cur_fib[2] => part3:find_next.next_fib_input[2]
+cur_fib[2] => p5_comp1:increase_bit.cur_fib_in[2]
+cur_fib[3] => part2:find_valid.fib_input[3]
+cur_fib[3] => part3:find_next.next_fib_input[3]
+cur_fib[3] => p5_comp1:increase_bit.cur_fib_in[3]
+seg_out[0] <= p5_comp2:segment_out.seg_out_out[0]
+seg_out[1] <= p5_comp2:segment_out.seg_out_out[1]
+seg_out[2] <= p5_comp2:segment_out.seg_out_out[2]
+seg_out[3] <= p5_comp2:segment_out.seg_out_out[3]
+seg_out[4] <= p5_comp2:segment_out.seg_out_out[4]
+seg_out[5] <= p5_comp2:segment_out.seg_out_out[5]
+seg_out[6] <= p5_comp2:segment_out.seg_out_out[6]
+is_valid <= part2:find_valid.fib_output
+
+
+|lab1_board5|part5:dut|part2:find_valid
+fib_input[0] => Mux0.IN19
+fib_input[1] => Mux0.IN18
+fib_input[2] => Mux0.IN17
+fib_input[3] => Mux0.IN16
+fib_output <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab1_board5|part5:dut|part3:find_next
+next_fib_input[0] => Mux0.IN19
+next_fib_input[0] => Mux1.IN19
+next_fib_input[0] => Mux2.IN19
+next_fib_input[0] => Mux3.IN19
+next_fib_input[0] => Mux4.IN10
+next_fib_input[1] => Mux0.IN18
+next_fib_input[1] => Mux1.IN18
+next_fib_input[1] => Mux2.IN18
+next_fib_input[1] => Mux3.IN18
+next_fib_input[1] => Mux4.IN9
+next_fib_input[2] => Mux0.IN17
+next_fib_input[2] => Mux1.IN17
+next_fib_input[2] => Mux2.IN17
+next_fib_input[2] => Mux3.IN17
+next_fib_input[3] => Mux0.IN16
+next_fib_input[3] => Mux1.IN16
+next_fib_input[3] => Mux2.IN16
+next_fib_input[3] => Mux3.IN16
+next_fib_input[3] => Mux4.IN8
+next_fib_output[0] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+next_fib_output[1] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+next_fib_output[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+next_fib_output[3] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+next_fib_output[4] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab1_board5|part5:dut|p5_comp1:increase_bit
+cur_fib_in[0] => Mux0.IN19
+cur_fib_in[0] => Mux1.IN19
+cur_fib_in[0] => Mux2.IN19
+cur_fib_in[0] => Mux3.IN19
+cur_fib_in[0] => Mux4.IN19
+cur_fib_in[1] => Mux0.IN18
+cur_fib_in[1] => Mux1.IN18
+cur_fib_in[1] => Mux2.IN18
+cur_fib_in[1] => Mux3.IN18
+cur_fib_in[1] => Mux4.IN18
+cur_fib_in[2] => Mux0.IN17
+cur_fib_in[2] => Mux1.IN17
+cur_fib_in[2] => Mux2.IN17
+cur_fib_in[2] => Mux3.IN17
+cur_fib_in[2] => Mux4.IN17
+cur_fib_in[3] => Mux0.IN16
+cur_fib_in[3] => Mux1.IN16
+cur_fib_in[3] => Mux2.IN16
+cur_fib_in[3] => Mux3.IN16
+cur_fib_in[3] => Mux4.IN16
+dest_bit_out[0] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+dest_bit_out[1] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+dest_bit_out[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+dest_bit_out[3] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+dest_bit_out[4] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab1_board5|part5:dut|p5_comp3:select_fib
+switcher_in => Selector0.IN3
+switcher_in => Selector1.IN3
+switcher_in => Selector2.IN3
+switcher_in => Selector3.IN3
+switcher_in => Selector4.IN3
+switcher_in => Selector0.IN0
+switcher_in => Selector1.IN0
+switcher_in => Selector2.IN0
+switcher_in => Selector3.IN0
+switcher_in => Selector4.IN0
+dest_bit_in[0] => Selector0.IN4
+dest_bit_in[1] => Selector1.IN4
+dest_bit_in[2] => Selector2.IN4
+dest_bit_in[3] => Selector3.IN4
+dest_bit_in[4] => Selector4.IN4
+next_fib_in[0] => Selector0.IN5
+next_fib_in[1] => Selector1.IN5
+next_fib_in[2] => Selector2.IN5
+next_fib_in[3] => Selector3.IN5
+next_fib_in[4] => Selector4.IN5
+what_fib_out[0] <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+what_fib_out[1] <= Selector1.DB_MAX_OUTPUT_PORT_TYPE
+what_fib_out[2] <= Selector2.DB_MAX_OUTPUT_PORT_TYPE
+what_fib_out[3] <= Selector3.DB_MAX_OUTPUT_PORT_TYPE
+what_fib_out[4] <= Selector4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab1_board5|part5:dut|p5_comp2:segment_out
+what_fib_in[0] => Mux1.IN36
+what_fib_in[0] => Mux2.IN36
+what_fib_in[0] => Mux3.IN36
+what_fib_in[0] => Mux4.IN36
+what_fib_in[0] => Mux5.IN36
+what_fib_in[0] => Mux6.IN36
+what_fib_in[1] => Mux0.IN19
+what_fib_in[1] => Mux1.IN35
+what_fib_in[1] => Mux2.IN35
+what_fib_in[1] => Mux3.IN35
+what_fib_in[1] => Mux4.IN35
+what_fib_in[1] => Mux5.IN35
+what_fib_in[1] => Mux6.IN35
+what_fib_in[2] => Mux0.IN18
+what_fib_in[2] => Mux1.IN34
+what_fib_in[2] => Mux2.IN34
+what_fib_in[2] => Mux3.IN34
+what_fib_in[2] => Mux4.IN34
+what_fib_in[2] => Mux5.IN34
+what_fib_in[2] => Mux6.IN34
+what_fib_in[3] => Mux0.IN17
+what_fib_in[3] => Mux1.IN33
+what_fib_in[3] => Mux2.IN33
+what_fib_in[3] => Mux3.IN33
+what_fib_in[3] => Mux4.IN33
+what_fib_in[3] => Mux5.IN33
+what_fib_in[3] => Mux6.IN33
+what_fib_in[4] => Mux0.IN16
+what_fib_in[4] => Mux1.IN32
+what_fib_in[4] => Mux2.IN32
+what_fib_in[4] => Mux3.IN32
+what_fib_in[4] => Mux4.IN32
+what_fib_in[4] => Mux5.IN32
+what_fib_in[4] => Mux6.IN32
+seg_out_out[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+seg_out_out[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+seg_out_out[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+seg_out_out[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+seg_out_out[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+seg_out_out[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+seg_out_out[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 

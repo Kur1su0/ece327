@@ -32,6 +32,14 @@
 					"strict" : false
 				},
 				{
+					"name" : "LEDR8",
+					"strict" : false
+				},
+				{
+					"name" : "SW8",
+					"strict" : false
+				},
+				{
 					"name" : "SW[0]",
 					"strict" : false
 				},
@@ -40,11 +48,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "SW[2]",
+					"name" : "SW[3]",
 					"strict" : false
 				},
 				{
-					"name" : "SW[3]",
+					"name" : "SW[2]",
 					"strict" : false
 				}
 			]
