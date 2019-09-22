@@ -1,5 +1,5 @@
 Assembler report for lab1
-Sun Sep 22 01:19:07 2019
+Sun Sep 22 17:36:29 2019
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
 
 
@@ -38,9 +38,9 @@ agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sun Sep 22 01:19:07 2019 ;
+; Assembler Status      ; Successful - Sun Sep 22 17:36:29 2019 ;
 ; Revision Name         ; lab1                                  ;
-; Top-level Entity Name ; lab1_board5                           ;
+; Top-level Entity Name ; lab1_board_extra                      ;
 ; Family                ; Cyclone V                             ;
 ; Device                ; 5CSEMA5F31C6                          ;
 +-----------------------+---------------------------------------+
@@ -68,8 +68,8 @@ agreement for further details.
 ; Option         ; Setting           ;
 +----------------+-------------------+
 ; Device         ; 5CSEMA5F31C6      ;
-; JTAG usercode  ; 0x00AF9384        ;
-; Checksum       ; 0x00AF9384        ;
+; JTAG usercode  ; 0x00AFBDA2        ;
+; Checksum       ; 0x00AFBDA2        ;
 +----------------+-------------------+
 
 
@@ -79,14 +79,14 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
-    Info: Processing started: Sun Sep 22 01:18:57 2019
+    Info: Processing started: Sun Sep 22 17:36:21 2019
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off lab1 -c lab1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 1216 megabytes
-    Info: Processing ended: Sun Sep 22 01:19:07 2019
-    Info: Elapsed time: 00:00:10
+    Info: Peak virtual memory: 1219 megabytes
+    Info: Processing ended: Sun Sep 22 17:36:29 2019
+    Info: Elapsed time: 00:00:08
     Info: Total CPU time (on all processors): 00:00:06
 
 

@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSEMA5F31C6
-set_global_assignment -name TOP_LEVEL_ENTITY lab1_board5
+set_global_assignment -name TOP_LEVEL_ENTITY lab1_board_extra
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 16.0.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:54:55  SEPTEMBER 19, 2019"
 set_global_assignment -name LAST_QUARTUS_VERSION 16.0.0
@@ -328,6 +328,9 @@ set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/part1.vht -s
 set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/part2.vht -section_id part2_vhd_tst
 set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/part3.vht -section_id part3_vhd_tst
 set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/part5.vht -section_id part5_vhd_tst
+set_global_assignment -name VHDL_FILE extra.vhd
+set_global_assignment -name VHDL_FILE board_extra.vhd
+set_global_assignment -name VHDL_FILE extra_comp1.vhd
 set_global_assignment -name VHDL_FILE board_p5.vhd
 set_global_assignment -name VHDL_FILE p5_comp3.vhd
 set_global_assignment -name VHDL_FILE p5_comp2.vhd
