@@ -3,7 +3,7 @@ USE ieee.std_logic_1164.all;
 ENTITY lab1_board4 IS
 port(
 
-SW: IN STD_LOGIC_VECTOR(9 downto 0);
+SW: IN STD_LOGIC_VECTOR(3 downto 0);
 HEX0 : OUT STD_LOGIC_VECTOR(6 downto 0)
 );
 END lab1_board4;
