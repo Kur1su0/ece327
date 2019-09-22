@@ -60,23 +60,23 @@ always : PROCESS
 -- variable declarations                                      
 BEGIN                                                         
         -- code executes for every event on sensitivity list  
-		  nxt_fib_input <= "0000"; wait for 2 ns;
+	 next_fib_input <= "0000"; wait for 2 ns; --- 0
 	 
-	 nxt_fib_input <= "0001"; wait for 2 ns;
+	 next_fib_input <= "0001"; wait for 2 ns; --- 1
 	 
-	 nxt_fib_input <= "0010"; wait for 2 ns;
+	 next_fib_input <= "0010"; wait for 2 ns; --- 2
 	 
-	 nxt_fib_input <= "0011"; wait for 2 ns;
+	 next_fib_input <= "0011"; wait for 2 ns; --- 3
 	 
-	 nxt_fib_input <= "0101"; wait for 2 ns;
+	 next_fib_input <= "0101"; wait for 2 ns; --- 5
 	 
-	 nxt_fib_input <= "1000"; wait for 2 ns;
+	 next_fib_input <= "1000"; wait for 2 ns; --- 8
 	 
-	 nxt_fib_input <= "1101"; wait for 2 ns;
+	 next_fib_input <= "1101"; wait for 2 ns; --- 13
 	 
 	 ---error test
-	 nxt_fib_input <= "0100"; wait for 2 ns;
-	 nxt_fib_input <= "0111"; wait for 2 ns;
+	 next_fib_input <= "0100"; wait for 2 ns; --- 4
+	 next_fib_input <= "0111"; wait for 2 ns; --- 7
 	 
 	 
 WAIT;                                                        

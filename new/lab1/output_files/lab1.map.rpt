@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab1
-Sat Sep 21 18:31:40 2019
+Sat Sep 21 20:25:43 2019
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
 
 
@@ -43,14 +43,14 @@ agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sat Sep 21 18:31:40 2019           ;
+; Analysis & Synthesis Status     ; Successful - Sat Sep 21 20:25:43 2019           ;
 ; Quartus Prime Version           ; 16.0.0 Build 211 04/27/2016 SJ Standard Edition ;
 ; Revision Name                   ; lab1                                            ;
-; Top-level Entity Name           ; part3                                           ;
+; Top-level Entity Name           ; lab1_board4                                     ;
 ; Family                          ; Cyclone V                                       ;
 ; Logic utilization (in ALMs)     ; N/A                                             ;
 ; Total registers                 ; 0                                               ;
-; Total pins                      ; 9                                               ;
+; Total pins                      ; 17                                              ;
 ; Total virtual pins              ; 0                                               ;
 ; Total block memory bits         ; 0                                               ;
 ; Total DSP Blocks                ; 0                                               ;
@@ -69,7 +69,7 @@ agreement for further details.
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CSEMA5F31C6       ;                    ;
-; Top-level entity name                                                           ; part3              ; lab1               ;
+; Top-level entity name                                                           ; lab1_board4        ; lab1               ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation      ; On                 ; On                 ;
@@ -167,49 +167,51 @@ agreement for further details.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                               ;
-+----------------------------------+-----------------+-----------------+-------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path        ; Library ;
-+----------------------------------+-----------------+-----------------+-------------------------------------+---------+
-; p3.vhd                           ; yes             ; User VHDL File  ; /users/zicew/ece327/new/lab1/p3.vhd ;         ;
-+----------------------------------+-----------------+-----------------+-------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                     ;
++----------------------------------+-----------------+-----------------+-------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path              ; Library ;
++----------------------------------+-----------------+-----------------+-------------------------------------------+---------+
+; board_p4.vhd                     ; yes             ; User VHDL File  ; /users/zicew/ece327/new/lab1/board_p4.vhd ;         ;
+; part4.vhd                        ; yes             ; User VHDL File  ; /users/zicew/ece327/new/lab1/part4.vhd    ;         ;
++----------------------------------+-----------------+-----------------+-------------------------------------------+---------+
 
 
-+----------------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                          ;
-+---------------------------------------------+------------------------+
-; Resource                                    ; Usage                  ;
-+---------------------------------------------+------------------------+
-; Estimate of Logic utilization (ALMs needed) ; 3                      ;
-;                                             ;                        ;
-; Combinational ALUT usage for logic          ; 5                      ;
-;     -- 7 input functions                    ; 0                      ;
-;     -- 6 input functions                    ; 0                      ;
-;     -- 5 input functions                    ; 0                      ;
-;     -- 4 input functions                    ; 4                      ;
-;     -- <=3 input functions                  ; 1                      ;
-;                                             ;                        ;
-; Dedicated logic registers                   ; 0                      ;
-;                                             ;                        ;
-; I/O pins                                    ; 9                      ;
-;                                             ;                        ;
-; Total DSP Blocks                            ; 0                      ;
-;                                             ;                        ;
-; Maximum fan-out node                        ; nxt_fib_input[0]~input ;
-; Maximum fan-out                             ; 5                      ;
-; Total fan-out                               ; 33                     ;
-; Average fan-out                             ; 1.43                   ;
-+---------------------------------------------+------------------------+
++-----------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary               ;
++---------------------------------------------+-------------+
+; Resource                                    ; Usage       ;
++---------------------------------------------+-------------+
+; Estimate of Logic utilization (ALMs needed) ; 3           ;
+;                                             ;             ;
+; Combinational ALUT usage for logic          ; 6           ;
+;     -- 7 input functions                    ; 0           ;
+;     -- 6 input functions                    ; 0           ;
+;     -- 5 input functions                    ; 0           ;
+;     -- 4 input functions                    ; 5           ;
+;     -- <=3 input functions                  ; 1           ;
+;                                             ;             ;
+; Dedicated logic registers                   ; 0           ;
+;                                             ;             ;
+; I/O pins                                    ; 17          ;
+;                                             ;             ;
+; Total DSP Blocks                            ; 0           ;
+;                                             ;             ;
+; Maximum fan-out node                        ; SW[1]~input ;
+; Maximum fan-out                             ; 6           ;
+; Total fan-out                               ; 47          ;
+; Average fan-out                             ; 1.18        ;
++---------------------------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                     ;
-+----------------------------+-------------------+--------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
-; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
-+----------------------------+-------------------+--------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
-; |part3                     ; 5 (5)             ; 0 (0)        ; 0                 ; 0          ; 9    ; 0            ; |part3              ; part3       ; work         ;
-+----------------------------+-------------------+--------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                        ;
++----------------------------+-------------------+--------------+-------------------+------------+------+--------------+------------------------+-------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name    ; Entity Name ; Library Name ;
++----------------------------+-------------------+--------------+-------------------+------------+------+--------------+------------------------+-------------+--------------+
+; |lab1_board4               ; 6 (0)             ; 0 (0)        ; 0                 ; 0          ; 17   ; 0            ; |lab1_board4           ; lab1_board4 ; work         ;
+;    |part4:dut|             ; 6 (6)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |lab1_board4|part4:dut ; part4       ; work         ;
++----------------------------+-------------------+--------------+-------------------+------------+------+--------------+------------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -233,15 +235,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 10                          ;
-;     normal            ; 10                          ;
-;         1 data inputs ; 5                           ;
+; arriav_lcell_comb     ; 6                           ;
+;     normal            ; 6                           ;
 ;         3 data inputs ; 1                           ;
-;         4 data inputs ; 4                           ;
-; boundary_port         ; 9                           ;
+;         4 data inputs ; 5                           ;
+; boundary_port         ; 17                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 2.00                        ;
-; Average LUT depth     ; 2.00                        ;
+; Max LUT depth         ; 1.00                        ;
+; Average LUT depth     ; 1.00                        ;
 +-----------------------+-----------------------------+
 
 
@@ -260,10 +261,16 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
-    Info: Processing started: Sat Sep 21 18:31:23 2019
+    Info: Processing started: Sat Sep 21 20:25:31 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab1 -c lab1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file board_p4.vhd
+    Info (12022): Found design unit 1: lab1_board4-struct File: /users/zicew/ece327/new/lab1/board_p4.vhd Line: 11
+    Info (12023): Found entity 1: lab1_board4 File: /users/zicew/ece327/new/lab1/board_p4.vhd Line: 3
+Info (12021): Found 2 design units, including 1 entities, in source file part4.vhd
+    Info (12022): Found design unit 1: part4-LogicFunc4 File: /users/zicew/ece327/new/lab1/part4.vhd Line: 10
+    Info (12023): Found entity 1: part4 File: /users/zicew/ece327/new/lab1/part4.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file board_p3.vhd
     Info (12022): Found design unit 1: lab1_board3-struct File: /users/zicew/ece327/new/lab1/board_p3.vhd Line: 8
     Info (12023): Found entity 1: lab1_board3 File: /users/zicew/ece327/new/lab1/board_p3.vhd Line: 3
@@ -280,18 +287,26 @@ Info (12021): Found 2 design units, including 1 entities, in source file p2.vhd
 Info (12021): Found 2 design units, including 1 entities, in source file p1.vhd
     Info (12022): Found design unit 1: part1-LogicFunc File: /users/zicew/ece327/new/lab1/p1.vhd Line: 12
     Info (12023): Found entity 1: part1 File: /users/zicew/ece327/new/lab1/p1.vhd Line: 4
-Info (12127): Elaborating entity "part3" for the top level hierarchy
+Info (12127): Elaborating entity "lab1_board4" for the top level hierarchy
+Info (12128): Elaborating entity "part4" for hierarchy "part4:dut" File: /users/zicew/ece327/new/lab1/board_p4.vhd Line: 22
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 14 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 4 input pins
-    Info (21059): Implemented 5 output pins
-    Info (21061): Implemented 5 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 1328 megabytes
-    Info: Processing ended: Sat Sep 21 18:31:40 2019
-    Info: Elapsed time: 00:00:17
-    Info: Total CPU time (on all processors): 00:00:24
+Warning (21074): Design contains 6 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "SW[4]" File: /users/zicew/ece327/new/lab1/board_p4.vhd Line: 6
+    Warning (15610): No output dependent on input pin "SW[5]" File: /users/zicew/ece327/new/lab1/board_p4.vhd Line: 6
+    Warning (15610): No output dependent on input pin "SW[6]" File: /users/zicew/ece327/new/lab1/board_p4.vhd Line: 6
+    Warning (15610): No output dependent on input pin "SW[7]" File: /users/zicew/ece327/new/lab1/board_p4.vhd Line: 6
+    Warning (15610): No output dependent on input pin "SW[8]" File: /users/zicew/ece327/new/lab1/board_p4.vhd Line: 6
+    Warning (15610): No output dependent on input pin "SW[9]" File: /users/zicew/ece327/new/lab1/board_p4.vhd Line: 6
+Info (21057): Implemented 23 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 10 input pins
+    Info (21059): Implemented 7 output pins
+    Info (21061): Implemented 6 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 8 warnings
+    Info: Peak virtual memory: 1320 megabytes
+    Info: Processing ended: Sat Sep 21 20:25:43 2019
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:22
 
 

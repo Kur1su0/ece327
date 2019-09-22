@@ -8,8 +8,8 @@ END lab1_board2;
 ARCHITECTURE struct OF lab1_board2 IS
 COMPONENT part2
 PORT (
-fib_out : OUT STD_LOGIC;
-fib_in : IN STD_LOGIC_VECTOR(3 DOWNTO 0)
+fib_output : OUT STD_LOGIC;
+fib_input : IN STD_LOGIC_VECTOR(3 DOWNTO 0)
 );
 END COMPONENT;
 BEGIN
@@ -17,8 +17,8 @@ BEGIN
 dut : part2
 PORT MAP (
 
-fib_in => sw(3 downto 0),
-fib_out => ledr(0)
+fib_input => sw(3 downto 0),
+fib_output => ledr(0)
 
 
 );
