@@ -1,0 +1,20 @@
+Quartus Prime Archive log --	/users/zicew/ece327/new/lab0/db/__lab1.auto.qarlog
+
+Archive:	/users/zicew/ece327/new/lab0/db/__lab1.auto.qar
+Date:		Sat Sep 21 15:15:56 2019
+Quartus Prime		16.0.0 Build 211 04/27/2016 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/users/zicew/ece327/new/lab0/db/db/lab1.qpf
+/users/zicew/ece327/new/lab0/db/output_files/lab1.flow.rpt
+/users/zicew/ece327/new/lab0/db/output_files/lab1.map.rpt
+/users/zicew/ece327/new/lab0/db/output_files/lab1.map.summary
+/usr/commercial_amd64/altera/16.0/quartus/linux64/assignment_defaults.qdf
+example.lpc.txt
+example.smart_action.txt
+lab1.qsf
+lab1.vhd
+	======= Total: 9 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
