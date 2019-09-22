@@ -1,31 +1,43 @@
-|lab1_board2
-SW[0] => part2:dut.fib_input[0]
-SW[1] => part2:dut.fib_input[1]
-SW[2] => part2:dut.fib_input[2]
-SW[3] => part2:dut.fib_input[3]
-SW[4] => ~NO_FANOUT~
-SW[5] => ~NO_FANOUT~
-SW[6] => ~NO_FANOUT~
-SW[7] => ~NO_FANOUT~
-SW[8] => ~NO_FANOUT~
-SW[9] => ~NO_FANOUT~
-LEDR[0] <= part2:dut.fib_output
-LEDR[1] <= <GND>
-LEDR[2] <= <GND>
-LEDR[3] <= <GND>
-LEDR[4] <= <GND>
-LEDR[5] <= <GND>
-LEDR[6] <= <GND>
-LEDR[7] <= <GND>
-LEDR[8] <= <GND>
-LEDR[9] <= <GND>
-
-
-|lab1_board2|part2:dut
-fib_input[0] => Mux0.IN19
-fib_input[1] => Mux0.IN18
-fib_input[2] => Mux0.IN17
-fib_input[3] => Mux0.IN16
-fib_output <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+|part1
+s => Selector0.IN3
+s => Selector1.IN3
+s => Selector2.IN3
+s => Selector3.IN3
+s => Selector4.IN3
+s => Selector5.IN3
+s => Selector6.IN3
+s => Selector7.IN3
+s => Selector0.IN0
+s => Selector1.IN0
+s => Selector2.IN0
+s => Selector3.IN0
+s => Selector4.IN0
+s => Selector5.IN0
+s => Selector6.IN0
+s => Selector7.IN0
+x[0] => Selector0.IN4
+x[1] => Selector1.IN4
+x[2] => Selector2.IN4
+x[3] => Selector3.IN4
+x[4] => Selector4.IN4
+x[5] => Selector5.IN4
+x[6] => Selector6.IN4
+x[7] => Selector7.IN4
+y[0] => Selector0.IN5
+y[1] => Selector1.IN5
+y[2] => Selector2.IN5
+y[3] => Selector3.IN5
+y[4] => Selector4.IN5
+y[5] => Selector5.IN5
+y[6] => Selector6.IN5
+y[7] => Selector7.IN5
+m[0] << Selector0.DB_MAX_OUTPUT_PORT_TYPE
+m[1] << Selector1.DB_MAX_OUTPUT_PORT_TYPE
+m[2] << Selector2.DB_MAX_OUTPUT_PORT_TYPE
+m[3] << Selector3.DB_MAX_OUTPUT_PORT_TYPE
+m[4] << Selector4.DB_MAX_OUTPUT_PORT_TYPE
+m[5] << Selector5.DB_MAX_OUTPUT_PORT_TYPE
+m[6] << Selector6.DB_MAX_OUTPUT_PORT_TYPE
+m[7] << Selector7.DB_MAX_OUTPUT_PORT_TYPE
 
 

@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSEMA5F31C6
-set_global_assignment -name TOP_LEVEL_ENTITY lab1_board2
+set_global_assignment -name TOP_LEVEL_ENTITY part1
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 16.0.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:54:55  SEPTEMBER 19, 2019"
 set_global_assignment -name LAST_QUARTUS_VERSION 16.0.0
@@ -53,7 +53,7 @@ set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulati
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
-set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH part5_vhd_tst -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH part1_vhd_tst -section_id eda_simulation
 set_global_assignment -name EDA_TEST_BENCH_NAME part1_vhd_tst -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id part1_vhd_tst
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME part1_vhd_tst -section_id part1_vhd_tst
@@ -324,10 +324,14 @@ set_location_assignment PIN_D11 -to VGA_VS
 set_global_assignment -name EDA_TEST_BENCH_NAME part5_vhd_tst -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id part5_vhd_tst
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME part5_vhd_tst -section_id part5_vhd_tst
-set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/part1.vht -section_id part1_vhd_tst
-set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/part2.vht -section_id part2_vhd_tst
-set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/part3.vht -section_id part3_vhd_tst
-set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/part5.vht -section_id part5_vhd_tst
+set_global_assignment -name EDA_TEST_BENCH_NAME extra_vhd_tst -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id extra_vhd_tst
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME extra_vhd_tst -section_id extra_vhd_tst
+set_global_assignment -name EDA_TEST_BENCH_NAME part4_vhd_tst -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id part4_vhd_tst
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME part4_vhd_tst -section_id part4_vhd_tst
+set_global_assignment -name VHDL_TEST_BENCH_FILE simulation/modelsim/part4.vht
+set_global_assignment -name VHDL_TEST_BENCH_FILE simulation/modelsim/extra.vht
 set_global_assignment -name VHDL_FILE extra.vhd
 set_global_assignment -name VHDL_FILE board_extra.vhd
 set_global_assignment -name VHDL_FILE extra_comp1.vhd
@@ -351,4 +355,10 @@ set_global_assignment -name VHDL_TEST_BENCH_FILE simulation/modelsim/part1.vht
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/part1.vht -section_id part1_vhd_tst
+set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/part2.vht -section_id part2_vhd_tst
+set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/part3.vht -section_id part3_vhd_tst
+set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/part5.vht -section_id part5_vhd_tst
+set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/extra.vht -section_id extra_vhd_tst
+set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/part4.vht -section_id part4_vhd_tst
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

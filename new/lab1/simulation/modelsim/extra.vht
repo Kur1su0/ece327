@@ -18,9 +18,9 @@
 -- suit user's needs .Comments are provided in each section to help the user  
 -- fill out necessary details.                                                
 -- ***************************************************************************
--- Generated on "09/22/2019 19:32:52"
+-- Generated on "09/22/2019 19:07:30"
                                                             
--- Vhdl Test Bench template for design  :  part3
+-- Vhdl Test Bench template for design  :  extra
 -- 
 -- Simulation tool : ModelSim-Altera (VHDL)
 -- 
@@ -28,25 +28,34 @@
 LIBRARY ieee;                                               
 USE ieee.std_logic_1164.all;                                
 
-ENTITY part3_vhd_tst IS
-END part3_vhd_tst;
-ARCHITECTURE part3_arch OF part3_vhd_tst IS
+ENTITY extra_vhd_tst IS
+END extra_vhd_tst;
+ARCHITECTURE extra_arch OF extra_vhd_tst IS
 -- constants                                                 
 -- signals                                                   
-SIGNAL next_fib_input : STD_LOGIC_VECTOR(3 DOWNTO 0);
-SIGNAL next_fib_output : STD_LOGIC_VECTOR(4 DOWNTO 0);
-COMPONENT part3
+SIGNAL cur_fib : STD_LOGIC_VECTOR(3 DOWNTO 0);
+SIGNAL is_valid : STD_LOGIC;
+SIGNAL seg_out : STD_LOGIC_VECTOR(6 DOWNTO 0);
+SIGNAL seg_out2 : STD_LOGIC_VECTOR(6 DOWNTO 0);
+SIGNAL switcher : STD_LOGIC;
+COMPONENT extra
 	PORT (
-	next_fib_input : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-	next_fib_output : OUT STD_LOGIC_VECTOR(4 DOWNTO 0)
+	cur_fib : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+	is_valid : BUFFER STD_LOGIC;
+	seg_out : BUFFER STD_LOGIC_VECTOR(6 DOWNTO 0);
+	seg_out2 : BUFFER STD_LOGIC_VECTOR(6 DOWNTO 0);
+	switcher : IN STD_LOGIC
 	);
 END COMPONENT;
 BEGIN
-	i1 : part3
+	i1 : extra
 	PORT MAP (
 -- list connections between master ports and signals
-	next_fib_input => next_fib_input,
-	next_fib_output => next_fib_output
+	cur_fib => cur_fib,
+	is_valid => is_valid,
+	seg_out => seg_out,
+	seg_out2 => seg_out2,
+	switcher => switcher
 	);
 init : PROCESS                                               
 -- variable declarations                                     
@@ -60,23 +69,28 @@ always : PROCESS
 -- variable declarations                                      
 BEGIN                                                         
         -- code executes for every event on sensitivity list  
+		  --- Same tst as part5
+		  cur_fib <= "0001";
+		  switcher <= '1';
+		  wait for 10 ns;
 		  
-	 next_fib_input <= "0001"; wait for 2 ns; --- 1
-		 
-	 next_fib_input <= "0010"; wait for 2 ns; --- 2
-	 
-	 next_fib_input <= "0011"; wait for 2 ns; --- 3
-	 
-	 next_fib_input <= "0101"; wait for 2 ns; --- 5
-	 
-	 next_fib_input <= "1000"; wait for 2 ns; --- 8
-	 
-	 next_fib_input <= "1101"; wait for 2 ns; --- 13
-	 
-	 ---error test
-	 next_fib_input <= "0000"; wait for 2 ns; --- 0
-	 next_fib_input <= "0100"; wait for 2 ns; --- 4
-	 next_fib_input <= "0111"; wait for 2 ns; --- 7
+		  cur_fib <= "0001";
+		  switcher <= '0';
+		  wait for 10 ns;
+		  
+		  cur_fib <= "1010";
+		  switcher <= '0';
+		  wait for 10 ns;
+		  --- Trst fot input of "8" and "13"
+		  
+		  cur_fib <= "1000";
+		  switcher <= '1';
+		  wait for 10 ns;
+		  
+		  cur_fib <= "1101";
+		  switcher <= '1';
+		  wait for 10 ns;
+		  
 WAIT;                                                        
 END PROCESS always;                                          
-END part3_arch;
+END extra_arch;

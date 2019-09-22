@@ -8,35 +8,35 @@ z2
 !i10f 100
 cModel Technology
 Z0 d/users/zicew/ece327/new/lab1/simulation/modelsim
-Ep5_comp1
-Z1 w1569125270
+Epart1
+Z1 w1569098816
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
-Z4 8/users/zicew/ece327/new/lab1/p5_comp.vhd
-Z5 F/users/zicew/ece327/new/lab1/p5_comp.vhd
+Z4 8/users/zicew/ece327/new/lab1/p1.vhd
+Z5 F/users/zicew/ece327/new/lab1/p1.vhd
 l0
 L4
-VL:FWLK152alXlGNYKIA<R1
-!s100 <2JOj@Ua2APCaknXH58:b3
+VgIEBAMLinRZeiKSO8CS_P3
+!s100 LXYESTUMXeKWRlXZjNHRI1
 Z6 OV;C;10.4d;61
 31
-Z7 !s110 1569127976
+Z7 !s110 1569196407
 !i10b 1
-Z8 !s108 1569127976.000000
-Z9 !s90 -reportprogress|300|-93|-work|work|/users/zicew/ece327/new/lab1/p5_comp.vhd|
-Z10 !s107 /users/zicew/ece327/new/lab1/p5_comp.vhd|
+Z8 !s108 1569196407.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|/users/zicew/ece327/new/lab1/p1.vhd|
+Z10 !s107 /users/zicew/ece327/new/lab1/p1.vhd|
 !i113 1
 Z11 o-93 -work work
 Z12 tExplicit 1
-Abit_increaser
+Alogicfunc
 R2
 R3
-DEx4 work 8 p5_comp1 0 22 L:FWLK152alXlGNYKIA<R1
-l12
-L11
-V[k7TPZGHk1VfOO@ceMWna2
-!s100 fj7:5<YCbmVHTjJl^J;4>3
+DEx4 work 5 part1 0 22 gIEBAMLinRZeiKSO8CS_P3
+l13
+L12
+VVnQU`EK2:NS>?>hf7a;[[3
+!s100 Sb8_g9i<cPjRg7D7nTD^Z0
 R6
 31
 R7
@@ -47,35 +47,35 @@ R10
 !i113 1
 R11
 R12
-Ep5_comp2
-Z13 w1569125284
+Epart1_vhd_tst
+Z13 w1569101898
 R2
 R3
 R0
-Z14 8/users/zicew/ece327/new/lab1/p5_comp2.vhd
-Z15 F/users/zicew/ece327/new/lab1/p5_comp2.vhd
+Z14 8/users/zicew/ece327/new/lab1/simulation/modelsim/part1.vht
+Z15 F/users/zicew/ece327/new/lab1/simulation/modelsim/part1.vht
 l0
-L4
-V0La31V`a1YniX0`9>Wz_E0
-!s100 NC33eOGocaz8dS3Y;5ZYe3
+L31
+V93FFP<UVZg2DAPeLJ]=Xm2
+!s100 onclCYa4M?4J6O4E71oh82
 R6
 31
 R7
 !i10b 1
 R8
-Z16 !s90 -reportprogress|300|-93|-work|work|/users/zicew/ece327/new/lab1/p5_comp2.vhd|
-Z17 !s107 /users/zicew/ece327/new/lab1/p5_comp2.vhd|
+Z16 !s90 -reportprogress|300|-93|-work|work|/users/zicew/ece327/new/lab1/simulation/modelsim/part1.vht|
+Z17 !s107 /users/zicew/ece327/new/lab1/simulation/modelsim/part1.vht|
 !i113 1
 R11
 R12
-Adisplay_seg
+Apart1_arch
 R2
 R3
-DEx4 work 8 p5_comp2 0 22 0La31V`a1YniX0`9>Wz_E0
-l14
-L13
-VZln>F3dK3;hQcb:oQJn`60
-!s100 `284^2e]9U=[1I4O@<Y902
+DEx4 work 13 part1_vhd_tst 0 22 93FFP<UVZg2DAPeLJ]=Xm2
+l48
+L33
+VLI9^e`M?ToMh_fIL]06G10
+!s100 ]MPeWL^GJ2OjhkU0<L4dK3
 R6
 31
 R7
@@ -83,201 +83,6 @@ R7
 R8
 R16
 R17
-!i113 1
-R11
-R12
-Ep5_comp3
-Z18 w1569125549
-R2
-R3
-R0
-Z19 8/users/zicew/ece327/new/lab1/p5_comp3.vhd
-Z20 F/users/zicew/ece327/new/lab1/p5_comp3.vhd
-l0
-L4
-VJP09T9IFdoiozY<4`J4`g0
-!s100 9Xe_2W:eVfAlbgkl2>29L1
-R6
-31
-Z21 !s110 1569127975
-!i10b 1
-Z22 !s108 1569127975.000000
-Z23 !s90 -reportprogress|300|-93|-work|work|/users/zicew/ece327/new/lab1/p5_comp3.vhd|
-Z24 !s107 /users/zicew/ece327/new/lab1/p5_comp3.vhd|
-!i113 1
-R11
-R12
-Aselect_which_fib
-R2
-R3
-DEx4 work 8 p5_comp3 0 22 JP09T9IFdoiozY<4`J4`g0
-l14
-L13
-V_Zj>FXkg6=6jI[IzN3>GN2
-!s100 FZOKiah_nLL9g7i5M:iJD3
-R6
-31
-R21
-!i10b 1
-R22
-R23
-R24
-!i113 1
-R11
-R12
-Epart2
-Z25 w1569100585
-R2
-R3
-R0
-Z26 8/users/zicew/ece327/new/lab1/p2.vhd
-Z27 F/users/zicew/ece327/new/lab1/p2.vhd
-l0
-L4
-V?kdoPI`>Q09f[hzj8W=e21
-!s100 Q91mnTRoaT;KcT3o5[LHU0
-R6
-31
-R7
-!i10b 1
-R8
-Z28 !s90 -reportprogress|300|-93|-work|work|/users/zicew/ece327/new/lab1/p2.vhd|
-Z29 !s107 /users/zicew/ece327/new/lab1/p2.vhd|
-!i113 1
-R11
-R12
-Alogicfunc2
-R2
-R3
-DEx4 work 5 part2 0 22 ?kdoPI`>Q09f[hzj8W=e21
-l13
-L12
-VEX?h:amFUPPPF43=ACBFT2
-!s100 8Ha_`9dc9`Zd2BJ9_z:EP3
-R6
-31
-R7
-!i10b 1
-R8
-R28
-R29
-!i113 1
-R11
-R12
-Epart3
-Z30 w1569111045
-R2
-R3
-R0
-Z31 8/users/zicew/ece327/new/lab1/p3.vhd
-Z32 F/users/zicew/ece327/new/lab1/p3.vhd
-l0
-L4
-V9aZzjCF=OQdIhNTc4Ge;_0
-!s100 K6EY<H0;^7eMdGm0Hd8FA3
-R6
-31
-R7
-!i10b 1
-R8
-Z33 !s90 -reportprogress|300|-93|-work|work|/users/zicew/ece327/new/lab1/p3.vhd|
-Z34 !s107 /users/zicew/ece327/new/lab1/p3.vhd|
-!i113 1
-R11
-R12
-Alogicfunc3
-R2
-R3
-DEx4 work 5 part3 0 22 9aZzjCF=OQdIhNTc4Ge;_0
-l11
-L10
-V90dRaLm]VWX7g[3e<=UdO0
-!s100 <DdaeoSKQc@EEHdjn4B_P1
-R6
-31
-R7
-!i10b 1
-R8
-R33
-R34
-!i113 1
-R11
-R12
-Epart5
-Z35 w1569127725
-R2
-R3
-R0
-Z36 8/users/zicew/ece327/new/lab1/p5.vhd
-Z37 F/users/zicew/ece327/new/lab1/p5.vhd
-l0
-L4
-VAXhW[O49Ode7VDeYBIYMh2
-!s100 RbzgH8KbD59gP0W3^[EGY1
-R6
-31
-R7
-!i10b 1
-R8
-Z38 !s90 -reportprogress|300|-93|-work|work|/users/zicew/ece327/new/lab1/p5.vhd|
-Z39 !s107 /users/zicew/ece327/new/lab1/p5.vhd|
-!i113 1
-R11
-R12
-Astruct
-R2
-R3
-DEx4 work 5 part5 0 22 AXhW[O49Ode7VDeYBIYMh2
-l77
-L21
-VOU[U:CCMnIm1fd@e47Fg[3
-!s100 kLGUF3Pd5DU[z1mnSbRmd1
-R6
-31
-R7
-!i10b 1
-R8
-R38
-R39
-!i113 1
-R11
-R12
-Epart5_vhd_tst
-Z40 w1569127892
-R2
-R3
-R0
-Z41 8/users/zicew/ece327/new/lab1/simulation/modelsim/part5.vht
-Z42 F/users/zicew/ece327/new/lab1/simulation/modelsim/part5.vht
-l0
-L31
-V<on[k[ZniYlQnjm<eDoND1
-!s100 N_77iWVm=S0V^M@?IQ5OO3
-R6
-31
-R7
-!i10b 1
-R8
-Z43 !s90 -reportprogress|300|-93|-work|work|/users/zicew/ece327/new/lab1/simulation/modelsim/part5.vht|
-Z44 !s107 /users/zicew/ece327/new/lab1/simulation/modelsim/part5.vht|
-!i113 1
-R11
-R12
-Apart5_arch
-R2
-R3
-DEx4 work 13 part5_vhd_tst 0 22 <on[k[ZniYlQnjm<eDoND1
-l48
-L33
-VMdWa^8oHlHh]71_U8jBLT0
-!s100 J4<?g09C5lBnT<[zMlFAc1
-R6
-31
-R7
-!i10b 1
-R8
-R43
-R44
 !i113 1
 R11
 R12

@@ -18,7 +18,7 @@
 -- suit user's needs .Comments are provided in each section to help the user  
 -- fill out necessary details.                                                
 -- ***************************************************************************
--- Generated on "09/22/2019 00:49:39"
+-- Generated on "09/22/2019 19:02:53"
                                                             
 -- Vhdl Test Bench template for design  :  part5
 -- 
@@ -40,8 +40,8 @@ SIGNAL switcher : STD_LOGIC;
 COMPONENT part5
 	PORT (
 	cur_fib : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-	is_valid : OUT STD_LOGIC;
-	seg_out : OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
+	is_valid : BUFFER STD_LOGIC;
+	seg_out : BUFFER STD_LOGIC_VECTOR(6 DOWNTO 0);
 	switcher : IN STD_LOGIC
 	);
 END COMPONENT;
@@ -66,8 +66,16 @@ always : PROCESS
 -- variable declarations                                      
 BEGIN                                                         
         -- code executes for every event on sensitivity list  
-		   cur_fib <= "0001";
+		  cur_fib <= "0001";
 		  switcher <= '1';
+		  wait for 10 ns;
+		  
+		  cur_fib <= "0001";
+		  switcher <= '0';
+		  wait for 10 ns;
+		  
+		  cur_fib <= "1010";
+		  switcher <= '0';
 		  wait for 10 ns;
 WAIT;                                                        
 END PROCESS always;                                          

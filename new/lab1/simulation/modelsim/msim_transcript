@@ -9,98 +9,38 @@
 # Copying /usr/commercial_amd64/altera/16.0/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vcom -93 -work work {/users/zicew/ece327/new/lab1/p5_comp3.vhd}
+# vcom -93 -work work {/users/zicew/ece327/new/lab1/p1.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:52:55 on Sep 22,2019
-# vcom -reportprogress 300 -93 -work work /users/zicew/ece327/new/lab1/p5_comp3.vhd 
+# Start time: 19:53:27 on Sep 22,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/ece327/new/lab1/p1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Compiling entity p5_comp3
-# -- Compiling architecture select_which_fib of p5_comp3
-# End time: 00:52:55 on Sep 22,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work work {/users/zicew/ece327/new/lab1/p5_comp2.vhd}
-# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:52:56 on Sep 22,2019
-# vcom -reportprogress 300 -93 -work work /users/zicew/ece327/new/lab1/p5_comp2.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity p5_comp2
-# -- Compiling architecture display_seg of p5_comp2
-# End time: 00:52:56 on Sep 22,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work work {/users/zicew/ece327/new/lab1/p5_comp.vhd}
-# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:52:56 on Sep 22,2019
-# vcom -reportprogress 300 -93 -work work /users/zicew/ece327/new/lab1/p5_comp.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity p5_comp1
-# -- Compiling architecture bit_increaser of p5_comp1
-# End time: 00:52:56 on Sep 22,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work work {/users/zicew/ece327/new/lab1/p5.vhd}
-# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:52:56 on Sep 22,2019
-# vcom -reportprogress 300 -93 -work work /users/zicew/ece327/new/lab1/p5.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity part5
-# -- Compiling architecture struct of part5
-# End time: 00:52:56 on Sep 22,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work work {/users/zicew/ece327/new/lab1/p3.vhd}
-# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:52:56 on Sep 22,2019
-# vcom -reportprogress 300 -93 -work work /users/zicew/ece327/new/lab1/p3.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity part3
-# -- Compiling architecture LogicFunc3 of part3
-# End time: 00:52:56 on Sep 22,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work work {/users/zicew/ece327/new/lab1/p2.vhd}
-# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:52:56 on Sep 22,2019
-# vcom -reportprogress 300 -93 -work work /users/zicew/ece327/new/lab1/p2.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity part2
-# -- Compiling architecture LogicFunc2 of part2
-# End time: 00:52:56 on Sep 22,2019, Elapsed time: 0:00:00
+# -- Compiling entity part1
+# -- Compiling architecture LogicFunc of part1
+# End time: 19:53:27 on Sep 22,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vcom -93 -work work {/users/zicew/ece327/new/lab1/simulation/modelsim/part5.vht}
+# vcom -93 -work work {/users/zicew/ece327/new/lab1/simulation/modelsim/part1.vht}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:52:56 on Sep 22,2019
-# vcom -reportprogress 300 -93 -work work /users/zicew/ece327/new/lab1/simulation/modelsim/part5.vht 
+# Start time: 19:53:27 on Sep 22,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/ece327/new/lab1/simulation/modelsim/part1.vht 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Compiling entity part5_vhd_tst
-# -- Compiling architecture part5_arch of part5_vhd_tst
-# End time: 00:52:56 on Sep 22,2019, Elapsed time: 0:00:00
+# -- Compiling entity part1_vhd_tst
+# -- Compiling architecture part1_arch of part1_vhd_tst
+# End time: 19:53:27 on Sep 22,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  part5_vhd_tst
-# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" part5_vhd_tst 
-# Start time: 00:52:56 on Sep 22,2019
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  part1_vhd_tst
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" part1_vhd_tst 
+# Start time: 19:53:27 on Sep 22,2019
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading work.part5_vhd_tst(part5_arch)
-# Loading work.part5(struct)
-# Loading work.part2(logicfunc2)
-# Loading work.part3(logicfunc3)
-# Loading work.p5_comp1(bit_increaser)
-# Loading work.p5_comp3(select_which_fib)
-# Loading work.p5_comp2(display_seg)
+# Loading work.part1_vhd_tst(part1_arch)
+# Loading work.part1(logicfunc)
 # 
 # add wave *
 # view structure
@@ -108,5 +48,5 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# End time: 00:53:07 on Sep 22,2019, Elapsed time: 0:00:11
+# End time: 19:54:32 on Sep 22,2019, Elapsed time: 0:01:05
 # Errors: 0, Warnings: 0
