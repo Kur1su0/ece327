@@ -8,7 +8,7 @@ ENTITY part2 IS
 	 );
 
 END part2;
-
+--- output 1 when input is 0|1|2|3|5|8|13
 ARCHITECTURE LogicFunc2 OF part2 IS
 BEGIN
     with fib_input select
