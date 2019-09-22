@@ -4,10 +4,9 @@ USE ieee.std_logic_1164.all;
 ENTITY lab1_board5 IS
 port(
 
-SW8   : IN STD_LOGIC;
-SW    : IN STD_LOGIC_VECTOR(3 downto 0);
+SW    : IN STD_LOGIC_VECTOR(9 downto 0);
 HEX0  : OUT STD_LOGIC_VECTOR(6 downto 0);
-LEDR8 : OUT STD_LOGIC
+LEDR : OUT STD_LOGIC_VECTOR(9 downto 0)
 );
 END lab1_board5;
 
@@ -29,10 +28,10 @@ BEGIN
 dut : part5
 PORT MAP (
 
-switcher => SW8,
-cur_fib  => SW,
-seg_out  => HEX0,
-is_valid => LEDR8
+switcher => SW(8),
+cur_fib  => SW(3 downto 0),
+seg_out  => HEX0(6 downto 0),
+is_valid => LEDR(8)
 );
 end struct;
 

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab1
-Sun Sep 22 01:08:18 2019
+Sun Sep 22 01:18:14 2019
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
 
 
@@ -43,14 +43,14 @@ agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Sep 22 01:08:18 2019           ;
+; Analysis & Synthesis Status     ; Successful - Sun Sep 22 01:18:14 2019           ;
 ; Quartus Prime Version           ; 16.0.0 Build 211 04/27/2016 SJ Standard Edition ;
 ; Revision Name                   ; lab1                                            ;
 ; Top-level Entity Name           ; lab1_board5                                     ;
 ; Family                          ; Cyclone V                                       ;
 ; Logic utilization (in ALMs)     ; N/A                                             ;
 ; Total registers                 ; 0                                               ;
-; Total pins                      ; 13                                              ;
+; Total pins                      ; 27                                              ;
 ; Total virtual pins              ; 0                                               ;
 ; Total block memory bits         ; 0                                               ;
 ; Total DSP Blocks                ; 0                                               ;
@@ -198,14 +198,14 @@ agreement for further details.
 ;                                             ;             ;
 ; Dedicated logic registers                   ; 0           ;
 ;                                             ;             ;
-; I/O pins                                    ; 13          ;
+; I/O pins                                    ; 27          ;
 ;                                             ;             ;
 ; Total DSP Blocks                            ; 0           ;
 ;                                             ;             ;
 ; Maximum fan-out node                        ; SW[1]~input ;
 ; Maximum fan-out                             ; 7           ;
-; Total fan-out                               ; 54          ;
-; Average fan-out                             ; 1.64        ;
+; Total fan-out                               ; 68          ;
+; Average fan-out                             ; 1.11        ;
 +---------------------------------------------+-------------+
 
 
@@ -214,7 +214,7 @@ agreement for further details.
 +-------------------------------+-------------------+--------------+-------------------+------------+------+--------------+----------------------------------------------+-------------+--------------+
 ; Compilation Hierarchy Node    ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                          ; Entity Name ; Library Name ;
 +-------------------------------+-------------------+--------------+-------------------+------------+------+--------------+----------------------------------------------+-------------+--------------+
-; |lab1_board5                  ; 7 (0)             ; 0 (0)        ; 0                 ; 0          ; 13   ; 0            ; |lab1_board5                                 ; lab1_board5 ; work         ;
+; |lab1_board5                  ; 7 (0)             ; 0 (0)        ; 0                 ; 0          ; 27   ; 0            ; |lab1_board5                                 ; lab1_board5 ; work         ;
 ;    |part5:dut|                ; 7 (0)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |lab1_board5|part5:dut                       ; part5       ; work         ;
 ;       |p5_comp1:increase_bit| ; 1 (1)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |lab1_board5|part5:dut|p5_comp1:increase_bit ; p5_comp1    ; work         ;
 ;       |p5_comp2:segment_out|  ; 6 (6)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |lab1_board5|part5:dut|p5_comp2:segment_out  ; p5_comp2    ; work         ;
@@ -242,15 +242,16 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 8                           ;
-;     normal            ; 8                           ;
+; arriav_lcell_comb     ; 9                           ;
+;     normal            ; 9                           ;
+;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 1                           ;
 ;         4 data inputs ; 2                           ;
 ;         5 data inputs ; 5                           ;
-; boundary_port         ; 13                          ;
+; boundary_port         ; 27                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 2.00                        ;
-; Average LUT depth     ; 1.46                        ;
+; Average LUT depth     ; 1.36                        ;
 +-----------------------+-----------------------------+
 
 
@@ -259,7 +260,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -269,12 +270,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
-    Info: Processing started: Sun Sep 22 01:07:44 2019
+    Info: Processing started: Sun Sep 22 01:17:56 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab1 -c lab1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file board_p5.vhd
-    Info (12022): Found design unit 1: lab1_board5-struct File: /users/zicew/ece327/new/lab1/board_p5.vhd Line: 14
+    Info (12022): Found design unit 1: lab1_board5-struct File: /users/zicew/ece327/new/lab1/board_p5.vhd Line: 13
     Info (12023): Found entity 1: lab1_board5 File: /users/zicew/ece327/new/lab1/board_p5.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file p5_comp3.vhd
     Info (12022): Found design unit 1: p5_comp3-select_which_fib File: /users/zicew/ece327/new/lab1/p5_comp3.vhd Line: 13
@@ -311,7 +312,9 @@ Info (12021): Found 2 design units, including 1 entities, in source file p1.vhd
     Info (12022): Found design unit 1: part1-LogicFunc File: /users/zicew/ece327/new/lab1/p1.vhd Line: 12
     Info (12023): Found entity 1: part1 File: /users/zicew/ece327/new/lab1/p1.vhd Line: 4
 Info (12127): Elaborating entity "lab1_board5" for the top level hierarchy
-Info (12128): Elaborating entity "part5" for hierarchy "part5:dut" File: /users/zicew/ece327/new/lab1/board_p5.vhd Line: 29
+Warning (10873): Using initial value X (don't care) for net "LEDR[9]" at board_p5.vhd(9) File: /users/zicew/ece327/new/lab1/board_p5.vhd Line: 9
+Warning (10873): Using initial value X (don't care) for net "LEDR[7..0]" at board_p5.vhd(9) File: /users/zicew/ece327/new/lab1/board_p5.vhd Line: 9
+Info (12128): Elaborating entity "part5" for hierarchy "part5:dut" File: /users/zicew/ece327/new/lab1/board_p5.vhd Line: 28
 Info (12128): Elaborating entity "part2" for hierarchy "part5:dut|part2:find_valid" File: /users/zicew/ece327/new/lab1/p5.vhd Line: 79
 Info (12128): Elaborating entity "part3" for hierarchy "part5:dut|part3:find_next" File: /users/zicew/ece327/new/lab1/p5.vhd Line: 85
 Info (12128): Elaborating entity "p5_comp1" for hierarchy "part5:dut|p5_comp1:increase_bit" File: /users/zicew/ece327/new/lab1/p5.vhd Line: 91
@@ -322,17 +325,33 @@ Info (10041): Inferred latch for "what_fib_out[2]" at p5_comp3.vhd(16) File: /us
 Info (10041): Inferred latch for "what_fib_out[3]" at p5_comp3.vhd(16) File: /users/zicew/ece327/new/lab1/p5_comp3.vhd Line: 16
 Info (10041): Inferred latch for "what_fib_out[4]" at p5_comp3.vhd(16) File: /users/zicew/ece327/new/lab1/p5_comp3.vhd Line: 16
 Info (12128): Elaborating entity "p5_comp2" for hierarchy "part5:dut|p5_comp2:segment_out" File: /users/zicew/ece327/new/lab1/p5.vhd Line: 105
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "LEDR[0]" is stuck at GND File: /users/zicew/ece327/new/lab1/board_p5.vhd Line: 9
+    Warning (13410): Pin "LEDR[1]" is stuck at GND File: /users/zicew/ece327/new/lab1/board_p5.vhd Line: 9
+    Warning (13410): Pin "LEDR[2]" is stuck at GND File: /users/zicew/ece327/new/lab1/board_p5.vhd Line: 9
+    Warning (13410): Pin "LEDR[3]" is stuck at GND File: /users/zicew/ece327/new/lab1/board_p5.vhd Line: 9
+    Warning (13410): Pin "LEDR[4]" is stuck at GND File: /users/zicew/ece327/new/lab1/board_p5.vhd Line: 9
+    Warning (13410): Pin "LEDR[5]" is stuck at GND File: /users/zicew/ece327/new/lab1/board_p5.vhd Line: 9
+    Warning (13410): Pin "LEDR[6]" is stuck at GND File: /users/zicew/ece327/new/lab1/board_p5.vhd Line: 9
+    Warning (13410): Pin "LEDR[7]" is stuck at GND File: /users/zicew/ece327/new/lab1/board_p5.vhd Line: 9
+    Warning (13410): Pin "LEDR[9]" is stuck at GND File: /users/zicew/ece327/new/lab1/board_p5.vhd Line: 9
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 20 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 5 input pins
-    Info (21059): Implemented 8 output pins
+Warning (21074): Design contains 5 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "SW[4]" File: /users/zicew/ece327/new/lab1/board_p5.vhd Line: 7
+    Warning (15610): No output dependent on input pin "SW[5]" File: /users/zicew/ece327/new/lab1/board_p5.vhd Line: 7
+    Warning (15610): No output dependent on input pin "SW[6]" File: /users/zicew/ece327/new/lab1/board_p5.vhd Line: 7
+    Warning (15610): No output dependent on input pin "SW[7]" File: /users/zicew/ece327/new/lab1/board_p5.vhd Line: 7
+    Warning (15610): No output dependent on input pin "SW[9]" File: /users/zicew/ece327/new/lab1/board_p5.vhd Line: 7
+Info (21057): Implemented 34 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 10 input pins
+    Info (21059): Implemented 17 output pins
     Info (21061): Implemented 7 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 1323 megabytes
-    Info: Processing ended: Sun Sep 22 01:08:18 2019
-    Info: Elapsed time: 00:00:34
-    Info: Total CPU time (on all processors): 00:00:22
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 19 warnings
+    Info: Peak virtual memory: 1328 megabytes
+    Info: Processing ended: Sun Sep 22 01:18:14 2019
+    Info: Elapsed time: 00:00:18
+    Info: Total CPU time (on all processors): 00:00:23
 
 

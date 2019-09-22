@@ -32,11 +32,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "LEDR8",
+					"name" : "LEDR[8]",
 					"strict" : false
 				},
 				{
-					"name" : "SW8",
+					"name" : "SW[8]",
 					"strict" : false
 				},
 				{

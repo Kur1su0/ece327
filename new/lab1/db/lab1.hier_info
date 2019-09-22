@@ -1,9 +1,14 @@
 |lab1_board5
-SW8 => part5:dut.switcher
 SW[0] => part5:dut.cur_fib[0]
 SW[1] => part5:dut.cur_fib[1]
 SW[2] => part5:dut.cur_fib[2]
 SW[3] => part5:dut.cur_fib[3]
+SW[4] => ~NO_FANOUT~
+SW[5] => ~NO_FANOUT~
+SW[6] => ~NO_FANOUT~
+SW[7] => ~NO_FANOUT~
+SW[8] => part5:dut.switcher
+SW[9] => ~NO_FANOUT~
 HEX0[0] << part5:dut.seg_out[0]
 HEX0[1] << part5:dut.seg_out[1]
 HEX0[2] << part5:dut.seg_out[2]
@@ -11,7 +16,16 @@ HEX0[3] << part5:dut.seg_out[3]
 HEX0[4] << part5:dut.seg_out[4]
 HEX0[5] << part5:dut.seg_out[5]
 HEX0[6] << part5:dut.seg_out[6]
-LEDR8 << part5:dut.is_valid
+LEDR[0] << <GND>
+LEDR[1] << <GND>
+LEDR[2] << <GND>
+LEDR[3] << <GND>
+LEDR[4] << <GND>
+LEDR[5] << <GND>
+LEDR[6] << <GND>
+LEDR[7] << <GND>
+LEDR[8] << part5:dut.is_valid
+LEDR[9] << <GND>
 
 
 |lab1_board5|part5:dut
