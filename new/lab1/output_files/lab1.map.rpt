@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab1
-Mon Sep 23 18:27:46 2019
+Wed Oct  2 12:04:54 2019
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
 
 
@@ -43,7 +43,7 @@ agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Sep 23 18:27:46 2019           ;
+; Analysis & Synthesis Status     ; Successful - Wed Oct  2 12:04:54 2019           ;
 ; Quartus Prime Version           ; 16.0.0 Build 211 04/27/2016 SJ Standard Edition ;
 ; Revision Name                   ; lab1                                            ;
 ; Top-level Entity Name           ; lab1_board_extra                                ;
@@ -156,7 +156,7 @@ agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
+; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
@@ -271,7 +271,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
-    Info: Processing started: Mon Sep 23 18:27:30 2019
+    Info: Processing started: Wed Oct  2 12:04:31 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab1 -c lab1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -360,9 +360,9 @@ Info (21057): Implemented 49 device resources after synthesis - the final resour
     Info (21059): Implemented 24 output pins
     Info (21061): Implemented 15 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 20 warnings
-    Info: Peak virtual memory: 1331 megabytes
-    Info: Processing ended: Mon Sep 23 18:27:46 2019
-    Info: Elapsed time: 00:00:16
-    Info: Total CPU time (on all processors): 00:00:24
+    Info: Peak virtual memory: 1330 megabytes
+    Info: Processing ended: Wed Oct  2 12:04:54 2019
+    Info: Elapsed time: 00:00:23
+    Info: Total CPU time (on all processors): 00:00:23
 
 
