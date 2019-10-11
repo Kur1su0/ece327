@@ -1,0 +1,38 @@
+|FSM
+ivalid => state.smooth5.OUTPUTSELECT
+ivalid => state.smooth4.OUTPUTSELECT
+ivalid => state.smooth3.OUTPUTSELECT
+ivalid => state.smooth2.OUTPUTSELECT
+ivalid => state.smooth1.OUTPUTSELECT
+ivalid => state.alt25k.OUTPUTSELECT
+ivalid => state.alt20k.OUTPUTSELECT
+ivalid => state.alt10k.OUTPUTSELECT
+ivalid => output[0]~reg0.ENA
+ivalid => output[1]~reg0.ENA
+clk => output[0]~reg0.CLK
+clk => output[1]~reg0.CLK
+clk => state~9.DATAIN
+rst => state.OUTPUTSELECT
+rst => state.OUTPUTSELECT
+rst => state.OUTPUTSELECT
+rst => state.OUTPUTSELECT
+rst => state.OUTPUTSELECT
+rst => state.OUTPUTSELECT
+rst => state.OUTPUTSELECT
+rst => state.OUTPUTSELECT
+input[0] => Equal0.IN1
+input[0] => Equal1.IN2
+input[0] => Equal2.IN1
+input[0] => Equal3.IN2
+input[1] => Equal0.IN0
+input[1] => Equal1.IN1
+input[1] => Equal2.IN2
+input[1] => Equal3.IN1
+input[2] => Equal0.IN2
+input[2] => Equal1.IN0
+input[2] => Equal2.IN0
+input[2] => Equal3.IN0
+output[0] <= output[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
