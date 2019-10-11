@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/users/zicew/ece327/new/lab2/simulation/modelsim
+Efsm
+Z1 w1570825077
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8/users/zicew/ece327/new/lab2/FSM.vhd
+Z5 F/users/zicew/ece327/new/lab2/FSM.vhd
+l0
+L4
+VZ8^@Ho6SQE]NfF9Uo[em_3
+!s100 YM:mWJS?IW1@ij6EMnV;<3
+Z6 OV;C;10.4d;61
+31
+Z7 !s110 1570826846
+!i10b 1
+Z8 !s108 1570826845.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|/users/zicew/ece327/new/lab2/FSM.vhd|
+Z10 !s107 /users/zicew/ece327/new/lab2/FSM.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1
+Astruct
+R2
+R3
+DEx4 work 3 fsm 0 22 Z8^@Ho6SQE]NfF9Uo[em_3
+l20
+L17
+VWj4VR9HnI9bUY0C89PFI^0
+!s100 f<I8Q5lYeWo_SS1C3OM=B3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Efsm_vhd_tst
+Z13 w1570826753
+R2
+R3
+R0
+Z14 8/users/zicew/ece327/new/lab2/simulation/modelsim/FSM.vht
+Z15 F/users/zicew/ece327/new/lab2/simulation/modelsim/FSM.vht
+l0
+L31
+VeXhH33CQeLGAb=Rfh]z3W2
+!s100 71?NaiPCMmH3a0jeO^FCO1
+R6
+31
+R7
+!i10b 1
+Z16 !s108 1570826846.000000
+Z17 !s90 -reportprogress|300|-93|-work|work|/users/zicew/ece327/new/lab2/simulation/modelsim/FSM.vht|
+Z18 !s107 /users/zicew/ece327/new/lab2/simulation/modelsim/FSM.vht|
+!i113 1
+R11
+R12
+Afsm_arch
+R2
+R3
+DEx4 work 11 fsm_vhd_tst 0 22 eXhH33CQeLGAb=Rfh]z3W2
+l50
+L33
+V8b[b?B;8eG7ECUoZg3;550
+!s100 >1A1TElRDEQj=5Wf7A@UU3
+R6
+31
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12

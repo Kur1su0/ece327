@@ -1,0 +1,69 @@
+# do example_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Copying /usr/commercial_amd64/altera/16.0/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/users/zicew/ece327/new/lab2/FSM.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:47:25 on Oct 11,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/ece327/new/lab2/FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FSM
+# -- Compiling architecture struct of FSM
+# End time: 16:47:26 on Oct 11,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {/users/zicew/ece327/new/lab2/simulation/modelsim/FSM.vht}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:47:26 on Oct 11,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/ece327/new/lab2/simulation/modelsim/FSM.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FSM_vhd_tst
+# -- Compiling architecture FSM_arch of FSM_vhd_tst
+# ** Warning: /users/zicew/ece327/new/lab2/simulation/modelsim/FSM.vht(76): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab2/simulation/modelsim/FSM.vht(82): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab2/simulation/modelsim/FSM.vht(87): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab2/simulation/modelsim/FSM.vht(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab2/simulation/modelsim/FSM.vht(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 16:47:26 on Oct 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 5
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  FSM_vhd_tst
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" FSM_vhd_tst 
+# Start time: 16:47:26 on Oct 11,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.fsm_vhd_tst(fsm_arch)
+# Loading work.fsm(struct)
+# 
+# add wave *
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 1 times, errno 11
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 2 times, errno 11
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 3 times, errno 11
+# ** Error: Cannot lock WLF file: "vsim.wlf"
+#           errno 11: Resource temporarily unavailable.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: zicew  Hostname: ullab01  ProcessID: 15738
+#           Attempting to use alternate WLF file "./wlftU9ocf5".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftU9ocf5
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# WARNING: No extended dataflow license exists
+# FATAL ERROR: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 16:52:26 on Oct 11,2019, Elapsed time: 0:05:00
+# Errors: 4, Warnings: 2
