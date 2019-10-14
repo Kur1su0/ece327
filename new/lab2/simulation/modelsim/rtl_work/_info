@@ -7,36 +7,36 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/W/Documents/ece327/new/lab2/simulation/modelsim
+Z0 d/users/zicew/git/ece327/new/lab2/simulation/modelsim
 Efsm
-Z1 w1570920808
+Z1 w1571083769
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
-Z4 8C:/Users/W/Documents/ece327/new/lab2/FSM.vhd
-Z5 FC:/Users/W/Documents/ece327/new/lab2/FSM.vhd
+Z4 8/users/zicew/git/ece327/new/lab2/FSM.vhd
+Z5 F/users/zicew/git/ece327/new/lab2/FSM.vhd
 l0
 L4
-VeS?[YT8jRc]7X^bBfX1Tz2
-!s100 4jZB=5FQ^<cQT@jJabVOP3
-Z6 OV;C;10.5b;63
+VM9d6h4]Q3Uf1K^P=4dQ_U0
+!s100 PWc6>UW8jKLR@aAbMk<1C1
+Z6 OV;C;10.4d;61
 31
-Z7 !s110 1570921071
+Z7 !s110 1571089584
 !i10b 1
-Z8 !s108 1570921071.000000
-Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/W/Documents/ece327/new/lab2/FSM.vhd|
-Z10 !s107 C:/Users/W/Documents/ece327/new/lab2/FSM.vhd|
+Z8 !s108 1571089584.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab2/FSM.vhd|
+Z10 !s107 /users/zicew/git/ece327/new/lab2/FSM.vhd|
 !i113 1
 Z11 o-93 -work work
-Z12 tExplicit 1 CvgOpt 0
+Z12 tExplicit 1
 Astruct
 R2
 R3
-DEx4 work 3 fsm 0 22 eS?[YT8jRc]7X^bBfX1Tz2
-l22
-L19
-Vbb[`iZ^WP=;7FKIm^057L3
-!s100 3omX`fWAX9Rf3zoS:bGe91
+DEx4 work 3 fsm 0 22 M9d6h4]Q3Uf1K^P=4dQ_U0
+l23
+L20
+VQkePddG9i98oQbGb15NPf1
+!s100 WiP>4Cd[KN]Uj[MW<WlM00
 R6
 31
 R7
@@ -48,34 +48,34 @@ R10
 R11
 R12
 Efsm_vhd_tst
-Z13 w1570921063
+Z13 w1571089574
 R2
 R3
 R0
-Z14 8C:/Users/W/Documents/ece327/new/lab2/simulation/modelsim/FSM.vht
-Z15 FC:/Users/W/Documents/ece327/new/lab2/simulation/modelsim/FSM.vht
+Z14 8/users/zicew/git/ece327/new/lab2/simulation/modelsim/FSM.vht
+Z15 F/users/zicew/git/ece327/new/lab2/simulation/modelsim/FSM.vht
 l0
-L30
-VLVjd9;>mWVF0?RAiZF8=N3
-!s100 g_z5eVQNbE[=dN62HPT4C0
+L31
+VeXhH33CQeLGAb=Rfh]z3W2
+!s100 71?NaiPCMmH3a0jeO^FCO1
 R6
 31
 R7
 !i10b 1
 R8
-Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/W/Documents/ece327/new/lab2/simulation/modelsim/FSM.vht|
-Z17 !s107 C:/Users/W/Documents/ece327/new/lab2/simulation/modelsim/FSM.vht|
+Z16 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab2/simulation/modelsim/FSM.vht|
+Z17 !s107 /users/zicew/git/ece327/new/lab2/simulation/modelsim/FSM.vht|
 !i113 1
 R11
 R12
 Afsm_arch
 R2
 R3
-DEx4 work 11 fsm_vhd_tst 0 22 LVjd9;>mWVF0?RAiZF8=N3
-l51
-L32
-VF`8NhTk10QX23TJB1[_H>1
-!s100 TRX_O@c3<Vn?Ijhd12fYW3
+DEx4 work 11 fsm_vhd_tst 0 22 eXhH33CQeLGAb=Rfh]z3W2
+l54
+L33
+VIkh^XAF?<IT;0DBk2nFHH2
+!s100 1WU?3?oi3Ej_NSE[Q6bnZ0
 R6
 31
 R7
@@ -83,6 +83,45 @@ R7
 R8
 R16
 R17
+!i113 1
+R11
+R12
+Elab2_board
+Z18 w1570998997
+R2
+R3
+R0
+Z19 8/users/zicew/git/ece327/new/lab2/lab2_board.vhd
+Z20 F/users/zicew/git/ece327/new/lab2/lab2_board.vhd
+l0
+L4
+V0SN]ZAJ3Id=4=;TP2c4L^1
+!s100 _DiFjZc64[Bz[nV>3c3eU1
+R6
+31
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab2/lab2_board.vhd|
+Z22 !s107 /users/zicew/git/ece327/new/lab2/lab2_board.vhd|
+!i113 1
+R11
+R12
+Astruct
+R2
+R3
+DEx4 work 10 lab2_board 0 22 0SN]ZAJ3Id=4=;TP2c4L^1
+l39
+L20
+VK@Q`IJBihR^6kFk;E[f?60
+!s100 1WeI<llE_=Kl9be:oDj_^0
+R6
+31
+R7
+!i10b 1
+R8
+R21
+R22
 !i113 1
 R11
 R12

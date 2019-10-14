@@ -1,0 +1,31 @@
+root@socfpga:~/lab2# ./airplane                                                
+You will enter either:                                                         
+        1 for smooth                                                           
+        2 for alt_25k                                                          
+        4 for alt_10k                                                          
+        0 if no signals set                                                    
+Enter a q to quit.                                                             
+1                                                                              
+Indicators: Fasten Seatbelt No Electronics                                     
+0                                                                              
+Indicators: Fasten Seatbelt No Electronics                                     
+4                                                                              
+Indicators: Fasten Seatbelt -                                                  
+2                                                                              
+Indicators: Fasten Seatbelt -                                                  
+1                                                                              
+Indicators: Fasten Seatbelt -                                                  
+1                                                                              
+Indicators: Fasten Seatbelt -                                                  
+1                                                                              
+Indicators: Fasten Seatbelt -                                                  
+1                                                                              
+Indicators: Fasten Seatbelt -                                                  
+1                                                                              
+Indicators: - -                                                                
+2                                                                              
+Indicators: Fasten Seatbelt -                                                  
+4                                                                              
+Indicators: Fasten Seatbelt No Electronics                                     
+0                                                                              
+Indicators: Fasten Seatbelt No Electronics

@@ -1,0 +1,158 @@
+{
+  "functions":
+  [
+    {
+      "type":"container"
+      , "id2":10
+      , "name":"airplane_kernel"
+      , "file":""
+      , "line":"0"
+      , "order":0
+      , "children":[
+        {
+          "type":"container"
+          , "id2":11
+          , "name":""
+          , "file":""
+          , "line":"0"
+          , "order":0
+          , "children":[
+            {
+              "type":"bb"
+              , "id2":12
+              , "name":"Basic Block 0"
+              , "file":""
+              , "line":"0"
+              , "order":0
+              , "children":[
+                {
+                  "type":"inst"
+                  , "id2":14
+                  , "name":"Load"
+                  , "file":"1"
+                  , "line":"7"
+                  , "order":1
+                  , "details":
+                  {
+                    "Width":"8 bits"
+                    , "Type":"Simple"
+                    , "Stall-free":"No"
+                  }
+                }
+              ]
+            }
+            ,
+            {
+              "type":"bb"
+              , "id2":13
+              , "name":"Basic Block 1"
+              , "file":""
+              , "line":"0"
+              , "order":1
+              , "children":[
+                {
+                  "type":"inst"
+                  , "id2":15
+                  , "name":"'airplane_cl' HDL Function Call"
+                  , "file":"1"
+                  , "line":"7"
+                  , "order":2
+                }
+                ,
+                {
+                  "type":"inst"
+                  , "id2":16
+                  , "name":"'airplane_cl' HDL Function Call"
+                  , "file":"1"
+                  , "line":"7"
+                  , "order":3
+                }
+                ,
+                {
+                  "type":"inst"
+                  , "id2":17
+                  , "name":"Store"
+                  , "file":"1"
+                  , "line":"7"
+                  , "order":9
+                  , "details":
+                  {
+                    "Width":"8 bits"
+                    , "Type":"Burst-coalesced"
+                    , "Stall-free":"No"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+        ,
+        {
+          "type":"container"
+          , "id2":18
+          , "name":""
+          , "file":""
+          , "line":"0"
+          , "order":0
+          , "children":[
+            {
+              "type":"memtype"
+              , "id2":19
+              , "name":"Global Memory"
+              , "file":""
+              , "line":"0"
+              , "order":0
+              , "children":[
+                {
+                  "type":"memsys"
+                  , "id2":20
+                  , "name":""
+                  , "file":""
+                  , "line":"0"
+                  , "order":0
+                  , "children":[
+                    {
+                      "type":"bank"
+                      , "id2":21
+                      , "name":"Bank 0"
+                      , "file":""
+                      , "line":"0"
+                      , "order":0
+                      , "children":[
+                        {
+                          "type":"port"
+                          , "id2":22
+                          , "name":"Port 0"
+                          , "file":""
+                          , "line":"0"
+                          , "order":0
+                          , "edges":[
+                            {
+                              "from":22
+                              , "to":14
+                              , "type":"PORT"
+                            }
+                            ,
+                            {
+                              "from":22
+                              , "to":17
+                              , "type":"PORT"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  , "fileIndexMap":
+  {
+    "/users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl.cl":"1"
+  }
+}
