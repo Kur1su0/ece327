@@ -53,7 +53,7 @@ begin
                 when smooth1=>
                     ---output<="00";
                     if    input="001" then state<=smooth2;
-                    elsif input="010" then state<=alt25k;
+                    elsif input="010" then state<=alt10k;
                     elsif input="000" then state<=alt25k;
                     --elsif input="000" then state<=gnd;
                     end if;

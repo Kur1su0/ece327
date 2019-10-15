@@ -1,5 +1,5 @@
 Analysis & Synthesis report for example
-Mon Oct 14 17:36:22 2019
+Tue Oct 15 16:26:04 2019
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
 
 
@@ -15,9 +15,10 @@ Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
   7. Analysis & Synthesis Resource Utilization by Entity
   8. State Machine - |lab2_board|FSM:mmmap|state
   9. General Register Statistics
- 10. Post-Synthesis Netlist Statistics for Top Partition
- 11. Elapsed Time Per Partition
- 12. Analysis & Synthesis Messages
+ 10. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 11. Post-Synthesis Netlist Statistics for Top Partition
+ 12. Elapsed Time Per Partition
+ 13. Analysis & Synthesis Messages
 
 
 
@@ -44,7 +45,7 @@ agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Oct 14 17:36:22 2019           ;
+; Analysis & Synthesis Status     ; Successful - Tue Oct 15 16:26:04 2019           ;
 ; Quartus Prime Version           ; 16.0.0 Build 211 04/27/2016 SJ Standard Edition ;
 ; Revision Name                   ; example                                         ;
 ; Top-level Entity Name           ; lab2_board                                      ;
@@ -184,14 +185,14 @@ agreement for further details.
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimate of Logic utilization (ALMs needed) ; 9           ;
+; Estimate of Logic utilization (ALMs needed) ; 10          ;
 ;                                             ;             ;
-; Combinational ALUT usage for logic          ; 15          ;
-;     -- 7 input functions                    ; 2           ;
-;     -- 6 input functions                    ; 0           ;
-;     -- 5 input functions                    ; 6           ;
+; Combinational ALUT usage for logic          ; 18          ;
+;     -- 7 input functions                    ; 0           ;
+;     -- 6 input functions                    ; 2           ;
+;     -- 5 input functions                    ; 8           ;
 ;     -- 4 input functions                    ; 1           ;
-;     -- <=3 input functions                  ; 6           ;
+;     -- <=3 input functions                  ; 7           ;
 ;                                             ;             ;
 ; Dedicated logic registers                   ; 8           ;
 ;                                             ;             ;
@@ -199,10 +200,10 @@ agreement for further details.
 ;                                             ;             ;
 ; Total DSP Blocks                            ; 0           ;
 ;                                             ;             ;
-; Maximum fan-out node                        ; SW[1]~input ;
-; Maximum fan-out                             ; 8           ;
-; Total fan-out                               ; 147         ;
-; Average fan-out                             ; 1.48        ;
+; Maximum fan-out node                        ; SW[2]~input ;
+; Maximum fan-out                             ; 10          ;
+; Total fan-out                               ; 156         ;
+; Average fan-out                             ; 1.53        ;
 +---------------------------------------------+-------------+
 
 
@@ -211,8 +212,8 @@ agreement for further details.
 +----------------------------+-------------------+--------------+-------------------+------------+------+--------------+-----------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name   ; Entity Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------------+------------+------+--------------+-----------------------+-------------+--------------+
-; |lab2_board                ; 15 (0)            ; 8 (0)        ; 0                 ; 0          ; 38   ; 0            ; |lab2_board           ; lab2_board  ; work         ;
-;    |FSM:mmmap|             ; 15 (15)           ; 8 (8)        ; 0                 ; 0          ; 0    ; 0            ; |lab2_board|FSM:mmmap ; FSM         ; work         ;
+; |lab2_board                ; 18 (0)            ; 8 (0)        ; 0                 ; 0          ; 38   ; 0            ; |lab2_board           ; lab2_board  ; work         ;
+;    |FSM:mmmap|             ; 18 (18)           ; 8 (8)        ; 0                 ; 0          ; 0    ; 0            ; |lab2_board|FSM:mmmap ; FSM         ; work         ;
 +----------------------------+-------------------+--------------+-------------------+------------+------+--------------+-----------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -244,9 +245,18 @@ Encoding Type:  One-Hot
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 8     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 8     ;
+; Number of registers using Clock Enable       ; 6     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                   ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output         ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------+
+; 16:1               ; 2 bits    ; 20 LEs        ; 12 LEs               ; 8 LEs                  ; No         ; |lab2_board|FSM:mmmap|state.alt10k ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------+
 
 
 +-----------------------------------------------------+
@@ -255,21 +265,21 @@ Encoding Type:  One-Hot
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; arriav_ff             ; 8                           ;
-;     ENA CLR           ; 8                           ;
-; arriav_lcell_comb     ; 22                          ;
-;     extend            ; 2                           ;
-;         7 data inputs ; 2                           ;
-;     normal            ; 20                          ;
+;     CLR               ; 2                           ;
+;     ENA CLR           ; 6                           ;
+; arriav_lcell_comb     ; 25                          ;
+;     normal            ; 25                          ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 6                           ;
 ;         2 data inputs ; 1                           ;
-;         3 data inputs ; 5                           ;
+;         3 data inputs ; 6                           ;
 ;         4 data inputs ; 1                           ;
-;         5 data inputs ; 6                           ;
+;         5 data inputs ; 8                           ;
+;         6 data inputs ; 2                           ;
 ; boundary_port         ; 38                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 2.00                        ;
-; Average LUT depth     ; 1.39                        ;
+; Average LUT depth     ; 1.59                        ;
 +-----------------------+-----------------------------+
 
 
@@ -288,7 +298,7 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
-    Info: Processing started: Mon Oct 14 17:36:04 2019
+    Info: Processing started: Tue Oct 15 16:25:48 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab2 -c example
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -908,14 +918,14 @@ Warning (21074): Design contains 8 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "KEY[1]" File: /users/zicew/git/ece327/new/lab2/lab2_board.vhd Line: 11
     Warning (15610): No output dependent on input pin "KEY[2]" File: /users/zicew/git/ece327/new/lab2/lab2_board.vhd Line: 11
     Warning (15610): No output dependent on input pin "KEY[3]" File: /users/zicew/git/ece327/new/lab2/lab2_board.vhd Line: 11
-Info (21057): Implemented 53 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 56 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 14 input pins
     Info (21059): Implemented 24 output pins
-    Info (21061): Implemented 15 logic cells
+    Info (21061): Implemented 18 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 597 warnings
-    Info: Peak virtual memory: 1325 megabytes
-    Info: Processing ended: Mon Oct 14 17:36:22 2019
-    Info: Elapsed time: 00:00:18
-    Info: Total CPU time (on all processors): 00:00:27
+    Info: Peak virtual memory: 1344 megabytes
+    Info: Processing ended: Tue Oct 15 16:26:04 2019
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:24
 
 

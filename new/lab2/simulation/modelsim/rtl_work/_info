@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 d/users/zicew/git/ece327/new/lab2/simulation/modelsim
 Efsm
-Z1 w1571083769
+Z1 w1571170657
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
@@ -21,9 +21,9 @@ VM9d6h4]Q3Uf1K^P=4dQ_U0
 !s100 PWc6>UW8jKLR@aAbMk<1C1
 Z6 OV;C;10.4d;61
 31
-Z7 !s110 1571089584
+Z7 !s110 1571170832
 !i10b 1
-Z8 !s108 1571089584.000000
+Z8 !s108 1571170832.000000
 Z9 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab2/FSM.vhd|
 Z10 !s107 /users/zicew/git/ece327/new/lab2/FSM.vhd|
 !i113 1
@@ -35,8 +35,8 @@ R3
 DEx4 work 3 fsm 0 22 M9d6h4]Q3Uf1K^P=4dQ_U0
 l23
 L20
-VQkePddG9i98oQbGb15NPf1
-!s100 WiP>4Cd[KN]Uj[MW<WlM00
+VM?:CCRD;N`36Jh57zO2bK1
+!s100 j]TOCfPmP266oUS<aWZ4z0
 R6
 31
 R7

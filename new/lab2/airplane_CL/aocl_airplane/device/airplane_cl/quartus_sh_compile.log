@@ -15,7 +15,7 @@ Info: Running Quartus Prime Shell
     Info: devices manufactured by Altera and sold by Altera or its 
     Info: authorized distributors.  Please refer to the applicable 
     Info: agreement for further details.
-    Info: Processing started: Mon Oct 14 15:59:53 2019
+    Info: Processing started: Tue Oct 15 16:29:42 2019
 Info: Command: quartus_sh --flow compile top
 Info: Quartus(args): compile top
 Info: Using INI file /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/quartus.ini
@@ -25,7 +25,7 @@ Info (125069): Default assignment values were changed in the current version of 
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
-    Info: Processing started: Mon Oct 14 16:00:01 2019
+    Info: Processing started: Tue Oct 15 16:29:50 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off top -c top
 Info: Using INI file /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/quartus.ini
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -354,42 +354,42 @@ Info (12021): Found 1 design units, including 1 entities, in source file system/
     Info (12023): Found entity 1: system_acl_iface_hps_hps_io File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/system_acl_iface_hps_hps_io.v Line: 9
 Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/hps_sdram.v
     Info (12023): Found entity 1: hps_sdram File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram.v Line: 9
-Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/altera_mem_if_dll_cyclonev.sv
-    Info (12023): Found entity 1: altera_mem_if_dll_cyclonev File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/altera_mem_if_dll_cyclonev.sv Line: 23
-Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/hps_sdram_p0_phy_csr.sv
-    Info (12023): Found entity 1: hps_sdram_p0_phy_csr File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_p0_phy_csr.sv Line: 31
-Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/hps_sdram_p0_acv_hard_memphy.v
-    Info (12023): Found entity 1: hps_sdram_p0_acv_hard_memphy File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_p0_acv_hard_memphy.v Line: 21
-Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/altera_mem_if_hhp_qseq_synth_top.v
-    Info (12023): Found entity 1: altera_mem_if_hhp_qseq_synth_top File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/altera_mem_if_hhp_qseq_synth_top.v Line: 15
-Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/hps_sdram_p0_reset.v
-    Info (12023): Found entity 1: hps_sdram_p0_reset File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_p0_reset.v Line: 18
-Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/altera_mem_if_hard_memory_controller_top_cyclonev.sv
-    Info (12023): Found entity 1: altera_mem_if_hard_memory_controller_top_cyclonev File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/altera_mem_if_hard_memory_controller_top_cyclonev.sv Line: 18
-Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/hps_sdram_p0_clock_pair_generator.v
-    Info (12023): Found entity 1: hps_sdram_p0_clock_pair_generator File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_p0_clock_pair_generator.v Line: 29
 Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/hps_sdram_p0_iss_probe.v
     Info (12023): Found entity 1: hps_sdram_p0_iss_probe File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_p0_iss_probe.v Line: 17
-Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/altdq_dqs2_acv_connect_to_hard_phy_cyclonev.sv
-    Info (12023): Found entity 1: altdq_dqs2_acv_connect_to_hard_phy_cyclonev File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/altdq_dqs2_acv_connect_to_hard_phy_cyclonev.sv Line: 19
-Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/hps_sdram_p0_reset_sync.v
-    Info (12023): Found entity 1: hps_sdram_p0_reset_sync File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_p0_reset_sync.v Line: 17
-Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/hps_sdram_p0.sv
-    Info (12023): Found entity 1: hps_sdram_p0 File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_p0.sv Line: 18
-Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/hps_sdram_pll.sv
-    Info (12023): Found entity 1: hps_sdram_pll File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_pll.sv Line: 25
-Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/hps_sdram_p0_generic_ddio.v
-    Info (12023): Found entity 1: hps_sdram_p0_generic_ddio File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_p0_generic_ddio.v Line: 17
+Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/altera_mem_if_hhp_qseq_synth_top.v
+    Info (12023): Found entity 1: altera_mem_if_hhp_qseq_synth_top File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/altera_mem_if_hhp_qseq_synth_top.v Line: 15
 Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/hps_sdram_p0_acv_hard_io_pads.v
     Info (12023): Found entity 1: hps_sdram_p0_acv_hard_io_pads File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_p0_acv_hard_io_pads.v Line: 17
 Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/altera_mem_if_oct_cyclonev.sv
     Info (12023): Found entity 1: altera_mem_if_oct_cyclonev File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/altera_mem_if_oct_cyclonev.sv Line: 23
-Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/hps_sdram_p0_acv_ldc.v
-    Info (12023): Found entity 1: hps_sdram_p0_acv_ldc File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_p0_acv_ldc.v Line: 17
-Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/hps_sdram_p0_altdqdqs.v
-    Info (12023): Found entity 1: hps_sdram_p0_altdqdqs File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_p0_altdqdqs.v Line: 17
+Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/altdq_dqs2_acv_connect_to_hard_phy_cyclonev.sv
+    Info (12023): Found entity 1: altdq_dqs2_acv_connect_to_hard_phy_cyclonev File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/altdq_dqs2_acv_connect_to_hard_phy_cyclonev.sv Line: 19
+Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/hps_sdram_p0_acv_hard_memphy.v
+    Info (12023): Found entity 1: hps_sdram_p0_acv_hard_memphy File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_p0_acv_hard_memphy.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/hps_sdram_pll.sv
+    Info (12023): Found entity 1: hps_sdram_pll File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_pll.sv Line: 25
+Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/hps_sdram_p0_phy_csr.sv
+    Info (12023): Found entity 1: hps_sdram_p0_phy_csr File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_p0_phy_csr.sv Line: 31
 Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/hps_sdram_p0_acv_hard_addr_cmd_pads.v
     Info (12023): Found entity 1: hps_sdram_p0_acv_hard_addr_cmd_pads File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_p0_acv_hard_addr_cmd_pads.v Line: 17
+Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/hps_sdram_p0.sv
+    Info (12023): Found entity 1: hps_sdram_p0 File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_p0.sv Line: 18
+Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/hps_sdram_p0_clock_pair_generator.v
+    Info (12023): Found entity 1: hps_sdram_p0_clock_pair_generator File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_p0_clock_pair_generator.v Line: 29
+Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/hps_sdram_p0_altdqdqs.v
+    Info (12023): Found entity 1: hps_sdram_p0_altdqdqs File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_p0_altdqdqs.v Line: 17
+Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/altera_mem_if_hard_memory_controller_top_cyclonev.sv
+    Info (12023): Found entity 1: altera_mem_if_hard_memory_controller_top_cyclonev File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/altera_mem_if_hard_memory_controller_top_cyclonev.sv Line: 18
+Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/hps_sdram_p0_reset_sync.v
+    Info (12023): Found entity 1: hps_sdram_p0_reset_sync File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_p0_reset_sync.v Line: 17
+Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/hps_sdram_p0_generic_ddio.v
+    Info (12023): Found entity 1: hps_sdram_p0_generic_ddio File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_p0_generic_ddio.v Line: 17
+Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/hps_sdram_p0_acv_ldc.v
+    Info (12023): Found entity 1: hps_sdram_p0_acv_ldc File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_p0_acv_ldc.v Line: 17
+Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/altera_mem_if_dll_cyclonev.sv
+    Info (12023): Found entity 1: altera_mem_if_dll_cyclonev File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/altera_mem_if_dll_cyclonev.sv Line: 23
+Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/hps_sdram_p0_reset.v
+    Info (12023): Found entity 1: hps_sdram_p0_reset File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_p0_reset.v Line: 18
 Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/system_acl_iface_hps_hps_io_border.sv
     Info (12023): Found entity 1: system_acl_iface_hps_hps_io_border File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/system_acl_iface_hps_hps_io_border.sv Line: 14
 Info (12021): Found 1 design units, including 1 entities, in source file system/synthesis/submodules/system_acl_iface_hps_fpga_interfaces.sv
@@ -810,6 +810,7 @@ Info (12128): Elaborating entity "hps_sdram_p0_clock_pair_generator" for hierarc
 Info (12128): Elaborating entity "hps_sdram_p0_altdqdqs" for hierarchy "system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_p0:p0|hps_sdram_p0_acv_hard_memphy:umemphy|hps_sdram_p0_acv_hard_io_pads:uio_pads|hps_sdram_p0_altdqdqs:dq_ddio[0].ubidir_dq_dqs" File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_p0_acv_hard_io_pads.v Line: 317
 Info (12128): Elaborating entity "altdq_dqs2_acv_connect_to_hard_phy_cyclonev" for hierarchy "system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_p0:p0|hps_sdram_p0_acv_hard_memphy:umemphy|hps_sdram_p0_acv_hard_io_pads:uio_pads|hps_sdram_p0_altdqdqs:dq_ddio[0].ubidir_dq_dqs|altdq_dqs2_acv_connect_to_hard_phy_cyclonev:altdq_dqs2_inst" File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram_p0_altdqdqs.v Line: 146
 Info (12128): Elaborating entity "altera_mem_if_hhp_qseq_synth_top" for hierarchy "system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|altera_mem_if_hhp_qseq_synth_top:seq" File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram.v Line: 238
+Warning (12158): Entity "altera_mem_if_hhp_qseq_synth_top" contains only dangling pins File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram.v Line: 238
 Info (12128): Elaborating entity "altera_mem_if_hard_memory_controller_top_cyclonev" for hierarchy "system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|altera_mem_if_hard_memory_controller_top_cyclonev:c0" File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/hps_sdram.v Line: 794
 Warning (10230): Verilog HDL assignment warning at altera_mem_if_hard_memory_controller_top_cyclonev.sv(1166): truncated value with size 320 to match size of target (1) File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/altera_mem_if_hard_memory_controller_top_cyclonev.sv Line: 1166
 Warning (10230): Verilog HDL assignment warning at altera_mem_if_hard_memory_controller_top_cyclonev.sv(1167): truncated value with size 320 to match size of target (1) File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/altera_mem_if_hard_memory_controller_top_cyclonev.sv Line: 1167
@@ -839,6 +840,7 @@ Info (12133): Instantiated megafunction "system:the_system|system_acl_iface:acl_
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_sbi1.tdf
     Info (12023): Found entity 1: altsyncram_sbi1 File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/db/altsyncram_sbi1.tdf Line: 28
 Info (12128): Elaborating entity "altsyncram_sbi1" for hierarchy "system:the_system|system_acl_iface:acl_iface|system_acl_iface_acl_kernel_interface:acl_kernel_interface|system_acl_iface_acl_kernel_interface_sys_description_rom:sys_description_rom|altsyncram:the_altsyncram|altsyncram_sbi1:auto_generated" File: /usr/commercial_amd64/altera/15.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
+Critical Warning (127005): Memory depth (512) in the design file differs from memory depth (13) in the Memory Initialization File "/users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/sys_description.hex" -- setting initial value for remaining addresses to 0 File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/system_acl_iface_acl_kernel_interface_sys_description_rom.v Line: 76
 Info (12128): Elaborating entity "altera_avalon_mm_bridge" for hierarchy "system:the_system|system_acl_iface:acl_iface|system_acl_iface_acl_kernel_interface:acl_kernel_interface|altera_avalon_mm_bridge:kernel_cra" File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/system_acl_iface_acl_kernel_interface.v Line: 163
 Info (12128): Elaborating entity "altera_address_span_extender" for hierarchy "system:the_system|system_acl_iface:acl_iface|system_acl_iface_acl_kernel_interface:acl_kernel_interface|altera_address_span_extender:address_span_extender_0" File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/system_acl_iface_acl_kernel_interface.v Line: 202
 Info (12128): Elaborating entity "sw_reset" for hierarchy "system:the_system|system_acl_iface:acl_iface|system_acl_iface_acl_kernel_interface:acl_kernel_interface|sw_reset:sw_reset" File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/system_acl_iface_acl_kernel_interface.v Line: 217
@@ -1273,9 +1275,13 @@ Info (12128): Elaborating entity "acl_avm_to_ic" for hierarchy "system:the_syste
 Info (12128): Elaborating entity "airplane_cl_system_interconnect_0" for hierarchy "system:the_system|airplane_cl_system:airplane_cl_system|airplane_cl_system_interconnect_0:gmem0_.global_ic_preroutegmem0_router_0" File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/airplane_cl_system.v Line: 251
 Warning (10230): Verilog HDL assignment warning at airplane_cl_system.v(611): truncated value with size 32 to match size of target (1) File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/airplane_cl_system.v Line: 611
 Info (12128): Elaborating entity "acl_ic_master_intf" for hierarchy "system:the_system|airplane_cl_system:airplane_cl_system|airplane_cl_system_interconnect_0:gmem0_.global_ic_preroutegmem0_router_0|acl_ic_master_intf:m[0].m_intf" File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/airplane_cl_system.v Line: 592
+Warning (12158): Entity "acl_ic_master_intf" contains only dangling pins File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/airplane_cl_system.v Line: 592
 Info (12128): Elaborating entity "acl_arb_intf" for hierarchy "system:the_system|airplane_cl_system:airplane_cl_system|airplane_cl_system_interconnect_0:gmem0_.global_ic_preroutegmem0_router_0|acl_arb_intf:m[0].arb_intf" File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/airplane_cl_system.v Line: 600
+Warning (12158): Entity "acl_arb_intf" contains only dangling pins File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/airplane_cl_system.v Line: 600
 Info (12128): Elaborating entity "acl_ic_wrp_intf" for hierarchy "system:the_system|airplane_cl_system:airplane_cl_system|airplane_cl_system_interconnect_0:gmem0_.global_ic_preroutegmem0_router_0|acl_ic_wrp_intf:m[0].wrp_intf" File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/airplane_cl_system.v Line: 604
+Warning (12158): Entity "acl_ic_wrp_intf" contains only dangling pins File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/airplane_cl_system.v Line: 604
 Info (12128): Elaborating entity "acl_ic_rrp_intf" for hierarchy "system:the_system|airplane_cl_system:airplane_cl_system|airplane_cl_system_interconnect_0:gmem0_.global_ic_preroutegmem0_router_0|acl_ic_rrp_intf:m[0].rrp_intf" File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/airplane_cl_system.v Line: 609
+Warning (12158): Entity "acl_ic_rrp_intf" contains only dangling pins File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/airplane_cl_system.v Line: 609
 Info (12128): Elaborating entity "acl_ic_master_endpoint" for hierarchy "system:the_system|airplane_cl_system:airplane_cl_system|airplane_cl_system_interconnect_0:gmem0_.global_ic_preroutegmem0_router_0|acl_ic_master_endpoint:m[0].m_endp" File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/airplane_cl_system.v Line: 631
 Info (12128): Elaborating entity "acl_ic_slave_endpoint" for hierarchy "system:the_system|airplane_cl_system:airplane_cl_system|airplane_cl_system_interconnect_0:gmem0_.global_ic_preroutegmem0_router_0|acl_ic_slave_endpoint:s.s_endp" File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/airplane_cl_system.v Line: 705
 Info (12128): Elaborating entity "acl_ic_slave_wrp" for hierarchy "system:the_system|airplane_cl_system:airplane_cl_system|airplane_cl_system_interconnect_0:gmem0_.global_ic_preroutegmem0_router_0|acl_ic_slave_endpoint:s.s_endp|acl_ic_slave_wrp:wrp" File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/system/synthesis/submodules/acl_ic_slave_endpoint.v Line: 125
@@ -1868,23 +1874,23 @@ Info (286031): Timing-Driven Synthesis is running on partition "system_acl_iface
 Info (144001): Generated suppressed messages file /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/top.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 19 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 10945 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 10949 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 10 input pins
     Info (21059): Implemented 44 output pins
     Info (21060): Implemented 49 bidirectional pins
-    Info (21061): Implemented 9412 logic cells
+    Info (21061): Implemented 9416 logic cells
     Info (21064): Implemented 777 RAM segments
     Info (21065): Implemented 1 PLLs
     Info (21066): Implemented 1 delay-locked loops
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 513 warnings
-    Info: Peak virtual memory: 1871 megabytes
-    Info: Processing ended: Mon Oct 14 16:04:36 2019
-    Info: Elapsed time: 00:04:35
-    Info: Total CPU time (on all processors): 00:04:43
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 519 warnings
+    Info: Peak virtual memory: 1911 megabytes
+    Info: Processing ended: Tue Oct 15 16:34:22 2019
+    Info: Elapsed time: 00:04:32
+    Info: Total CPU time (on all processors): 00:04:14
 Info: *******************************************************************
 Info: Running Quartus Prime Fitter
     Info: Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
-    Info: Processing started: Mon Oct 14 16:04:42 2019
+    Info: Processing started: Tue Oct 15 16:34:27 2019
 Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off top -c top
 Info: Using INI file /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/quartus.ini
 Info: qfit2_default_script.tcl version: #1
@@ -1908,7 +1914,7 @@ Info (11178): Promoted 4 clocks (4 global)
     Info (11162): system:the_system|system_acl_iface:acl_iface|system_acl_iface_pll:pll|altera_pll:altera_pll_i|outclk_wire[0]~CLKENA0 with 885 fanout uses global clock CLKCTRL_G10
 Info (11191): Automatically promoted 1 clock (1 global)
     Info (11162): fpga_clk_50~inputCLKENA0 with 2090 fanout uses global clock CLKCTRL_G5
-Info (184021): Fitter periphery placement operations ending: elapsed time is 00:00:01
+Info (184021): Fitter periphery placement operations ending: elapsed time is 00:00:00
 Info (332104): Reading SDC File: 'top.sdc'
 Warning (332174): Ignored filter at top.sdc(5): altera_reserved_tck could not be matched with a port or pin or register or keeper or net or combinational node or node File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/top.sdc Line: 5
 Warning (332049): Ignored create_clock at top.sdc(5): Argument <targets> is not an object ID File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/top.sdc Line: 5
@@ -2490,27 +2496,27 @@ Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "memory_mem_dq[39]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "memory_mem_dqs[4]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "memory_mem_dqs_n[4]" is assigned to location or region, but does not exist in design
-Info (11798): Fitter preparation operations ending: elapsed time is 00:00:30
+Info (11798): Fitter preparation operations ending: elapsed time is 00:00:27
 Info (170189): Fitter placement preparation operations beginning
 Info (14951): The Fitter is using Advanced Physical Optimization.
 Warning (170052): Fitter has implemented the following 16 RAMs using MLAB locations, which can behave differently during power up than dedicated RAM locations
     Info (170241): For more information about RAMs, refer to the Fitter RAM Summary report.
 Info (170056): Fitter has implemented the following 16 RAMs using MLAB locations, which will have the same paused read capabilities as dedicated RAM locations
     Info (170241): For more information about RAMs, refer to the Fitter RAM Summary report.
-Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:21
+Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:18
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:32
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:26
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 2% of the available device resources
-    Info (170196): Router estimated peak interconnect usage is 15% of the available device resources in the region that extends from location X45_Y58 to location X55_Y69
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:59
-Info (11888): Total time spent on timing analysis during the Fitter is 27.82 seconds.
+    Info (170196): Router estimated peak interconnect usage is 14% of the available device resources in the region that extends from location X45_Y58 to location X55_Y69
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:51
+Info (11888): Total time spent on timing analysis during the Fitter is 25.21 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:31
+Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:27
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Info (169186): Following groups of pins have the same dynamic on-chip termination control
     Info (169185): Following pins have the same dynamic on-chip termination control: system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_p0:p0|hps_sdram_p0_acv_hard_memphy:umemphy|hps_sdram_p0_acv_hard_io_pads:uio_pads|hps_sdram_p0_altdqdqs:dq_ddio[3].ubidir_dq_dqs|altdq_dqs2_acv_connect_to_hard_phy_cyclonev:altdq_dqs2_inst|diff_dtc_bar
@@ -2595,16 +2601,16 @@ Info (169186): Following groups of pins have the same dynamic on-chip terminatio
         Info (169066): Type bi-directional pin memory_mem_dq[21] uses the SSTL-15 Class I I/O standard File: /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/top.v Line: 57
 Info (144001): Generated suppressed messages file /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/top.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 282 warnings
-    Info: Peak virtual memory: 3784 megabytes
-    Info: Processing ended: Mon Oct 14 16:08:20 2019
-    Info: Elapsed time: 00:03:38
-    Info: Total CPU time (on all processors): 00:07:18
+    Info: Peak virtual memory: 3791 megabytes
+    Info: Processing ended: Tue Oct 15 16:37:35 2019
+    Info: Elapsed time: 00:03:08
+    Info: Total CPU time (on all processors): 00:06:07
 Info (293026): Skipped module Assembler due to the assignment FLOW_DISABLE_ASSEMBLER
 Info (293026): Skipped module PowerPlay Power Analyzer due to the assignment FLOW_ENABLE_POWER_ANALYZER
 Info: *******************************************************************
 Info: Running Quartus Prime TimeQuest Timing Analyzer
     Info: Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
-    Info: Processing started: Mon Oct 14 16:08:25 2019
+    Info: Processing started: Tue Oct 15 16:37:41 2019
 Info: Command: quartus_sta top -c top
 Info: Using INI file /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/quartus.ini
 Info: qsta_default_script.tcl version: #1
@@ -3165,34 +3171,34 @@ Info (332171): The following clock uncertainty values are less than the recommen
     Info (332172): Hold clock transfer from system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|pll_write_clk_dq_write_clk (Fall) to memory_mem_dqs_n[3]_OUT (Rise) has uncertainty 0.000 that is less than the recommended uncertainty 0.210
 Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
 Info: Analyzing Slow 1100mV 85C Model
-Info (332146): Worst-case setup slack is 0.790
+Info (332146): Worst-case setup slack is 0.479
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.790               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
+    Info (332119):     0.479               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
     Info (332119):     1.730               0.000 system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk 
-    Info (332119):     3.351               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119):     4.431               0.000 fpga_clk_50 
+    Info (332119):     3.772               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     4.877               0.000 fpga_clk_50 
 Info (332146): Worst-case hold slack is 0.143
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
     Info (332119):     0.143               0.000 system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk 
     Info (332119):     0.219               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
-    Info (332119):     0.305               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119):     0.318               0.000 fpga_clk_50 
-Info (332146): Worst-case recovery slack is 3.236
+    Info (332119):     0.295               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.322               0.000 fpga_clk_50 
+Info (332146): Worst-case recovery slack is 3.077
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     3.236               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
+    Info (332119):     3.077               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
     Info (332119):     3.375               0.000 system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk 
-    Info (332119):     6.593               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119):    15.157               0.000 fpga_clk_50 
+    Info (332119):     6.483               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):    14.284               0.000 fpga_clk_50 
 Info (332146): Worst-case removal slack is 0.470
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
     Info (332119):     0.470               0.000 system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk 
-    Info (332119):     0.588               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119):     0.780               0.000 fpga_clk_50 
-    Info (332119):     0.819               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
+    Info (332119):     0.554               0.000 fpga_clk_50 
+    Info (332119):     0.649               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
+    Info (332119):     0.767               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
 Info (332146): Worst-case minimum pulse width slack is 0.608
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
@@ -3201,7 +3207,7 @@ Info (332146): Worst-case minimum pulse width slack is 0.608
     Info (332119):     0.892               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|fpll_0|fpll|vcoph[0] 
     Info (332119):     1.666               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
     Info (332119):     2.332               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
-    Info (332119):     3.753               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     3.758               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
     Info (332119):     8.879               0.000 fpga_clk_50 
     Info (332119):   149.670               0.000 i2c_scl 
 Info (332114): Report Metastability: Found 50 synchronizer chains.
@@ -3211,7 +3217,7 @@ Info (332114): Report Metastability: Found 50 synchronizer chains.
     Info (332114): Number of Synchronizer Chains Found: 50
     Info (332114): Shortest Synchronizer Chain: 2 Registers
     Info (332114): Fraction of Chains for which MTBFs Could Not be Calculated: 0.200
-    Info (332114): Worst Case Available Settling Time: 10.050 ns
+    Info (332114): Worst Case Available Settling Time: 9.276 ns
     Info (332114): Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
     Info (332114):   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 79.4
     Info (332114): Typical MTBF values are calculated based on the nominal silicon characteristics, at nominal operating conditions.
@@ -3376,34 +3382,34 @@ Info (332171): The following clock uncertainty values are less than the recommen
     Info (332172): Hold clock transfer from system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|pll_write_clk_dq_write_clk (Rise) to memory_mem_dqs_n[3]_OUT (Rise) has uncertainty 0.000 that is less than the recommended uncertainty 0.210
     Info (332172): Setup clock transfer from system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|pll_write_clk_dq_write_clk (Fall) to memory_mem_dqs_n[3]_OUT (Rise) has uncertainty 0.000 that is less than the recommended uncertainty 0.210
     Info (332172): Hold clock transfer from system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|pll_write_clk_dq_write_clk (Fall) to memory_mem_dqs_n[3]_OUT (Rise) has uncertainty 0.000 that is less than the recommended uncertainty 0.210
-Info (332146): Worst-case setup slack is 1.018
+Info (332146): Worst-case setup slack is 0.611
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     1.018               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
+    Info (332119):     0.611               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
     Info (332119):     1.727               0.000 system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk 
-    Info (332119):     3.440               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119):     4.804               0.000 fpga_clk_50 
+    Info (332119):     3.821               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     5.138               0.000 fpga_clk_50 
 Info (332146): Worst-case hold slack is 0.162
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
     Info (332119):     0.162               0.000 system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk 
     Info (332119):     0.209               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
-    Info (332119):     0.277               0.000 fpga_clk_50 
-    Info (332119):     0.285               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-Info (332146): Worst-case recovery slack is 3.400
+    Info (332119):     0.273               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.298               0.000 fpga_clk_50 
+Info (332146): Worst-case recovery slack is 3.264
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     3.400               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
+    Info (332119):     3.264               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
     Info (332119):     3.468               0.000 system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk 
-    Info (332119):     6.753               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119):    15.384               0.000 fpga_clk_50 
+    Info (332119):     6.659               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):    14.468               0.000 fpga_clk_50 
 Info (332146): Worst-case removal slack is 0.460
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
     Info (332119):     0.460               0.000 system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk 
-    Info (332119):     0.528               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119):     0.708               0.000 fpga_clk_50 
-    Info (332119):     0.755               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
+    Info (332119):     0.518               0.000 fpga_clk_50 
+    Info (332119):     0.600               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
+    Info (332119):     0.707               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
 Info (332146): Worst-case minimum pulse width slack is 0.613
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
@@ -3411,9 +3417,9 @@ Info (332146): Worst-case minimum pulse width slack is 0.613
     Info (332119):     0.630               0.000 system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk 
     Info (332119):     0.892               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|fpll_0|fpll|vcoph[0] 
     Info (332119):     1.666               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
-    Info (332119):     2.310               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
-    Info (332119):     3.725               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119):     8.912               0.000 fpga_clk_50 
+    Info (332119):     2.311               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
+    Info (332119):     3.729               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     8.913               0.000 fpga_clk_50 
     Info (332119):   149.674               0.000 i2c_scl 
 Info (332114): Report Metastability: Found 50 synchronizer chains.
     Info (332114): Worst-Case MTBF of Design is 1e+09 years or 3.15e+16 seconds.
@@ -3422,7 +3428,7 @@ Info (332114): Report Metastability: Found 50 synchronizer chains.
     Info (332114): Number of Synchronizer Chains Found: 50
     Info (332114): Shortest Synchronizer Chain: 2 Registers
     Info (332114): Fraction of Chains for which MTBFs Could Not be Calculated: 0.200
-    Info (332114): Worst Case Available Settling Time: 10.154 ns
+    Info (332114): Worst Case Available Settling Time: 9.382 ns
     Info (332114): Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
     Info (332114):   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 5.2
     Info (332114): Typical MTBF values are calculated based on the nominal silicon characteristics, at nominal operating conditions.
@@ -3591,29 +3597,29 @@ Info (332146): Worst-case setup slack is 2.110
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
     Info (332119):     2.110               0.000 system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk 
-    Info (332119):     3.372               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
-    Info (332119):     5.806               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119):     9.549               0.000 fpga_clk_50 
+    Info (332119):     3.042               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
+    Info (332119):     6.153               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):    10.218               0.000 fpga_clk_50 
 Info (332146): Worst-case hold slack is 0.084
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
     Info (332119):     0.084               0.000 system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk 
     Info (332119):     0.131               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
-    Info (332119):     0.176               0.000 fpga_clk_50 
-    Info (332119):     0.178               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.175               0.000 fpga_clk_50 
+    Info (332119):     0.177               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
 Info (332146): Worst-case recovery slack is 3.727
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
     Info (332119):     3.727               0.000 system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk 
-    Info (332119):     4.472               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
-    Info (332119):     7.704               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119):    16.696               0.000 fpga_clk_50 
-Info (332146): Worst-case removal slack is 0.337
+    Info (332119):     4.321               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
+    Info (332119):     7.574               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):    16.152               0.000 fpga_clk_50 
+Info (332146): Worst-case removal slack is 0.302
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.337               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119):     0.454               0.000 fpga_clk_50 
-    Info (332119):     0.489               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
+    Info (332119):     0.302               0.000 fpga_clk_50 
+    Info (332119):     0.350               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
+    Info (332119):     0.455               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
     Info (332119):     0.497               0.000 system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk 
 Info (332146): Worst-case minimum pulse width slack is 0.883
     Info (332119):     Slack       End Point TNS Clock 
@@ -3622,9 +3628,9 @@ Info (332146): Worst-case minimum pulse width slack is 0.883
     Info (332119):     0.891               0.000 system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk 
     Info (332119):     0.892               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|fpll_0|fpll|vcoph[0] 
     Info (332119):     1.666               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
-    Info (332119):     2.452               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
-    Info (332119):     3.879               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119):     8.482               0.000 fpga_clk_50 
+    Info (332119):     2.451               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
+    Info (332119):     3.884               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     8.481               0.000 fpga_clk_50 
     Info (332119):   149.336               0.000 i2c_scl 
 Info (332114): Report Metastability: Found 50 synchronizer chains.
     Info (332114): Worst-Case MTBF of Design is 1e+09 years or 3.15e+16 seconds.
@@ -3633,7 +3639,7 @@ Info (332114): Report Metastability: Found 50 synchronizer chains.
     Info (332114): Number of Synchronizer Chains Found: 50
     Info (332114): Shortest Synchronizer Chain: 2 Registers
     Info (332114): Fraction of Chains for which MTBFs Could Not be Calculated: 0.200
-    Info (332114): Worst Case Available Settling Time: 11.715 ns
+    Info (332114): Worst Case Available Settling Time: 11.191 ns
     Info (332114): Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
     Info (332114):   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 79.4
     Info (332114): Typical MTBF values are calculated based on the nominal silicon characteristics, at nominal operating conditions.
@@ -3800,29 +3806,29 @@ Info (332146): Worst-case setup slack is 2.110
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
     Info (332119):     2.110               0.000 system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk 
-    Info (332119):     3.740               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
-    Info (332119):     6.132               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119):    10.485               0.000 fpga_clk_50 
+    Info (332119):     3.481               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
+    Info (332119):     6.485               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):    10.978               0.000 fpga_clk_50 
 Info (332146): Worst-case hold slack is 0.077
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
     Info (332119):     0.077               0.000 system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk 
     Info (332119):     0.122               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
-    Info (332119):     0.163               0.000 fpga_clk_50 
-    Info (332119):     0.163               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.160               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.167               0.000 fpga_clk_50 
 Info (332146): Worst-case recovery slack is 3.825
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
     Info (332119):     3.825               0.000 system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk 
-    Info (332119):     4.783               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
-    Info (332119):     7.980               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119):    17.105               0.000 fpga_clk_50 
-Info (332146): Worst-case removal slack is 0.290
+    Info (332119):     4.648               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
+    Info (332119):     7.869               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):    16.586               0.000 fpga_clk_50 
+Info (332146): Worst-case removal slack is 0.274
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.290               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119):     0.393               0.000 fpga_clk_50 
-    Info (332119):     0.429               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
+    Info (332119):     0.274               0.000 fpga_clk_50 
+    Info (332119):     0.317               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
+    Info (332119):     0.395               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
     Info (332119):     0.473               0.000 system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk 
 Info (332146): Worst-case minimum pulse width slack is 0.887
     Info (332119):     Slack       End Point TNS Clock 
@@ -3832,8 +3838,8 @@ Info (332146): Worst-case minimum pulse width slack is 0.887
     Info (332119):     0.894               0.000 system:the_system|system_acl_iface:acl_iface|system_acl_iface_hps:hps|system_acl_iface_hps_hps_io:hps_io|system_acl_iface_hps_hps_io_border:border|hps_sdram:hps_sdram_inst|hps_sdram_pll:pll|afi_clk_write_clk 
     Info (332119):     1.666               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
     Info (332119):     2.453               0.000 the_system|acl_iface|acl_kernel_clk|kernel_pll|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
-    Info (332119):     3.881               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
-    Info (332119):     8.435               0.000 fpga_clk_50 
+    Info (332119):     3.884               0.000 the_system|acl_iface|pll|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     8.433               0.000 fpga_clk_50 
     Info (332119):   149.286               0.000 i2c_scl 
 Info (332114): Report Metastability: Found 50 synchronizer chains.
     Info (332114): Worst-Case MTBF of Design is 1e+09 years or 3.15e+16 seconds.
@@ -3842,7 +3848,7 @@ Info (332114): Report Metastability: Found 50 synchronizer chains.
     Info (332114): Number of Synchronizer Chains Found: 50
     Info (332114): Shortest Synchronizer Chain: 2 Registers
     Info (332114): Fraction of Chains for which MTBFs Could Not be Calculated: 0.200
-    Info (332114): Worst Case Available Settling Time: 11.903 ns
+    Info (332114): Worst Case Available Settling Time: 11.443 ns
     Info (332114): Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
     Info (332114):   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 5.2
     Info (332114): Typical MTBF values are calculated based on the nominal silicon characteristics, at nominal operating conditions.
@@ -3886,14 +3892,14 @@ Info: Write (Fast 1100mV 0C Model)                          |  0.338  0.338
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime TimeQuest Timing Analyzer was successful. 0 errors, 265 warnings
-    Info: Peak virtual memory: 2273 megabytes
-    Info: Processing ended: Mon Oct 14 16:09:20 2019
-    Info: Elapsed time: 00:00:55
-    Info: Total CPU time (on all processors): 00:01:18
+    Info: Peak virtual memory: 2271 megabytes
+    Info: Processing ended: Tue Oct 15 16:38:25 2019
+    Info: Elapsed time: 00:00:44
+    Info: Total CPU time (on all processors): 00:01:03
 Info: *******************************************************************
 Info: Running Quartus Prime Compiler Database Interface
     Info: Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
-    Info: Processing started: Mon Oct 14 16:09:26 2019
+    Info: Processing started: Tue Oct 15 16:38:31 2019
 Info: Command: quartus_cdb -t scripts/post_flow.tcl compile top top
 Info: Quartus(args): compile top top
 Info: Using INI file /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/quartus.ini
@@ -3909,13 +3915,13 @@ Info: create_fpga_bin.tcl: Created fpga.bin with one section
 Info (23030): Evaluation of Tcl script scripts/post_flow.tcl was successful
 Info: Quartus Prime Compiler Database Interface was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 1285 megabytes
-    Info: Processing ended: Mon Oct 14 16:13:41 2019
-    Info: Elapsed time: 00:04:15
-    Info: Total CPU time (on all processors): 00:01:36
-Info (293000): Quartus Prime Full Compilation was successful. 0 errors, 1060 warnings
+    Info: Processing ended: Tue Oct 15 16:42:27 2019
+    Info: Elapsed time: 00:03:56
+    Info: Total CPU time (on all processors): 00:01:18
+Info (293000): Quartus Prime Full Compilation was successful. 0 errors, 1066 warnings
 Info (23030): Evaluation of Tcl script /usr/commercial_amd64/altera/15.1/quartus/common/tcl/internal/qsh_flow.tcl was successful
-Info: Quartus Prime Shell was successful. 0 errors, 1060 warnings
-    Info: Peak virtual memory: 1053 megabytes
-    Info: Processing ended: Mon Oct 14 16:14:00 2019
-    Info: Elapsed time: 00:14:07
-    Info: Total CPU time (on all processors): 00:15:54
+Info: Quartus Prime Shell was successful. 0 errors, 1066 warnings
+    Info: Peak virtual memory: 1058 megabytes
+    Info: Processing ended: Tue Oct 15 16:42:46 2019
+    Info: Elapsed time: 00:13:04
+    Info: Total CPU time (on all processors): 00:13:29

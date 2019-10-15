@@ -1,11 +1,11 @@
-Fitter Status : Successful - Mon Oct 14 17:36:57 2019
+Fitter Status : Successful - Tue Oct 15 16:26:35 2019
 Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Standard Edition
 Revision Name : example
 Top-level Entity Name : lab2_board
 Family : Cyclone V
 Device : 5CSEMA5F31C6
 Timing Models : Final
-Logic utilization (in ALMs) : 9 / 32,070 ( < 1 % )
+Logic utilization (in ALMs) : 11 / 32,070 ( < 1 % )
 Total registers : 8
 Total pins : 38 / 457 ( 8 % )
 Total virtual pins : 0

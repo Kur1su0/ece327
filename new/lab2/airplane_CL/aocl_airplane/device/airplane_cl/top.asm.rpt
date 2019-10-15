@@ -1,5 +1,5 @@
 Assembler report for top
-Mon Oct 14 16:10:20 2019
+Tue Oct 15 16:39:17 2019
 Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
 
 
@@ -38,7 +38,7 @@ agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Mon Oct 14 16:10:20 2019 ;
+; Assembler Status      ; Successful - Tue Oct 15 16:39:17 2019 ;
 ; Revision Name         ; top                                   ;
 ; Top-level Entity Name ; top                                   ;
 ; Family                ; Cyclone V                             ;
@@ -94,8 +94,8 @@ agreement for further details.
 ; Option         ; Setting          ;
 +----------------+------------------+
 ; Device         ; 5CSEMA5F31C6     ;
-; JTAG usercode  ; 0x019B0D5B       ;
-; Checksum       ; 0x019B0D5B       ;
+; JTAG usercode  ; 0x019B39D4       ;
+; Checksum       ; 0x019B39D4       ;
 +----------------+------------------+
 
 
@@ -105,15 +105,17 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
-    Info: Processing started: Mon Oct 14 16:10:01 2019
+    Info: Processing started: Tue Oct 15 16:39:02 2019
 Info: Command: quartus_asm --read_settings_files=on --write_settings_files=off top -c top
 Info: Using INI file /users/zicew/git/ece327/new/lab2/airplane_CL/aocl_airplane/device/airplane_cl/quartus.ini
 Info (115030): Assembler is generating device programming files
-Info (11878): Hard Processor Subsystem configuration has not changed and a Preloader software update is not required
-Info: Quartus Prime Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 1256 megabytes
-    Info: Processing ended: Mon Oct 14 16:10:20 2019
-    Info: Elapsed time: 00:00:19
-    Info: Total CPU time (on all processors): 00:00:17
+Warning (11713): The configuration of the Hard Processor Subsystem (HPS) within this design has changed.
+The Preloader software that initializes the HPS requires an update.
+Using hps_isw_handoff/system_acl_iface_hps/, run the Preloader Support Package Generator to update your Preloader software
+Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 1254 megabytes
+    Info: Processing ended: Tue Oct 15 16:39:18 2019
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:13
 
 
