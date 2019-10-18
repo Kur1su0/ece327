@@ -76,24 +76,28 @@ always : PROCESS
 BEGIN                                                         
         -- code executes for every event on sensitivity list  
 		  
-		--TEST ivalid..  
-		rst<='1'; --LOW Activate
-		clk<='0';
-	  	clk<='1';
-		ivalid<='0';
-      input<="000";
-		wait for 10ns;
-		 --TEST clk =0
-		 
-		 clk<='0';
-		 ivalid<='1';
-		wait for 10ns;
-		 
+      rst<='1'; --LOW Activate
 		--TEST state gnd
 		clk<='1';
 		ivalid<='1';
       input<="000";
 		wait for 10ns;	  
+		
+		--TEST ivalid..  
+		
+		clk<='0';
+	  	clk<='1';
+		ivalid<='0';
+      input<="100";
+		wait for 10ns;
+		 --TEST clk =0
+		 
+		 clk<='0';
+		 ivalid<='1';
+		 input<="100";
+		wait for 10ns;
+		 
+		
 		
 		--TEST gnd-->10k
 		clk<='0';
@@ -115,7 +119,7 @@ BEGIN
 			clk<='0';	
 		wait for 10ns;
 		clk<='1';
-		input<="100";
+		input<="010";
 		wait for 10ns;
 		
 		--TEST 10k->25k and s1->s2->s3->s4->s5
@@ -123,7 +127,7 @@ BEGIN
     	clk<='0';	
 		wait for 10ns;
 		clk<='1';
-		input<="100";
+		input<="010";
 		wait for 10ns;
 		--2. -->s1
 		clk<='0';	
