@@ -13,11 +13,11 @@ entity mux is
         );
 end mux;
 architecture struct of mux is
-    signal internal_d: std_logic_vector(BUS_WID downto 0);
+    signal internal_Mux_out: std_logic_vector(BUS_WID downto 0);
     
     begin
         with RXout_sel select
-            Mux_out<= R7  when "10000000",
+            internal_Mux_out<= R7  when "10000000",
                       R6  when "01000000",
                       R5  when "00100000",
                       R4  when "00010000",
@@ -30,14 +30,14 @@ architecture struct of mux is
         
         
         with DINout_sel select
-            Mux_out<= DIN when '1',
+            internal_Mux_out<= DIN when '1',
                       unaffected when others;
         with Gout_sel select
-            Mux_out<= G when '1',
+            internal_Mux_out<= G when '1',
                       unaffected when others;
 
 
-
+       Mux_out<=internal_Mux_out;
 end struct;
 
 
