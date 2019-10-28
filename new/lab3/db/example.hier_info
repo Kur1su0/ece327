@@ -29,37 +29,15 @@ DIN[6] => ff:IR_ff.d[6]
 DIN[6] => mux:MUX_sel.DIN[6]
 DIN[7] => ff:IR_ff.d[7]
 DIN[7] => mux:MUX_sel.DIN[7]
-Bus_out[0] << mux:MUX_sel.Mux_out[0]
-Bus_out[1] << mux:MUX_sel.Mux_out[1]
-Bus_out[2] << mux:MUX_sel.Mux_out[2]
-Bus_out[3] << mux:MUX_sel.Mux_out[3]
-Bus_out[4] << mux:MUX_sel.Mux_out[4]
-Bus_out[5] << mux:MUX_sel.Mux_out[5]
-Bus_out[6] << mux:MUX_sel.Mux_out[6]
-Bus_out[7] << mux:MUX_sel.Mux_out[7]
-Done << fsm:state_machine.Done
-out_out[0] << fsm:state_machine.out_sig[0]
-out_out[1] << fsm:state_machine.out_sig[1]
-out_out[2] << fsm:state_machine.out_sig[2]
-out_out[3] << fsm:state_machine.out_sig[3]
-out_out[4] << fsm:state_machine.out_sig[4]
-out_out[5] << fsm:state_machine.out_sig[5]
-out_out[6] << fsm:state_machine.out_sig[6]
-out_out[7] << fsm:state_machine.out_sig[7]
-out_out[8] << fsm:state_machine.out_sig[8]
-out_out[9] << fsm:state_machine.out_sig[9]
-in_out[0] << fsm:state_machine.in_sig[0]
-in_out[1] << fsm:state_machine.in_sig[1]
-in_out[2] << fsm:state_machine.in_sig[2]
-in_out[3] << fsm:state_machine.in_sig[3]
-in_out[4] << fsm:state_machine.in_sig[4]
-in_out[5] << fsm:state_machine.in_sig[5]
-in_out[6] << fsm:state_machine.in_sig[6]
-in_out[7] << fsm:state_machine.in_sig[7]
-in_out[8] << fsm:state_machine.in_sig[8]
-in_out[9] << fsm:state_machine.in_sig[9]
-in_out[10] << fsm:state_machine.in_sig[10]
-in_out[11] << fsm:state_machine.in_sig[11]
+Bus_out[0] <= mux:MUX_sel.Mux_out[0]
+Bus_out[1] <= mux:MUX_sel.Mux_out[1]
+Bus_out[2] <= mux:MUX_sel.Mux_out[2]
+Bus_out[3] <= mux:MUX_sel.Mux_out[3]
+Bus_out[4] <= mux:MUX_sel.Mux_out[4]
+Bus_out[5] <= mux:MUX_sel.Mux_out[5]
+Bus_out[6] <= mux:MUX_sel.Mux_out[6]
+Bus_out[7] <= mux:MUX_sel.Mux_out[7]
+Done <= fsm:state_machine.Done
 
 
 |lab3|ff:R0
@@ -761,18 +739,12 @@ IR[7] => Equal0.IN0
 IR[7] => Equal1.IN0
 IR[7] => Equal2.IN1
 IR[7] => Equal3.IN0
-Run => state.sub3.OUTPUTSELECT
-Run => state.sub2.OUTPUTSELECT
-Run => state.sub1.OUTPUTSELECT
-Run => state.add3.OUTPUTSELECT
-Run => state.add2.OUTPUTSELECT
-Run => state.add1.OUTPUTSELECT
-Run => state.mvi.OUTPUTSELECT
-Run => state.mv.OUTPUTSELECT
-Run => state.load_IR.OUTPUTSELECT
-Run => state.init.OUTPUTSELECT
-Resetn => state~13.DATAIN
-clk => state~11.DATAIN
+Run => state.OUTPUTSELECT
+Run => state.OUTPUTSELECT
+Run => state.OUTPUTSELECT
+Run => state.OUTPUTSELECT
+Resetn => state~7.DATAIN
+clk => state~5.DATAIN
 out_sig[0] <= out_sig_signal[0].DB_MAX_OUTPUT_PORT_TYPE
 out_sig[1] <= out_sig_signal[1].DB_MAX_OUTPUT_PORT_TYPE
 out_sig[2] <= out_sig_signal[2].DB_MAX_OUTPUT_PORT_TYPE
@@ -795,6 +767,6 @@ in_sig[8] <= in_sig_signal[8].DB_MAX_OUTPUT_PORT_TYPE
 in_sig[9] <= in_sig_signal[9].DB_MAX_OUTPUT_PORT_TYPE
 in_sig[10] <= in_sig_signal[10].DB_MAX_OUTPUT_PORT_TYPE
 in_sig[11] <= in_sig_signal[11].DB_MAX_OUTPUT_PORT_TYPE
-Done <= Selector22.DB_MAX_OUTPUT_PORT_TYPE
+Done <= DONE_signal.DB_MAX_OUTPUT_PORT_TYPE
 
 

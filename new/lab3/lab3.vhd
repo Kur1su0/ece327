@@ -9,9 +9,8 @@ entity lab3 is
 	 clk,Run,Resetn : in std_logic;
     DIN            : in std_logic_vector(n-1 downto 0);
     Bus_out        : out std_logic_vector(n-1 downto 0);	 
-    Done           : out std_logic;
-	 out_out     : out std_logic_vector(9 downto 0); --           DINout/Gout/R7-0out
-	       in_out      : out std_logic_vector(11 downto 0)--/IRin/Addsub/Ain/Gin/R7-0in
+    Done           : out std_logic
+	
 	 );
 	 
 end lab3;
@@ -167,7 +166,6 @@ begin
 	 R1_in<=in_sig_signal(1);
 	 R0_in<=in_sig_signal(0);
 	 Bus_out<=Bus_signal;
-	 out_out<=out_sig_signal;
-	 in_out<=in_sig_signal;
+	
 
 end struct;

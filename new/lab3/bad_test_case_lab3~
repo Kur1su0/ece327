@@ -1,0 +1,63 @@
+ -- code executes for every event on sensitivity list  
+		  DIN<="00001001";
+		  Run<='1';
+		  clk<='0';  wait for 10ns; 
+		  Resetn<='0';  wait for 10ns;
+		  Resetn<='1'; --low activate
+		  
+		  --test 2 : mv
+		 
+		  clk<='1'; wait for 10ns;
+		 
+		  clk<='0'; wait for 10ns;
+		  
+		  
+		  clk<='1'; wait for 10ns;
+		  clk<='0'; wait for 10ns;
+		  clk<='1'; wait for 10ns;
+		  
+		   -- test 3: mvi
+        DIN<="01001001";
+		  clk<='0'; wait for 10ns;
+		  clk<='1'; wait for 10ns;
+		 
+		 
+		  
+		  clk<='0'; wait for 10ns;
+		  clk<='1'; wait for 10ns;
+		  
+		  clk<='0'; wait for 10ns;
+		  clk<='1'; wait for 10ns;
+		  --test 4: Add init=>load_ir->sub1->sub2->sub3
+		  DIN<="11001010";
+		  clk<='0'; wait for 10ns;
+		  clk<='1'; wait for 10ns;
+		  
+		  clk<='0'; wait for 10ns;
+		  clk<='1'; wait for 10ns;
+		  
+		  clk<='0'; wait for 10ns;
+		  clk<='1'; wait for 10ns;
+		  
+		  clk<='0'; wait for 10ns;
+		  clk<='1'; wait for 10ns;
+		  
+		  clk<='0'; wait for 10ns;
+		  clk<='1'; wait for 10ns;
+		  
+		  --test 5: Add init=>load_ir->add1->add2->add3
+		  DIN<="10001010";
+		  clk<='0'; wait for 10ns;
+		  clk<='1'; wait for 10ns;
+		  
+		  clk<='0'; wait for 10ns;
+		  clk<='1'; wait for 10ns;
+		  
+		  clk<='0'; wait for 10ns;
+		  clk<='1'; wait for 10ns;
+		  
+		  clk<='0'; wait for 10ns;
+		  clk<='1'; wait for 10ns;
+		  
+		  clk<='0'; wait for 10ns;
+		  clk<='1'; wait for 10ns; 

@@ -1,41 +1,41 @@
-# Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
 # do example_run_msim_rtl_vhdl.do
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
 # vlib rtl_work
 # vmap work rtl_work
-# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
 # vmap work rtl_work 
-# Copying C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Copying /usr/commercial_amd64/altera/16.0/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vcom -93 -work work {C:/Users/W/Documents/ece327/new/lab3/lab3.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:16:16 on Oct 27,2019
-# vcom -reportprogress 300 -93 -work work C:/Users/W/Documents/ece327/new/lab3/lab3.vhd 
+# vcom -93 -work work {/users/zicew/git/ece327/new/lab3/lab3.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:36:59 on Oct 28,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab3/lab3.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lab3
 # -- Compiling architecture struct of lab3
-# End time: 21:16:16 on Oct 27,2019, Elapsed time: 0:00:00
+# End time: 13:36:59 on Oct 28,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/W/Documents/ece327/new/lab3/fsm.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:16:16 on Oct 27,2019
-# vcom -reportprogress 300 -93 -work work C:/Users/W/Documents/ece327/new/lab3/fsm.vhd 
+# vcom -93 -work work {/users/zicew/git/ece327/new/lab3/fsm.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:36:59 on Oct 28,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab3/fsm.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity fsm
 # -- Compiling architecture struct of fsm
-# End time: 21:16:16 on Oct 27,2019, Elapsed time: 0:00:00
+# End time: 13:36:59 on Oct 28,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/W/Documents/ece327/new/lab3/Adder.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:16:16 on Oct 27,2019
-# vcom -reportprogress 300 -93 -work work C:/Users/W/Documents/ece327/new/lab3/Adder.vhd 
+# vcom -93 -work work {/users/zicew/git/ece327/new/lab3/Adder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:36:59 on Oct 28,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab3/Adder.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -43,12 +43,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity Adder
 # -- Compiling architecture struc of Adder
-# End time: 21:16:16 on Oct 27,2019, Elapsed time: 0:00:00
+# End time: 13:36:59 on Oct 28,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/W/Documents/ece327/new/lab3/addsub.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:16:16 on Oct 27,2019
-# vcom -reportprogress 300 -93 -work work C:/Users/W/Documents/ece327/new/lab3/addsub.vhd 
+# vcom -93 -work work {/users/zicew/git/ece327/new/lab3/addsub.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:36:59 on Oct 28,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab3/addsub.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -56,79 +56,65 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity addsub
 # -- Compiling architecture struc of addsub
-# End time: 21:16:16 on Oct 27,2019, Elapsed time: 0:00:00
+# End time: 13:36:59 on Oct 28,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/W/Documents/ece327/new/lab3/mux.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:16:16 on Oct 27,2019
-# vcom -reportprogress 300 -93 -work work C:/Users/W/Documents/ece327/new/lab3/mux.vhd 
+# vcom -93 -work work {/users/zicew/git/ece327/new/lab3/mux.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:36:59 on Oct 28,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab3/mux.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity mux
 # -- Compiling architecture struct of mux
-# End time: 21:16:17 on Oct 27,2019, Elapsed time: 0:00:01
+# End time: 13:36:59 on Oct 28,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/W/Documents/ece327/new/lab3/ff.vhd}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:16:17 on Oct 27,2019
-# vcom -reportprogress 300 -93 -work work C:/Users/W/Documents/ece327/new/lab3/ff.vhd 
+# vcom -93 -work work {/users/zicew/git/ece327/new/lab3/ff.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:36:59 on Oct 28,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab3/ff.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity ff
 # -- Compiling architecture mixed of ff
-# End time: 21:16:17 on Oct 27,2019, Elapsed time: 0:00:00
+# End time: 13:36:59 on Oct 28,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vcom -93 -work work {C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht}
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:16:17 on Oct 27,2019
-# vcom -reportprogress 300 -93 -work work C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht 
+# vcom -93 -work work {/users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht}
+# Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:36:59 on Oct 28,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lab3_vhd_tst
 # -- Compiling architecture lab3_arch of lab3_vhd_tst
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(82): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(93): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(94): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(100): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(107): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(108): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(111): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(112): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(114): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(115): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(117): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(118): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(121): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(124): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(128): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(129): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(131): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(132): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(134): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(135): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(137): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(138): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(140): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht(141): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 21:16:17 on Oct 27,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 33
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(79): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(80): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(81): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(82): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(91): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(94): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(108): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(109): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(111): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(112): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(114): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(115): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 13:36:59 on Oct 28,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 19
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  lab3_vhd_tst
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" lab3_vhd_tst 
-# Start time: 21:16:17 on Oct 27,2019
+# Start time: 13:36:59 on Oct 28,2019
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -165,68 +151,73 @@
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ps  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 10 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 4  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 10 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 40 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 55 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 40 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 55 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 40 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 60 ns  Iteration: 8  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 60 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 60 ns  Iteration: 8  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 60 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 80 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 70 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 80 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 70 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 100 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 130 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 100 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 130 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 105 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 160 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 105 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+add wave -position insertpoint  \
+sim:/lab3_vhd_tst/i1/state_machine/state
+restart -f
+# ** Warning: (vsim-8683) Uninitialized out port /lab3_vhd_tst/i1/Add_sub/ovf has no driver.
+# This port will contribute value (U) to the signal network.
+run -all
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 160 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 0 ps  Iteration: 0  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 180 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 0 ps  Iteration: 0  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 180 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 0 ps  Iteration: 0  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 200 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 0 ps  Iteration: 0  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 200 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 0 ps  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 220 ns  Iteration: 5  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 0 ps  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 220 ns  Iteration: 5  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 0 ps  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 260 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 10 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 260 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 10 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 280 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 55 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 280 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 55 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 280 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 60 ns  Iteration: 8  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 280 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 60 ns  Iteration: 8  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 280 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 80 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 280 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 80 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 300 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 100 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 300 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 100 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 300 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+#    Time: 105 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 320 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 320 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
-# End time: 21:38:17 on Oct 27,2019, Elapsed time: 0:22:00
+#    Time: 105 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /users/zicew/git/ece327/new/lab3/simulation/modelsim/wave.do
+# End time: 13:37:45 on Oct 28,2019, Elapsed time: 0:00:46
 # Errors: 0, Warnings: 40

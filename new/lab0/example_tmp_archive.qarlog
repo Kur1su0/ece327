@@ -1,0 +1,24 @@
+Quartus Prime Archive log --	/users/zicew/git/ece327/new/lab0/example_tmp_archive.qarlog
+
+Archive:	/users/zicew/git/ece327/new/lab0/example_tmp_archive.qar
+Date:		Fri Oct 25 13:58:14 2019
+Quartus Prime		16.0.0 Build 211 04/27/2016 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/users/zicew/git/ece327/new/lab0/example.qpf
+/users/zicew/git/ece327/new/lab0/example.qsf
+/users/zicew/git/ece327/new/lab0/example.vhd
+/users/zicew/git/ece327/new/lab0/example_board.vhd
+/users/zicew/git/ece327/new/lab0/output_files/Chain4.cdf
+/users/zicew/git/ece327/new/lab0/simulation/modelsim/example.vht
+/usr/commercial_amd64/altera/16.0/quartus/linux64/assignment_defaults.qdf
+	======= Total: 7 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Fri Oct 25 13:58:17 2019
+Source archive file:	/users/zicew/git/ece327/new/lab0/example_tmp_archive.qar
+Archive was extracted into	/users/zicew/git/ece327/new/lab3/
+		 - successfully.

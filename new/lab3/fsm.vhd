@@ -1,6 +1,6 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
-
+ 
 
 entity fsm is
     generic (n: integer := 16);
@@ -20,7 +20,8 @@ entity fsm is
 end fsm;
 
 ARCHITECTURE struct OF fsm IS
-    TYPE fsm_state IS (init,load_IR,mv,mvi,add1,add2,add3,sub1,sub2,sub3);
+    --TYPE fsm_state IS (init,mv,mvi,add1,add2,add3,sub1,sub2,sub3);
+	 TYPE fsm_state IS (T0,T1,T2,T3);
     SIGNAL state:fsm_state;
 	 SIGNAL reg_x, reg_y   : std_logic_vector(7 downto 0);
 	 SIGNAL ins            : std_logic_vector(1 downto 0);
@@ -29,42 +30,25 @@ ARCHITECTURE struct OF fsm IS
 	 SIGNAL DONE_signal    : std_logic;
 begin
     process(clk,Resetn) begin
-	     if Resetn='0' then state<=init;
-		      else if rising_edge(clk) and Run='1' then
+	     if Resetn='0' then state<=T0;
+		      else if rising_edge(clk)  then
 		          case state is
-					     when init=>
-						      state<=load_IR;
-     
+					     when T0=>
+						      if Run='1' then
+						          state<=T1;
+							   end if;
 						  
-						  when load_IR=>
-						      if    ins="00" then state<=mv;
-								elsif ins="01" then state<=mvi;
-								elsif ins="10" then state<=add1;
-								elsif ins="11" then state<=sub1;
+						  when T1=>
+						      if     ins="00" then state<=T0;
+								elsif  ins="01" then state<=T0;
+								elsif  ins="10" then state<=T2;
+								elsif  ins="11" then state<=T2;
 								end if;
-
-						  when mv=>
-						      state<=init;
-						  when mvi=>
-						      state<=init;
-						 
-						  when add1=>
-						      if ins="10" then state<=add2;
-								end if;
-						  when add2=>
-						      if ins="10" then state<=add3;
-								end if;
-						  when add3=>
-						      state<=init;
-						  
-						  when sub1=>
-						      if ins="11" then state<=sub2;
-								end if;
-						  when sub2=>
-						      if ins="11" then state<=sub3;
-								end if;
-						  when sub3=>
-						      state<=init;
+						      
+						  when T2=>
+						      state<=T3;
+						  when T3=>
+						      state<=T0;
 				    end case;
 				
 				end if; --clk & ivalid
@@ -107,90 +91,86 @@ begin
 	process(ins, state, reg_x, reg_y) begin
 	 --SIGNAL out_sig_signal : std_logic_vector(9 downto 0); --           DINout/Gout/R7-0out
 	 --SIGNAL in_sig_signal  : std_logic_vector(11 downto 0);--/IRin/Addsub/Ain/Gin/R7-0in
-	 DONE_signal<='0';
+	 --DONE_signal<='0';
 	    case state is
-		     when init   =>in_sig_signal<="100000000000";
+		     when T0   =>in_sig_signal<="100000000000";
 			                out_sig_signal<="0000000000";
 								  DONE_signal<='0';
 			      
+			                   
 			  
-			  
-			  when load_IR=>in_sig_signal<="000000000000";out_sig_signal<="0000000000";
-			  
+		
 			  -- instruvtion comdition if 00 01 10 11
 			  
+			  when T1=>        if  ins="00" then
+			                       in_sig_signal<="000000000000";out_sig_signal<="0000000000";
+			                       out_sig_signal(7 downto 0)<=reg_y; --RYout
+			                       in_sig_signal(7 downto 0)<=reg_x; -- RXin
+								        DONE_signal<='1';
 			  
-			  when mv=> if ins="00" then
-			                out_sig_signal(7 downto 0)<=reg_y; --RYout
-			                in_sig_signal(7 downto 0)<=reg_x; -- RXin
-								 DONE_signal<='1';
-								 
-							end if;
-							
-			  when mvi=> if ins="01" then
-			                 out_sig_signal(9)<='1'; --(din_out)
-							     in_sig_signal(7 downto 0)<=reg_x;
-								  Done_signal<='1';
-							 end if;
-			                 
-			  when add1=> if ins="10" then
-			                  out_sig_signal(7 downto 0)<=reg_x;
-							      in_sig_signal(9)<='1';	
-								    DONE_signal<='0';	
-							  
-							  end if;
-			  when add2=> if ins="10" then
-			                  --clear
-									in_sig_signal(9)<='0';
+								    elsif ins="01" then
+									      in_sig_signal<="000000000000";out_sig_signal<="0000000000";
+			                        out_sig_signal(9)<='1'; --(din_out)
+							            in_sig_signal(7 downto 0)<=reg_x;
+								         Done_signal<='1';
+									 
+								    elsif ins="10" then
+									      in_sig_signal<="000000000000";out_sig_signal<="0000000000";
+			                        out_sig_signal(7 downto 0)<=reg_x;
+							            in_sig_signal(9)<='1';	
+								         DONE_signal<='0';	 
+									 
+								    elsif ins="11" then
+									     in_sig_signal<="000000000000";out_sig_signal<="0000000000";
+			                       out_sig_signal(7 downto 0)<=reg_x;
+			                       in_sig_signal(9)<='1';
+									     DONE_signal<='0';
+									     
+									 
+								    end if;
+			 
+			 when T2=>        if ins="10" then
+									       --clear
+									    in_sig_signal(9)<='0';
 									
-			                  out_sig_signal(7 downto 0)<=reg_y;
-							      in_sig_signal(8)<='1';
-							      in_sig_signal(10)<='0';	--ADD	
-							       DONE_signal<='0';
-							  end if;
-			  
-			  
-			  when add3=>  if ins="10" then
-			                  --clear RYout&Gin
-									out_sig_signal(7 downto 0)<="00000000";
-									in_sig_signal(8)<='0';
-									
-			                  out_sig_signal(8)<='1';
-			                  in_sig_signal(7 downto 0)<=reg_x;
-							     	Done_signal<='1';
-							      
-							  end if;
-			  
-			  when sub1=>
-			              if ins="11" then
-			                  out_sig_signal(7 downto 0)<=reg_x;
-			                  in_sig_signal(9)<='1';
-									 DONE_signal<='0';
-							  end if;
-			  
-			  
-			  when sub2=>
-			              if ins="11" then
-							      --clear Ain.
-									in_sig_signal(9)<='0';
+			                      out_sig_signal(7 downto 0)<=reg_y;
+							          in_sig_signal(8)<='1';
+							          in_sig_signal(10)<='0';	--ADD	
+							          DONE_signal<='0'; 
+									  
+									 
+								    elsif ins="11" then 
+									     --clear Ain.
+									    in_sig_signal(9)<='0';
 							   
-			                  out_sig_signal(7 downto 0)<=reg_y;
-			                  in_sig_signal(8)<='1';
-									in_sig_signal(10)<='1';--SUB
-									 DONE_signal<='0';
-							  end if;
-							  
-			  when sub3=>
-			              if ins="11" then
-							  --clear RYout&Gin
-									out_sig_signal(7 downto 0)<="00000000";
-									in_sig_signal(8)<='0';
+			                      out_sig_signal(7 downto 0)<=reg_y;
+			                      in_sig_signal(8)<='1';
+									    in_sig_signal(10)<='1';--SUB
+									    DONE_signal<='0';
+									 
+								    end if;
+									 
+			when T3=>        if ins="10" then 
+									     --clear RYout&Gin
+									    out_sig_signal(7 downto 0)<="00000000";
+									    in_sig_signal(8)<='0';
+									
+			                      out_sig_signal(8)<='1';
+			                      in_sig_signal(7 downto 0)<=reg_x;
+							     	    Done_signal<='1';
+								    elsif ins="11" then
+									    --clear RYout&Gin
+									    out_sig_signal(7 downto 0)<="00000000";
+									    in_sig_signal(8)<='0';
 									
 									
-			                  out_sig_signal(8)<='1';
-			                  in_sig_signal(7 downto 0)<=reg_x;
-							     	Done_signal<='1';
-							  end if;
+			                      out_sig_signal(8)<='1';
+			                      in_sig_signal(7 downto 0)<=reg_x;
+							     	    Done_signal<='1'; 
+									 
+								    end if;
+			  
+
 			  
 			  
 			  end case;

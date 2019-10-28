@@ -1,6 +1,6 @@
 EDA Netlist Writer report for example
-Sun Oct 27 20:57:59 2019
-Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Mon Oct 28 13:36:43 2019
+Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
 
 
 ---------------------
@@ -15,26 +15,27 @@ Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2017  Intel Corporation. All rights reserved.
-Your use of Intel Corporation's design tools, logic functions 
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Intel Program License 
-Subscription Agreement, the Intel Quartus Prime License Agreement,
-the Intel FPGA IP License Agreement, or other applicable license
-agreement, including, without limitation, that your use is for
-the sole purpose of programming logic devices manufactured by
-Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details.
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
 
 
 
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Sun Oct 27 20:57:59 2019 ;
+; EDA Netlist Writer Status ; Successful - Mon Oct 28 13:36:43 2019 ;
 ; Revision Name             ; example                               ;
 ; Top-level Entity Name     ; lab3                                  ;
 ; Family                    ; Cyclone V                             ;
@@ -46,8 +47,8 @@ refer to the applicable agreement for further details.
 +-----------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
-    Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Sun Oct 27 20:57:58 2019
+    Info: Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+    Info: Processing started: Mon Oct 28 13:36:42 2019
 Info: Command: quartus_eda --read_settings_files=on --write_settings_files=off lab3 -c example --gen_testbench
 Warning (20013): Ignored 571 assignments for entity "DE1_SoC" -- entity does not exist in design
     Warning (20014): Assignment for entity set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_ADDR[0] -entity DE1_SoC was ignored
@@ -623,10 +624,10 @@ Warning (20013): Ignored 571 assignments for entity "DE1_SoC" -- entity does not
     Warning (20014): Assignment for entity set_instance_assignment -name D5_DELAY 2 -to HPS_DDR3_CK_P -entity DE1_SoC was ignored
 Info (119006): Selected device 5CSEMA5F31C6 for design "example"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (201002): Generated VHDL Test Bench File C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht for simulation
+Info (201002): Generated VHDL Test Bench File /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht for simulation
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 573 warnings
-    Info: Peak virtual memory: 4729 megabytes
-    Info: Processing ended: Sun Oct 27 20:57:59 2019
+    Info: Peak virtual memory: 1411 megabytes
+    Info: Processing ended: Mon Oct 28 13:36:43 2019
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

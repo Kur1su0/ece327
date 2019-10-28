@@ -12,30 +12,30 @@
 # 
 # vcom -93 -work work {/users/zicew/git/ece327/new/lab2/FSM.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 13:44:42 on Oct 18,2019
+# Start time: 12:16:20 on Oct 23,2019
 # vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab2/FSM.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity FSM
 # -- Compiling architecture struct of FSM
-# End time: 13:44:42 on Oct 18,2019, Elapsed time: 0:00:00
+# End time: 12:16:20 on Oct 23,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/users/zicew/git/ece327/new/lab2/lab2_board.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 13:44:42 on Oct 18,2019
+# Start time: 12:16:20 on Oct 23,2019
 # vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab2/lab2_board.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lab2_board
 # -- Compiling architecture struct of lab2_board
-# End time: 13:44:42 on Oct 18,2019, Elapsed time: 0:00:00
+# End time: 12:16:20 on Oct 23,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vcom -93 -work work {/users/zicew/git/ece327/new/lab2/simulation/modelsim/FSM.vht}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 13:44:42 on Oct 18,2019
+# Start time: 12:16:20 on Oct 23,2019
 # vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab2/simulation/modelsim/FSM.vht 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -67,12 +67,12 @@
 # ** Warning: /users/zicew/git/ece327/new/lab2/simulation/modelsim/FSM.vht(169): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # ** Warning: /users/zicew/git/ece327/new/lab2/simulation/modelsim/FSM.vht(173): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # ** Warning: /users/zicew/git/ece327/new/lab2/simulation/modelsim/FSM.vht(176): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 13:44:42 on Oct 18,2019, Elapsed time: 0:00:00
+# End time: 12:16:20 on Oct 23,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 25
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  FSM_vhd_tst
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" FSM_vhd_tst 
-# Start time: 13:44:42 on Oct 18,2019
+# Start time: 12:16:21 on Oct 23,2019
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -85,5 +85,3 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# End time: 15:05:41 on Oct 18,2019, Elapsed time: 1:20:59
-# Errors: 0, Warnings: 0
