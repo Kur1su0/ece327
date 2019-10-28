@@ -12,29 +12,29 @@
 # 
 # vcom -93 -work work {/users/zicew/git/ece327/new/lab3/lab3.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 13:36:59 on Oct 28,2019
+# Start time: 14:57:19 on Oct 28,2019
 # vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab3/lab3.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lab3
 # -- Compiling architecture struct of lab3
-# End time: 13:36:59 on Oct 28,2019, Elapsed time: 0:00:00
+# End time: 14:57:19 on Oct 28,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/users/zicew/git/ece327/new/lab3/fsm.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 13:36:59 on Oct 28,2019
+# Start time: 14:57:19 on Oct 28,2019
 # vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab3/fsm.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity fsm
 # -- Compiling architecture struct of fsm
-# End time: 13:36:59 on Oct 28,2019, Elapsed time: 0:00:00
+# End time: 14:57:19 on Oct 28,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/users/zicew/git/ece327/new/lab3/Adder.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 13:36:59 on Oct 28,2019
+# Start time: 14:57:19 on Oct 28,2019
 # vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab3/Adder.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -43,11 +43,11 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity Adder
 # -- Compiling architecture struc of Adder
-# End time: 13:36:59 on Oct 28,2019, Elapsed time: 0:00:00
+# End time: 14:57:19 on Oct 28,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/users/zicew/git/ece327/new/lab3/addsub.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 13:36:59 on Oct 28,2019
+# Start time: 14:57:19 on Oct 28,2019
 # vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab3/addsub.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -56,34 +56,34 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity addsub
 # -- Compiling architecture struc of addsub
-# End time: 13:36:59 on Oct 28,2019, Elapsed time: 0:00:00
+# End time: 14:57:19 on Oct 28,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/users/zicew/git/ece327/new/lab3/mux.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 13:36:59 on Oct 28,2019
+# Start time: 14:57:19 on Oct 28,2019
 # vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab3/mux.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity mux
 # -- Compiling architecture struct of mux
-# End time: 13:36:59 on Oct 28,2019, Elapsed time: 0:00:00
+# End time: 14:57:19 on Oct 28,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/users/zicew/git/ece327/new/lab3/ff.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 13:36:59 on Oct 28,2019
+# Start time: 14:57:19 on Oct 28,2019
 # vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab3/ff.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity ff
 # -- Compiling architecture mixed of ff
-# End time: 13:36:59 on Oct 28,2019, Elapsed time: 0:00:00
+# End time: 14:57:19 on Oct 28,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vcom -93 -work work {/users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 13:36:59 on Oct 28,2019
+# Start time: 14:57:19 on Oct 28,2019
 # vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -109,12 +109,12 @@
 # ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(112): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(114): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(115): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 13:36:59 on Oct 28,2019, Elapsed time: 0:00:00
+# End time: 14:57:19 on Oct 28,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 19
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  lab3_vhd_tst
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" lab3_vhd_tst 
-# Start time: 13:36:59 on Oct 28,2019
+# Start time: 14:57:19 on Oct 28,2019
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -174,50 +174,3 @@
 #    Time: 105 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 105 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
-add wave -position insertpoint  \
-sim:/lab3_vhd_tst/i1/state_machine/state
-restart -f
-# ** Warning: (vsim-8683) Uninitialized out port /lab3_vhd_tst/i1/Add_sub/ovf has no driver.
-# This port will contribute value (U) to the signal network.
-run -all
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 10 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 10 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 55 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 55 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 60 ns  Iteration: 8  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 60 ns  Iteration: 8  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 80 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 80 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 100 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 100 ns  Iteration: 3  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 105 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 105 ns  Iteration: 6  Instance: /lab3_vhd_tst/i1/Add_sub/Ai
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf /users/zicew/git/ece327/new/lab3/simulation/modelsim/wave.do
-# End time: 13:37:45 on Oct 28,2019, Elapsed time: 0:00:46
-# Errors: 0, Warnings: 40
