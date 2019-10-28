@@ -1,0 +1,13 @@
+
+State Machine - |lab3|fsm:state_machine|state
+Name state.sub3 state.sub2 state.sub1 state.add3 state.add2 state.add1 state.mvi state.mv state.load_IR state.init 
+state.init 0 0 0 0 0 0 0 0 0 0 
+state.load_IR 0 0 0 0 0 0 0 0 1 1 
+state.mv 0 0 0 0 0 0 0 1 0 1 
+state.mvi 0 0 0 0 0 0 1 0 0 1 
+state.add1 0 0 0 0 0 1 0 0 0 1 
+state.add2 0 0 0 0 1 0 0 0 0 1 
+state.add3 0 0 0 1 0 0 0 0 0 1 
+state.sub1 0 0 1 0 0 0 0 0 0 1 
+state.sub2 0 1 0 0 0 0 0 0 0 1 
+state.sub3 1 0 0 0 0 0 0 0 0 1 

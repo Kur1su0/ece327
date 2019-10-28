@@ -1,0 +1,291 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/W/Documents/ece327/new/lab3/simulation/modelsim
+Eadder
+Z1 w1572139950
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8C:/Users/W/Documents/ece327/new/lab3/Adder.vhd
+Z7 FC:/Users/W/Documents/ece327/new/lab3/Adder.vhd
+l0
+L5
+VRMW:JmM:2R7kSj8;Hh>J]0
+!s100 I?=K87oBKIZ;HbT<o]l[d2
+Z8 OV;C;10.5b;63
+31
+Z9 !s110 1572225376
+!i10b 1
+Z10 !s108 1572225376.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/W/Documents/ece327/new/lab3/Adder.vhd|
+Z12 !s107 C:/Users/W/Documents/ece327/new/lab3/Adder.vhd|
+!i113 1
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
+Astruc
+R2
+R3
+R4
+R5
+DEx4 work 5 adder 0 22 RMW:JmM:2R7kSj8;Hh>J]0
+l19
+L17
+V3n?hgMj]`7jBd<J6Z@iOE3
+!s100 c6RBN7NAWBC1KiVeIH>Ye3
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eaddsub
+Z15 w1572221893
+R2
+R3
+R4
+R5
+R0
+Z16 8C:/Users/W/Documents/ece327/new/lab3/addsub.vhd
+Z17 FC:/Users/W/Documents/ece327/new/lab3/addsub.vhd
+l0
+L5
+VS5[6Cn24mjLiYY_F^>Zfb0
+!s100 8OV2Eg<hZNdK3WlTDfd`N3
+R8
+31
+R9
+!i10b 1
+R10
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/W/Documents/ece327/new/lab3/addsub.vhd|
+Z19 !s107 C:/Users/W/Documents/ece327/new/lab3/addsub.vhd|
+!i113 1
+R13
+R14
+Astruc
+R2
+R3
+R4
+R5
+DEx4 work 6 addsub 0 22 S5[6Cn24mjLiYY_F^>Zfb0
+l29
+L16
+VL^eQW1:MMfXIRXeSFiSVm0
+!s100 DQN?OOEHmPPH?HSNUnGYJ3
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Eff
+Z20 w1572221966
+R4
+R5
+R0
+Z21 8C:/Users/W/Documents/ece327/new/lab3/ff.vhd
+Z22 FC:/Users/W/Documents/ece327/new/lab3/ff.vhd
+l0
+L3
+VlMV`F]:m1cbYG[ScodZPe1
+!s100 42jARo4TALQd@=L^6o6JX2
+R8
+31
+Z23 !s110 1572225377
+!i10b 1
+Z24 !s108 1572225377.000000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/W/Documents/ece327/new/lab3/ff.vhd|
+Z26 !s107 C:/Users/W/Documents/ece327/new/lab3/ff.vhd|
+!i113 1
+R13
+R14
+Amixed
+R4
+R5
+DEx4 work 2 ff 0 22 lMV`F]:m1cbYG[ScodZPe1
+l18
+L15
+VU^F5@_cBEgLaW`fBm31k?3
+!s100 ^Tlm3bW3hYAFM[@K>WdO<1
+R8
+31
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R13
+R14
+Efsm
+Z27 w1572214725
+R4
+R5
+R0
+Z28 8C:/Users/W/Documents/ece327/new/lab3/fsm.vhd
+Z29 FC:/Users/W/Documents/ece327/new/lab3/fsm.vhd
+l0
+L5
+VoMzV^M@URXN[BT6J4balf1
+!s100 h4V=H>95MFiJH>Q]Dmge]1
+R8
+31
+R9
+!i10b 1
+R10
+Z30 !s90 -reportprogress|300|-93|-work|work|C:/Users/W/Documents/ece327/new/lab3/fsm.vhd|
+Z31 !s107 C:/Users/W/Documents/ece327/new/lab3/fsm.vhd|
+!i113 1
+R13
+R14
+Astruct
+R4
+R5
+DEx4 work 3 fsm 0 22 oMzV^M@URXN[BT6J4balf1
+l30
+L22
+VU3GKIHjX<<5?oQ]Ob6QY31
+!s100 m9[?;5o1GWn=7lAnCZP@g2
+R8
+31
+R9
+!i10b 1
+R10
+R30
+R31
+!i113 1
+R13
+R14
+Elab3
+Z32 w1572224250
+R4
+R5
+R0
+Z33 8C:/Users/W/Documents/ece327/new/lab3/lab3.vhd
+Z34 FC:/Users/W/Documents/ece327/new/lab3/lab3.vhd
+l0
+L5
+V4zNbga2a9g`Sh7`NYXgzO0
+!s100 1i^QP[5dhS6z7kK0Te_`z2
+R8
+31
+R9
+!i10b 1
+R10
+Z35 !s90 -reportprogress|300|-93|-work|work|C:/Users/W/Documents/ece327/new/lab3/lab3.vhd|
+Z36 !s107 C:/Users/W/Documents/ece327/new/lab3/lab3.vhd|
+!i113 1
+R13
+R14
+Astruct
+R4
+R5
+DEx4 work 4 lab3 0 22 4zNbga2a9g`Sh7`NYXgzO0
+l76
+L19
+VN[7PLIYJ[I596m8]_7Emf0
+!s100 W2lZS0U5>ob>F=SS09VBZ0
+R8
+31
+R9
+!i10b 1
+R10
+R35
+R36
+!i113 1
+R13
+R14
+Elab3_vhd_tst
+Z37 w1572225354
+R4
+R5
+R0
+Z38 8C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht
+Z39 FC:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht
+l0
+L30
+VnPAg68GPV9RkIe7MSWDA53
+!s100 ZcEzb?0l_^=?ao99ngC;O3
+R8
+31
+R23
+!i10b 1
+R24
+Z40 !s90 -reportprogress|300|-93|-work|work|C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht|
+Z41 !s107 C:/Users/W/Documents/ece327/new/lab3/simulation/modelsim/lab3.vht|
+!i113 1
+R13
+R14
+Alab3_arch
+R4
+R5
+DEx4 work 12 lab3_vhd_tst 0 22 nPAg68GPV9RkIe7MSWDA53
+l55
+L32
+V`PUhNJ`;CPeXg>9md2:bh2
+!s100 h^[VX:XY2GI`D]`U]6ii52
+R8
+31
+R23
+!i10b 1
+R24
+R40
+R41
+!i113 1
+R13
+R14
+Emux
+Z42 w1572190891
+R4
+R5
+R0
+Z43 8C:/Users/W/Documents/ece327/new/lab3/mux.vhd
+Z44 FC:/Users/W/Documents/ece327/new/lab3/mux.vhd
+l0
+L3
+Vi0icZMP`5PZI4JnYG97DM3
+!s100 hl]2>1b`Wflmof@`NG]813
+R8
+31
+R9
+!i10b 1
+R10
+Z45 !s90 -reportprogress|300|-93|-work|work|C:/Users/W/Documents/ece327/new/lab3/mux.vhd|
+Z46 !s107 C:/Users/W/Documents/ece327/new/lab3/mux.vhd|
+!i113 1
+R13
+R14
+Astruct
+R4
+R5
+DEx4 work 3 mux 0 22 i0icZMP`5PZI4JnYG97DM3
+l17
+L14
+VRDb<eP0n1Xi0262No7nP83
+!s100 @8c4b89`Ia2R[[:iBTNh83
+R8
+31
+R9
+!i10b 1
+R10
+R45
+R46
+!i113 1
+R13
+R14

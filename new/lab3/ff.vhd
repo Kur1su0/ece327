@@ -2,18 +2,18 @@ LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 entity ff is
     generic(
-        BUS_WID: integer := 16
+        n: integer := 8
         );
     port( 
           clk: IN std_logic;
           XIN: IN std_logic; -- for select purpose;
-          d: IN std_logic_vector(BUS_WID downto 0);
-	      q: OUT std_logic_vector(BUS_WID downto 0)
+          d: IN std_logic_vector(n-1 downto 0);
+	       q: OUT std_logic_vector(n-1 downto 0)
          
         );
 end ff;
 architecture mixed of ff is
-    signal internal_d: std_logic_vector(BUS_WID downto 0);
+    signal internal_d: std_logic_vector(n-1 downto 0);
 
 	 begin
     --You should expect a comment explaining the process in your own code.
