@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'lab3:mapping|ff:IR_ff|internal_d[7]'
+Slack : -10.527
+TNS   : -202.848
+
+Type  : Slow 1100mV 85C Model Setup 'KEY[0]'
+Slack : -7.870
+TNS   : -469.163
+
+Type  : Slow 1100mV 85C Model Setup 'lab3:mapping|fsm:state_machine|state.T0'
+Slack : -7.637
+TNS   : -14.767
+
+Type  : Slow 1100mV 85C Model Hold 'KEY[0]'
+Slack : -7.127
+TNS   : -458.024
+
+Type  : Slow 1100mV 85C Model Hold 'lab3:mapping|ff:IR_ff|internal_d[7]'
+Slack : -0.971
+TNS   : -2.882
+
+Type  : Slow 1100mV 85C Model Hold 'lab3:mapping|fsm:state_machine|state.T0'
+Slack : -0.287
+TNS   : -0.287
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.394
+TNS   : -64.926
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'lab3:mapping|ff:IR_ff|internal_d[7]'
+Slack : 0.259
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'lab3:mapping|fsm:state_machine|state.T0'
+Slack : 0.422
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'lab3:mapping|ff:IR_ff|internal_d[7]'
+Slack : -10.431
+TNS   : -200.016
+
+Type  : Slow 1100mV 0C Model Setup 'lab3:mapping|fsm:state_machine|state.T0'
+Slack : -7.431
+TNS   : -14.459
+
+Type  : Slow 1100mV 0C Model Setup 'KEY[0]'
+Slack : -7.287
+TNS   : -446.241
+
+Type  : Slow 1100mV 0C Model Hold 'KEY[0]'
+Slack : -7.015
+TNS   : -454.759
+
+Type  : Slow 1100mV 0C Model Hold 'lab3:mapping|ff:IR_ff|internal_d[7]'
+Slack : -0.999
+TNS   : -3.009
+
+Type  : Slow 1100mV 0C Model Hold 'lab3:mapping|fsm:state_machine|state.T0'
+Slack : -0.406
+TNS   : -0.406
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.394
+TNS   : -59.784
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'lab3:mapping|ff:IR_ff|internal_d[7]'
+Slack : 0.263
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'lab3:mapping|fsm:state_machine|state.T0'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'KEY[0]'
+Slack : -6.084
+TNS   : -304.587
+
+Type  : Fast 1100mV 85C Model Setup 'lab3:mapping|ff:IR_ff|internal_d[7]'
+Slack : -5.790
+TNS   : -108.996
+
+Type  : Fast 1100mV 85C Model Setup 'lab3:mapping|fsm:state_machine|state.T0'
+Slack : -3.813
+TNS   : -7.337
+
+Type  : Fast 1100mV 85C Model Hold 'KEY[0]'
+Slack : -3.937
+TNS   : -241.160
+
+Type  : Fast 1100mV 85C Model Hold 'lab3:mapping|ff:IR_ff|internal_d[7]'
+Slack : -0.568
+TNS   : -1.642
+
+Type  : Fast 1100mV 85C Model Hold 'lab3:mapping|fsm:state_machine|state.T0'
+Slack : -0.063
+TNS   : -0.063
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.347
+TNS   : -31.659
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'lab3:mapping|ff:IR_ff|internal_d[7]'
+Slack : 0.291
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'lab3:mapping|fsm:state_machine|state.T0'
+Slack : 0.444
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'lab3:mapping|ff:IR_ff|internal_d[7]'
+Slack : -5.478
+TNS   : -104.043
+
+Type  : Fast 1100mV 0C Model Setup 'KEY[0]'
+Slack : -4.938
+TNS   : -248.943
+
+Type  : Fast 1100mV 0C Model Setup 'lab3:mapping|fsm:state_machine|state.T0'
+Slack : -3.632
+TNS   : -7.041
+
+Type  : Fast 1100mV 0C Model Hold 'KEY[0]'
+Slack : -3.853
+TNS   : -241.444
+
+Type  : Fast 1100mV 0C Model Hold 'lab3:mapping|ff:IR_ff|internal_d[7]'
+Slack : -0.519
+TNS   : -1.477
+
+Type  : Fast 1100mV 0C Model Hold 'lab3:mapping|fsm:state_machine|state.T0'
+Slack : -0.109
+TNS   : -0.109
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.321
+TNS   : -29.445
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'lab3:mapping|ff:IR_ff|internal_d[7]'
+Slack : 0.316
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'lab3:mapping|fsm:state_machine|state.T0'
+Slack : 0.454
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for example
-Mon Oct 28 13:36:18 2019
+Mon Oct 28 17:19:25 2019
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
 
 
@@ -64,14 +64,14 @@ agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Oct 28 13:36:18 2019           ;
+; Analysis & Synthesis Status     ; Successful - Mon Oct 28 17:19:25 2019           ;
 ; Quartus Prime Version           ; 16.0.0 Build 211 04/27/2016 SJ Standard Edition ;
 ; Revision Name                   ; example                                         ;
 ; Top-level Entity Name           ; lab3                                            ;
 ; Family                          ; Cyclone V                                       ;
 ; Logic utilization (in ALMs)     ; N/A                                             ;
-; Total registers                 ; 92                                              ;
-; Total pins                      ; 20                                              ;
+; Total registers                 ; 172                                             ;
+; Total pins                      ; 36                                              ;
 ; Total virtual pins              ; 0                                               ;
 ; Total block memory bits         ; 0                                               ;
 ; Total DSP Blocks                ; 0                                               ;
@@ -209,25 +209,25 @@ agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimate of Logic utilization (ALMs needed) ; 101       ;
+; Estimate of Logic utilization (ALMs needed) ; 161       ;
 ;                                             ;           ;
-; Combinational ALUT usage for logic          ; 134       ;
+; Combinational ALUT usage for logic          ; 198       ;
 ;     -- 7 input functions                    ; 0         ;
-;     -- 6 input functions                    ; 59        ;
+;     -- 6 input functions                    ; 107       ;
 ;     -- 5 input functions                    ; 14        ;
-;     -- 4 input functions                    ; 10        ;
-;     -- <=3 input functions                  ; 51        ;
+;     -- 4 input functions                    ; 18        ;
+;     -- <=3 input functions                  ; 59        ;
 ;                                             ;           ;
-; Dedicated logic registers                   ; 92        ;
+; Dedicated logic registers                   ; 172       ;
 ;                                             ;           ;
-; I/O pins                                    ; 20        ;
+; I/O pins                                    ; 36        ;
 ;                                             ;           ;
 ; Total DSP Blocks                            ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 92        ;
-; Total fan-out                               ; 920       ;
-; Average fan-out                             ; 3.46      ;
+; Maximum fan-out                             ; 172       ;
+; Total fan-out                               ; 1536      ;
+; Average fan-out                             ; 3.48      ;
 +---------------------------------------------+-----------+
 
 
@@ -236,22 +236,22 @@ agreement for further details.
 +----------------------------+-------------------+--------------+-------------------+------------+------+--------------+-------------------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name           ; Entity Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------------+------------+------+--------------+-------------------------------+-------------+--------------+
-; |lab3                      ; 134 (0)           ; 92 (0)       ; 0                 ; 0          ; 20   ; 0            ; |lab3                         ; lab3        ; work         ;
-;    |addsub:Add_sub|        ; 8 (0)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |lab3|addsub:Add_sub          ; addsub      ; work         ;
-;       |Adder:Ai|           ; 8 (8)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |lab3|addsub:Add_sub|Adder:Ai ; Adder       ; work         ;
-;    |ff:G|                  ; 0 (0)             ; 8 (8)        ; 0                 ; 0          ; 0    ; 0            ; |lab3|ff:G                    ; ff          ; work         ;
+; |lab3                      ; 198 (0)           ; 172 (0)      ; 0                 ; 0          ; 36   ; 0            ; |lab3                         ; lab3        ; work         ;
+;    |addsub:Add_sub|        ; 16 (0)            ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |lab3|addsub:Add_sub          ; addsub      ; work         ;
+;       |Adder:Ai|           ; 16 (16)           ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |lab3|addsub:Add_sub|Adder:Ai ; Adder       ; work         ;
+;    |ff:G|                  ; 0 (0)             ; 16 (16)      ; 0                 ; 0          ; 0    ; 0            ; |lab3|ff:G                    ; ff          ; work         ;
 ;    |ff:IR_ff|              ; 0 (0)             ; 8 (8)        ; 0                 ; 0          ; 0    ; 0            ; |lab3|ff:IR_ff                ; ff          ; work         ;
-;    |ff:R0|                 ; 0 (0)             ; 8 (8)        ; 0                 ; 0          ; 0    ; 0            ; |lab3|ff:R0                   ; ff          ; work         ;
-;    |ff:R1|                 ; 0 (0)             ; 8 (8)        ; 0                 ; 0          ; 0    ; 0            ; |lab3|ff:R1                   ; ff          ; work         ;
-;    |ff:R2|                 ; 0 (0)             ; 8 (8)        ; 0                 ; 0          ; 0    ; 0            ; |lab3|ff:R2                   ; ff          ; work         ;
-;    |ff:R3|                 ; 0 (0)             ; 8 (8)        ; 0                 ; 0          ; 0    ; 0            ; |lab3|ff:R3                   ; ff          ; work         ;
-;    |ff:R4|                 ; 0 (0)             ; 8 (8)        ; 0                 ; 0          ; 0    ; 0            ; |lab3|ff:R4                   ; ff          ; work         ;
-;    |ff:R5|                 ; 0 (0)             ; 8 (8)        ; 0                 ; 0          ; 0    ; 0            ; |lab3|ff:R5                   ; ff          ; work         ;
-;    |ff:R6|                 ; 0 (0)             ; 8 (8)        ; 0                 ; 0          ; 0    ; 0            ; |lab3|ff:R6                   ; ff          ; work         ;
-;    |ff:R7|                 ; 0 (0)             ; 8 (8)        ; 0                 ; 0          ; 0    ; 0            ; |lab3|ff:R7                   ; ff          ; work         ;
-;    |ff:RA|                 ; 0 (0)             ; 8 (8)        ; 0                 ; 0          ; 0    ; 0            ; |lab3|ff:RA                   ; ff          ; work         ;
+;    |ff:R0|                 ; 0 (0)             ; 16 (16)      ; 0                 ; 0          ; 0    ; 0            ; |lab3|ff:R0                   ; ff          ; work         ;
+;    |ff:R1|                 ; 0 (0)             ; 16 (16)      ; 0                 ; 0          ; 0    ; 0            ; |lab3|ff:R1                   ; ff          ; work         ;
+;    |ff:R2|                 ; 0 (0)             ; 16 (16)      ; 0                 ; 0          ; 0    ; 0            ; |lab3|ff:R2                   ; ff          ; work         ;
+;    |ff:R3|                 ; 0 (0)             ; 16 (16)      ; 0                 ; 0          ; 0    ; 0            ; |lab3|ff:R3                   ; ff          ; work         ;
+;    |ff:R4|                 ; 0 (0)             ; 16 (16)      ; 0                 ; 0          ; 0    ; 0            ; |lab3|ff:R4                   ; ff          ; work         ;
+;    |ff:R5|                 ; 0 (0)             ; 16 (16)      ; 0                 ; 0          ; 0    ; 0            ; |lab3|ff:R5                   ; ff          ; work         ;
+;    |ff:R6|                 ; 0 (0)             ; 16 (16)      ; 0                 ; 0          ; 0    ; 0            ; |lab3|ff:R6                   ; ff          ; work         ;
+;    |ff:R7|                 ; 0 (0)             ; 16 (16)      ; 0                 ; 0          ; 0    ; 0            ; |lab3|ff:R7                   ; ff          ; work         ;
+;    |ff:RA|                 ; 0 (0)             ; 16 (16)      ; 0                 ; 0          ; 0    ; 0            ; |lab3|ff:RA                   ; ff          ; work         ;
 ;    |fsm:state_machine|     ; 57 (57)           ; 4 (4)        ; 0                 ; 0          ; 0    ; 0            ; |lab3|fsm:state_machine       ; fsm         ; work         ;
-;    |mux:MUX_sel|           ; 69 (69)           ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |lab3|mux:MUX_sel             ; mux         ; work         ;
+;    |mux:MUX_sel|           ; 125 (125)         ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |lab3|mux:MUX_sel             ; mux         ; work         ;
 +----------------------------+-------------------+--------------+-------------------+------------+------+--------------+-------------------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -307,12 +307,12 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 92    ;
+; Total registers                              ; 172   ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 4     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 88    ;
+; Number of registers using Clock Enable       ; 168   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -324,7 +324,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------+
 ; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |lab3|fsm:state_machine|out_sig_signal[7] ;
 ; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |lab3|fsm:state_machine|Selector25        ;
-; 10:1               ; 8 bits    ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; No         ; |lab3|mux:MUX_sel|Selector5               ;
+; 10:1               ; 16 bits   ; 96 LEs        ; 96 LEs               ; 0 LEs                  ; No         ; |lab3|mux:MUX_sel|Selector11              ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------+
 
 
@@ -333,7 +333,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------+-------+---------------------------------------------+
 ; Parameter Name ; Value ; Type                                        ;
 +----------------+-------+---------------------------------------------+
-; n              ; 8     ; Signed Integer                              ;
+; n              ; 16    ; Signed Integer                              ;
 +----------------+-------+---------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -343,7 +343,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------+
 ; Parameter Name ; Value ; Type                      ;
 +----------------+-------+---------------------------+
-; n              ; 8     ; Signed Integer            ;
+; n              ; 16    ; Signed Integer            ;
 +----------------+-------+---------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -353,7 +353,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------+
 ; Parameter Name ; Value ; Type                      ;
 +----------------+-------+---------------------------+
-; n              ; 8     ; Signed Integer            ;
+; n              ; 16    ; Signed Integer            ;
 +----------------+-------+---------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -363,7 +363,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------+
 ; Parameter Name ; Value ; Type                      ;
 +----------------+-------+---------------------------+
-; n              ; 8     ; Signed Integer            ;
+; n              ; 16    ; Signed Integer            ;
 +----------------+-------+---------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -373,7 +373,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------+
 ; Parameter Name ; Value ; Type                      ;
 +----------------+-------+---------------------------+
-; n              ; 8     ; Signed Integer            ;
+; n              ; 16    ; Signed Integer            ;
 +----------------+-------+---------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -383,7 +383,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------+
 ; Parameter Name ; Value ; Type                      ;
 +----------------+-------+---------------------------+
-; n              ; 8     ; Signed Integer            ;
+; n              ; 16    ; Signed Integer            ;
 +----------------+-------+---------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -393,7 +393,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------+
 ; Parameter Name ; Value ; Type                      ;
 +----------------+-------+---------------------------+
-; n              ; 8     ; Signed Integer            ;
+; n              ; 16    ; Signed Integer            ;
 +----------------+-------+---------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -403,7 +403,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------+
 ; Parameter Name ; Value ; Type                      ;
 +----------------+-------+---------------------------+
-; n              ; 8     ; Signed Integer            ;
+; n              ; 16    ; Signed Integer            ;
 +----------------+-------+---------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -413,7 +413,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------+
 ; Parameter Name ; Value ; Type                      ;
 +----------------+-------+---------------------------+
-; n              ; 8     ; Signed Integer            ;
+; n              ; 16    ; Signed Integer            ;
 +----------------+-------+---------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -423,7 +423,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------+
 ; Parameter Name ; Value ; Type                      ;
 +----------------+-------+---------------------------+
-; n              ; 8     ; Signed Integer            ;
+; n              ; 16    ; Signed Integer            ;
 +----------------+-------+---------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -433,7 +433,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------+
 ; Parameter Name ; Value ; Type                     ;
 +----------------+-------+--------------------------+
-; n              ; 8     ; Signed Integer           ;
+; n              ; 16    ; Signed Integer           ;
 +----------------+-------+--------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -453,7 +453,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+------------------------------------+
 ; Parameter Name ; Value ; Type                               ;
 +----------------+-------+------------------------------------+
-; n              ; 8     ; Signed Integer                     ;
+; n              ; 16    ; Signed Integer                     ;
 +----------------+-------+------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -463,7 +463,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------+
 ; Parameter Name ; Value ; Type                                        ;
 +----------------+-------+---------------------------------------------+
-; n              ; 8     ; Signed Integer                              ;
+; n              ; 16    ; Signed Integer                              ;
 +----------------+-------+---------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -473,7 +473,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------+
 ; Parameter Name ; Value ; Type                            ;
 +----------------+-------+---------------------------------+
-; n              ; 8     ; Signed Integer                  ;
+; n              ; 16    ; Signed Integer                  ;
 +----------------+-------+---------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -483,7 +483,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------+
 ; Parameter Name ; Value ; Type                                  ;
 +----------------+-------+---------------------------------------+
-; n              ; 8     ; Signed Integer                        ;
+; n              ; 16    ; Signed Integer                        ;
 +----------------+-------+---------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -511,22 +511,22 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 92                          ;
+; arriav_ff             ; 172                         ;
 ;     CLR               ; 4                           ;
-;     ENA               ; 88                          ;
-; arriav_lcell_comb     ; 134                         ;
-;     normal            ; 126                         ;
+;     ENA               ; 168                         ;
+; arriav_lcell_comb     ; 198                         ;
+;     normal            ; 182                         ;
 ;         2 data inputs ; 9                           ;
 ;         3 data inputs ; 34                          ;
-;         4 data inputs ; 10                          ;
+;         4 data inputs ; 18                          ;
 ;         5 data inputs ; 14                          ;
-;         6 data inputs ; 59                          ;
-;     shared            ; 8                           ;
-;         3 data inputs ; 8                           ;
-; boundary_port         ; 20                          ;
+;         6 data inputs ; 107                         ;
+;     shared            ; 16                          ;
+;         3 data inputs ; 16                          ;
+; boundary_port         ; 36                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 5.70                        ;
-; Average LUT depth     ; 3.58                        ;
+; Max LUT depth         ; 6.50                        ;
+; Average LUT depth     ; 4.11                        ;
 +-----------------------+-----------------------------+
 
 
@@ -545,10 +545,13 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
-    Info: Processing started: Mon Oct 28 13:36:05 2019
+    Info: Processing started: Mon Oct 28 17:18:49 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab3 -c example
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file lab3_board.vhd
+    Info (12022): Found design unit 1: lab3_board-struct File: /users/zicew/git/ece327/new/lab3/lab3_board.vhd Line: 16
+    Info (12023): Found entity 1: lab3_board File: /users/zicew/git/ece327/new/lab3/lab3_board.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file lab3.vhd
     Info (12022): Found design unit 1: lab3-struct File: /users/zicew/git/ece327/new/lab3/lab3.vhd Line: 18
     Info (12023): Found entity 1: lab3 File: /users/zicew/git/ece327/new/lab3/lab3.vhd Line: 5
@@ -574,6 +577,8 @@ Info (12021): Found 2 design units, including 1 entities, in source file example
 Info (12127): Elaborating entity "lab3" for the top level hierarchy
 Warning (10036): Verilog HDL or VHDL warning at lab3.vhd(27): object "ovf_signal" assigned a value but never read File: /users/zicew/git/ece327/new/lab3/lab3.vhd Line: 27
 Info (12128): Elaborating entity "ff" for hierarchy "ff:R0" File: /users/zicew/git/ece327/new/lab3/lab3.vhd Line: 79
+Warning (10492): VHDL Process Statement warning at ff.vhd(26): signal "internal_d" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /users/zicew/git/ece327/new/lab3/ff.vhd Line: 26
+Info (12128): Elaborating entity "ff" for hierarchy "ff:IR_ff" File: /users/zicew/git/ece327/new/lab3/lab3.vhd Line: 120
 Warning (10492): VHDL Process Statement warning at ff.vhd(26): signal "internal_d" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /users/zicew/git/ece327/new/lab3/ff.vhd Line: 26
 Info (12128): Elaborating entity "addsub" for hierarchy "addsub:Add_sub" File: /users/zicew/git/ece327/new/lab3/lab3.vhd Line: 124
 Warning (10541): VHDL Signal Declaration warning at addsub.vhd(11): used implicit default value for signal "ovf" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: /users/zicew/git/ece327/new/lab3/addsub.vhd Line: 11
@@ -1228,14 +1233,14 @@ Warning (20013): Ignored 571 assignments for entity "DE1_SoC" -- entity does not
     Warning (20014): Assignment for entity set_instance_assignment -name D5_DELAY 2 -to HPS_DDR3_CK_P -entity DE1_SoC was ignored
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 236 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 11 input pins
-    Info (21059): Implemented 9 output pins
-    Info (21061): Implemented 216 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 627 warnings
-    Info: Peak virtual memory: 1344 megabytes
-    Info: Processing ended: Mon Oct 28 13:36:18 2019
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:20
+Info (21057): Implemented 388 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 19 input pins
+    Info (21059): Implemented 17 output pins
+    Info (21061): Implemented 352 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 628 warnings
+    Info: Peak virtual memory: 1348 megabytes
+    Info: Processing ended: Mon Oct 28 17:19:25 2019
+    Info: Elapsed time: 00:00:36
+    Info: Total CPU time (on all processors): 00:00:24
 
 

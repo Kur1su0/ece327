@@ -23,9 +23,9 @@ V?;930^9iS?U<g31>`YeEn1
 !s100 I?=K87oBKIZ;HbT<o]l[d2
 Z8 OV;C;10.4d;61
 31
-Z9 !s110 1572289039
+Z9 !s110 1572414018
 !i10b 1
-Z10 !s108 1572289039.000000
+Z10 !s108 1572414018.000000
 Z11 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab3/Adder.vhd|
 Z12 !s107 /users/zicew/git/ece327/new/lab3/Adder.vhd|
 !i113 1
@@ -173,7 +173,7 @@ R27
 R13
 R14
 Elab3
-Z28 w1572284163
+Z28 w1572297156
 R4
 R5
 R0
@@ -181,22 +181,22 @@ Z29 8/users/zicew/git/ece327/new/lab3/lab3.vhd
 Z30 F/users/zicew/git/ece327/new/lab3/lab3.vhd
 l0
 L5
-VWT85`;9gLa@LTNN8kagHi0
-!s100 2RnPSEHECjjQo6U2l8mk42
+VjbnKMHS^FbkRW3]D6P4JC3
+!s100 EoYeKGJ]TIDf5P6Y]l0H_3
 R8
 31
 R9
 !i10b 1
-R10
-Z31 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab3/lab3.vhd|
-Z32 !s107 /users/zicew/git/ece327/new/lab3/lab3.vhd|
+Z31 !s108 1572414017.000000
+Z32 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab3/lab3.vhd|
+Z33 !s107 /users/zicew/git/ece327/new/lab3/lab3.vhd|
 !i113 1
 R13
 R14
 Astruct
 R4
 R5
-DEx4 work 4 lab3 0 22 WT85`;9gLa@LTNN8kagHi0
+DEx4 work 4 lab3 0 22 jbnKMHS^FbkRW3]D6P4JC3
 l75
 L18
 VVTbKEHd0Q6VhmFM02hMml2
@@ -205,19 +205,19 @@ R8
 31
 R9
 !i10b 1
-R10
 R31
 R32
+R33
 !i113 1
 R13
 R14
 Elab3_vhd_tst
-Z33 w1572284210
+Z34 w1572414014
 R4
 R5
 R0
-Z34 8/users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht
-Z35 F/users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht
+Z35 8/users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht
+Z36 F/users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht
 l0
 L31
 V[=lbNMjXFRG_iQ>Xdi`G50
@@ -227,8 +227,8 @@ R8
 R9
 !i10b 1
 R10
-Z36 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht|
-Z37 !s107 /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht|
+Z37 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht|
+Z38 !s107 /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht|
 !i113 1
 R13
 R14
@@ -238,15 +238,15 @@ R5
 DEx4 work 12 lab3_vhd_tst 0 22 [=lbNMjXFRG_iQ>Xdi`G50
 l52
 L33
-Vf6f2kbeNz4jOgmf;7fN8F1
-!s100 <0>YYS7Z=NS:O`_13<lC41
+V]n9R;F8JZ8TanQ^M8E]J@2
+!s100 39iQC6elCb6eaKXNROj<V0
 R8
 31
 R9
 !i10b 1
 R10
-R36
 R37
+R38
 !i113 1
 R13
 R14
@@ -255,8 +255,8 @@ R1
 R4
 R5
 R0
-Z38 8/users/zicew/git/ece327/new/lab3/mux.vhd
-Z39 F/users/zicew/git/ece327/new/lab3/mux.vhd
+Z39 8/users/zicew/git/ece327/new/lab3/mux.vhd
+Z40 F/users/zicew/git/ece327/new/lab3/mux.vhd
 l0
 L3
 Vz>IcDBY?;`RE4CJE9f8hB1
@@ -266,8 +266,8 @@ R8
 R9
 !i10b 1
 R10
-Z40 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab3/mux.vhd|
-Z41 !s107 /users/zicew/git/ece327/new/lab3/mux.vhd|
+Z41 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab3/mux.vhd|
+Z42 !s107 /users/zicew/git/ece327/new/lab3/mux.vhd|
 !i113 1
 R13
 R14
@@ -284,8 +284,8 @@ R8
 R9
 !i10b 1
 R10
-R40
 R41
+R42
 !i113 1
 R13
 R14

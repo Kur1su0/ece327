@@ -18,7 +18,7 @@
 -- suit user's needs .Comments are provided in each section to help the user  
 -- fill out necessary details.                                                
 -- ***************************************************************************
--- Generated on "10/28/2019 13:36:43"
+-- Generated on "10/28/2019 17:20:45"
                                                             
 -- Vhdl Test Bench template for design  :  lab3
 -- 
@@ -33,17 +33,17 @@ END lab3_vhd_tst;
 ARCHITECTURE lab3_arch OF lab3_vhd_tst IS
 -- constants                                                 
 -- signals                                                   
-SIGNAL Bus_out : STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL Bus_out : STD_LOGIC_VECTOR(15 DOWNTO 0);
 SIGNAL clk : STD_LOGIC;
-SIGNAL DIN : STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL DIN : STD_LOGIC_VECTOR(15 DOWNTO 0);
 SIGNAL Done : STD_LOGIC;
 SIGNAL Resetn : STD_LOGIC;
 SIGNAL Run : STD_LOGIC;
 COMPONENT lab3
 	PORT (
-	Bus_out : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
+	Bus_out : OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
 	clk : IN STD_LOGIC;
-	DIN : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+	DIN : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
 	Done : OUT STD_LOGIC;
 	Resetn : IN STD_LOGIC;
 	Run : IN STD_LOGIC
@@ -72,49 +72,119 @@ always : PROCESS
 -- variable declarations                                      
 BEGIN                                                         
         -- code executes for every event on sensitivity list  
+		         -- code executes for every event on sensitivity list  
 		  		  	  Run<='1';
 		  Resetn<='1';
-		  --Test1 mvi 001010 >-->  Regx
-	      
+		  --Test1 mvi
+	     -- save 00000000 01001010  to R1
+		   DIN<="0000000001001010";  
 		  clk<='0';wait for 10ns;
-		  DIN<="01001010"; wait for 5ns;
 		  clk<='1'; wait for 10ns;
+		  
+		  clk<='0'; wait for 10ns;
+		  clk<='1'; wait for 10ns;
+		   
+			-- save 00000000 01000001 to R0
+			DIN<="0000000001000001";
+		  clk<='0';  wait for 10ns;  
+		  clk<='1'; wait for 10ns;
+		  		 
+		  clk<='0'; wait for 10ns;
+		  clk<='1'; wait for 10ns;
+		  	  
+		  --  save 10000000 01011001 to R3  (large num)
+			  DIN<="1000000001011001";
+			  clk<='0';  wait for 10ns;  
+		     clk<='1'; wait for 10ns;	
+			  
+		     clk<='0'; wait for 10ns;
+		     clk<='1'; wait for 10ns;
+		  
+		  --Test2 mv
+		  --mv R1 to R4
+		  DIN<="0000000000100001";
+		    clk<='0';  wait for 10ns;  
+		     clk<='1'; wait for 10ns;	
+			  
+		     clk<='0'; wait for 10ns;
+		     clk<='1'; wait for 10ns;
+			  
+			  
+			  
+			  
+	     -- Test3 Add R0 + R4  -> R0
+		  DIN<="0000000010000100";  
+		  clk<='0';wait for 10ns;
+		  clk<='1'; wait for 10ns;
+   
 		  clk<='0'; wait for 10ns;
 		  clk<='1'; wait for 10ns;
 		  
-       
-		  
-		  --Test2 mv 001--> regx
-		   
-			
-			
-		  clk<='0';  wait for 10ns;
-		DIN<="00010001"; wait for 5ns;
-		   
-		  clk<='1'; wait for 10ns;
-		  
-			 
 		  clk<='0'; wait for 10ns;
 		  clk<='1'; wait for 10ns;
 		  
+		   clk<='0';wait for 10ns;
+		  clk<='1'; wait for 10ns;
+		  
+		--CURRENT WORKING  HEREEEEEEE------  
+	     --TEST5 Sub 
+		  
+	   --TEST 4.1 Sub small number. R0-R1
+	       -- 00000000 11 000 001 
+	         DIN<="0000000011000001";
+	         clk<='0'; wait for 10ns;
+		 clk<='1'; wait for 10ns;
+		  
+		 clk<='0'; wait for 10ns;
+		 clk<='1'; wait for 10ns;
+		 
+		 clk<='0'; wait for 10ns;
+		 clk<='1'; wait for 10ns;
+		 
+		  clk<='0';wait for 10ns;
+		  clk<='1'; wait for 10ns;
+		  
+	    --TEST 4.2 sub large num. R3 - R4 --save-to--> R3
+	    --DIN<="00000000 11 011 100"
+	         DIN<="0000000011011100";
+	         clk<='0'; wait for 10ns;
+		 clk<='1'; wait for 10ns;
+		  
+		 clk<='0'; wait for 10ns;
+		 clk<='1'; wait for 10ns;
+		 
+		 clk<='0'; wait for 10ns;
+		 clk<='1'; wait for 10ns;
+		 
+		 clk<='0'; wait for 10ns;
+		 clk<='1'; wait for 10ns;
+		 
+		 --TEST 5 run
+		 Run<='0';
+		 DIN<="0000000011001000";
+		
+		  clk<='0'; wait for 10ns;
+		 clk<='1'; wait for 10ns;
+		 
+		 
+	
+		 
+		  
+		  --TEST 6 resetn
+		  Run<='1';
+	
 
-		  
-	     -- Test3 add 
-		  clk<='0';	   wait for 10ns;
-	DIN<="10001010"; wait for 5ns;
-		  clk<='1'; wait for 10ns;
- 
-		  
+
 		  clk<='0'; wait for 10ns;
-		  clk<='1'; wait for 10ns;
-		  
-		  clk<='0'; wait for 10ns;
-		  clk<='1'; wait for 10ns;
-		  
-		   clk<='0'; wait for 10ns;
-		  clk<='1'; wait for 10ns;
-		  
-		  
+		 clk<='1'; wait for 10ns;
+		 
+	
+		 
+		 Resetn<='0';
+		 clk<='0'; wait for 10ns;
+		 clk<='1'; wait for 10ns;
+		
+		 	
 WAIT;                                                        
 END PROCESS always;                                          
 END lab3_arch;

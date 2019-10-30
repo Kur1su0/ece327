@@ -3,7 +3,7 @@ USE ieee.std_logic_1164.all;
 
 
 entity lab3 is
-    generic (n: integer := 8);
+    generic (n: integer := 16);
 	 port (
 	 
 	 clk,Run,Resetn : in std_logic;

@@ -1,5 +1,5 @@
 Flow report for example
-Mon Oct 28 13:36:43 2019
+Mon Oct 28 17:20:45 2019
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
 
 
@@ -41,7 +41,7 @@ agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Flow Summary                                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Flow Status                     ; Successful - Mon Oct 28 13:36:43 2019           ;
+; Flow Status                     ; Successful - Mon Oct 28 17:20:45 2019           ;
 ; Quartus Prime Version           ; 16.0.0 Build 211 04/27/2016 SJ Standard Edition ;
 ; Revision Name                   ; example                                         ;
 ; Top-level Entity Name           ; lab3                                            ;
@@ -49,8 +49,8 @@ agreement for further details.
 ; Device                          ; 5CSEMA5F31C6                                    ;
 ; Timing Models                   ; Final                                           ;
 ; Logic utilization (in ALMs)     ; N/A                                             ;
-; Total registers                 ; 92                                              ;
-; Total pins                      ; 20                                              ;
+; Total registers                 ; 172                                             ;
+; Total pins                      ; 36                                              ;
 ; Total virtual pins              ; 0                                               ;
 ; Total block memory bits         ; 0                                               ;
 ; Total DSP Blocks                ; 0                                               ;
@@ -68,7 +68,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/28/2019 13:36:06 ;
+; Start date & time ; 10/28/2019 17:18:50 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; example             ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ agreement for further details.
 +--------------------------------------+---------------------------------------+---------------+-------------+-----------------+
 ; Assignment Name                      ; Value                                 ; Default Value ; Entity Name ; Section Id      ;
 +--------------------------------------+---------------------------------------+---------------+-------------+-----------------+
-; COMPILER_SIGNATURE_ID                ; 238177196529994.157228416621456       ; --            ; --          ; --              ;
+; COMPILER_SIGNATURE_ID                ; 238177196530867.157229753005915       ; --            ; --          ; --              ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; fsm_vhd_tst     ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; addsub_vhd_tst  ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; lab3_vhd_tst    ;
@@ -118,9 +118,9 @@ agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:12     ; 1.0                     ; 1298 MB             ; 00:00:20                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 1411 MB             ; 00:00:01                           ;
-; Total                ; 00:00:13     ; --                      ; --                  ; 00:00:21                           ;
+; Analysis & Synthesis ; 00:00:35     ; 1.0                     ; 1302 MB             ; 00:00:24                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 1411 MB             ; 00:00:01                           ;
+; Total                ; 00:00:37     ; --                      ; --                  ; 00:00:25                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -129,8 +129,8 @@ agreement for further details.
 +----------------------+------------------+----------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name        ; OS Version ; Processor type ;
 +----------------------+------------------+----------------+------------+----------------+
-; Analysis & Synthesis ; riggs309lab03    ; Ubuntu 14.04.5 ; 14         ; x86_64         ;
-; EDA Netlist Writer   ; riggs309lab03    ; Ubuntu 14.04.5 ; 14         ; x86_64         ;
+; Analysis & Synthesis ; riggs309lab02    ; Ubuntu 14.04.5 ; 14         ; x86_64         ;
+; EDA Netlist Writer   ; riggs309lab02    ; Ubuntu 14.04.5 ; 14         ; x86_64         ;
 +----------------------+------------------+----------------+------------+----------------+
 
 
