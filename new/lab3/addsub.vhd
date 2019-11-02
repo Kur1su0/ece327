@@ -3,7 +3,7 @@ USE ieee.std_logic_1164.all;
 USE ieee.std_logic_unsigned.all;
 
 entity addsub is
-    generic (n : integer := 8);
+    generic (n : integer := 16);
 	 port(
 	     a,b : in std_logic_vector(n-1 downto 0);
 		  sub : in std_logic; -- sub when sub=1, add when sub=0.

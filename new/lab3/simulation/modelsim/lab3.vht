@@ -18,7 +18,7 @@
 -- suit user's needs .Comments are provided in each section to help the user  
 -- fill out necessary details.                                                
 -- ***************************************************************************
--- Generated on "10/28/2019 17:20:45"
+-- Generated on "10/31/2019 16:05:19"
                                                             
 -- Vhdl Test Bench template for design  :  lab3
 -- 
@@ -41,10 +41,10 @@ SIGNAL Resetn : STD_LOGIC;
 SIGNAL Run : STD_LOGIC;
 COMPONENT lab3
 	PORT (
-	Bus_out : OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
+	Bus_out : BUFFER STD_LOGIC_VECTOR(15 DOWNTO 0);
 	clk : IN STD_LOGIC;
 	DIN : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
-	Done : OUT STD_LOGIC;
+	Done : BUFFER STD_LOGIC;
 	Resetn : IN STD_LOGIC;
 	Run : IN STD_LOGIC
 	);
@@ -72,8 +72,7 @@ always : PROCESS
 -- variable declarations                                      
 BEGIN                                                         
         -- code executes for every event on sensitivity list  
-		         -- code executes for every event on sensitivity list  
-		  		  	  Run<='1';
+		    		  	  Run<='1';
 		  Resetn<='1';
 		  --Test1 mvi
 	     -- save 00000000 01001010  to R1
@@ -184,7 +183,6 @@ BEGIN
 		 clk<='0'; wait for 10ns;
 		 clk<='1'; wait for 10ns;
 		
-		 	
 WAIT;                                                        
 END PROCESS always;                                          
 END lab3_arch;

@@ -14,3 +14,19 @@
 # 6    0xf7c03aee: '__libc_start_main + 0xee' in '/lib/i386-linux-gnu/libc.so.6'
 # End of Stack Trace
 
+# Current time Fri Nov  1 16:37:30 2019
+# ModelSim ALTERA Stack Trace
+# Program = vish
+# Id = "10.4d"
+# Version = "2015.12"
+# Date = "Dec 30 2015"
+# Platform = linuxpe
+# 0    0xf7fdacd9: '<unknown (@0xf7fdacd9)>'
+# 1    0x08526804: 'Tcl_DoOneEvent + 0xf4' in '/usr/commercial_amd64/altera/16.0/modelsim_ase/linuxaloem/vish'
+# 2    0x083cda9f: 'Tk_MainLoop + 0x1f' in '/usr/commercial_amd64/altera/16.0/modelsim_ase/linuxaloem/vish'
+# 3    0x083d63b4: 'Tk_MainEx + 0x374' in '/usr/commercial_amd64/altera/16.0/modelsim_ase/linuxaloem/vish'
+# 4    0x081b5d32: 'vish_inner_loop + 0x112' in '/usr/commercial_amd64/altera/16.0/modelsim_ase/linuxaloem/vish'
+# 5    0x081b6697: 'main + 0x8c7' in '/usr/commercial_amd64/altera/16.0/modelsim_ase/linuxaloem/vish'
+# 6    0xf7c03aee: '__libc_start_main + 0xee' in '/lib/i386-linux-gnu/libc.so.6'
+# End of Stack Trace
+
