@@ -1,0 +1,25 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "is_finished",
+					"strict" : false
+				},
+				{
+					"name" : "count_flag",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "load_Reg",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
