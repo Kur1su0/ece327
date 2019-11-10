@@ -23,12 +23,12 @@ architecture struc of regC is
 
 
 begin    
-	 process(loadreg,shift,addreg)
+	 process(loadreg,shift,addreg,clk)
 	 begin
 	     if(rising_edge(clk)) then
 		      if (loadreg='1') then
 				    output_adder(n downto 0)<=(others=>'0');
-					 output_regB<="00";
+					 
 					
 					 
 			    elsif(addreg='1') then
@@ -42,6 +42,7 @@ begin
 					      output_adder<=input(n)&input(n)&input(n downto 2);   
 					  end if;
 				end if;
+				
 					  
 				     
 				

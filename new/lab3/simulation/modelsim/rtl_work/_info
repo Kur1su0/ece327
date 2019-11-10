@@ -21,9 +21,9 @@ VF;aFXROihVZK_bl64jR061
 !s100 S;ecjiHU3Ye=gPVc?eGa]0
 Z6 OV;C;10.4d;61
 31
-Z7 !s110 1572560248
+Z7 !s110 1573060060
 !i10b 1
-Z8 !s108 1572560248.000000
+Z8 !s108 1573060059.000000
 Z9 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab3/ff.vhd|
 Z10 !s107 /users/zicew/git/ece327/new/lab3/ff.vhd|
 !i113 1
@@ -47,42 +47,42 @@ R10
 !i113 1
 R11
 R12
-Eff_vhd_tst
-Z13 w1572560238
+Elab3_vhd_tst
+Z13 w1572552334
 R2
 R3
 R0
-Z14 8/users/zicew/git/ece327/new/lab3/simulation/modelsim/ff.vht
-Z15 F/users/zicew/git/ece327/new/lab3/simulation/modelsim/ff.vht
+Z14 8/users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht
+Z15 F/users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht
 l0
 L31
-V7PBkC3SD12KO[naz>54aV0
-!s100 ?RSM3oGa<bU5_H7jB^BIO1
+V[=lbNMjXFRG_iQ>Xdi`G50
+!s100 ndPZ<l0AAOOi::TO61zA[1
 R6
 31
-Z16 !s110 1572560249
+R7
 !i10b 1
-Z17 !s108 1572560249.000000
-Z18 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab3/simulation/modelsim/ff.vht|
-Z19 !s107 /users/zicew/git/ece327/new/lab3/simulation/modelsim/ff.vht|
+Z16 !s108 1573060060.000000
+Z17 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht|
+Z18 !s107 /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht|
 !i113 1
 R11
 R12
-Aff_arch
+Alab3_arch
 R2
 R3
-DEx4 work 10 ff_vhd_tst 0 22 7PBkC3SD12KO[naz>54aV0
-l48
+DEx4 work 12 lab3_vhd_tst 0 22 [=lbNMjXFRG_iQ>Xdi`G50
+l52
 L33
-V?j24Nhh=Ik><<@7Y8d60B2
-!s100 ;FcEaHjzgQUKe=mhHlbnB2
+V9mn@B1SD?I:ILIQ9zU=b21
+!s100 6@LLDJRFdU1Ye4mnES[6Z2
 R6
 31
-R16
+R7
 !i10b 1
+R16
 R17
 R18
-R19
 !i113 1
 R11
 R12

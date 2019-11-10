@@ -1,0 +1,7 @@
+
+State Machine - |fsm|state
+Name state.shift_regs state.add_regs state.load_regs state.notBusy 
+state.notBusy 0 0 0 0 
+state.load_regs 0 0 1 1 
+state.add_regs 0 1 0 1 
+state.shift_regs 1 0 0 1 

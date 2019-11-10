@@ -12,55 +12,87 @@
 # 
 # vcom -93 -work work {/users/zicew/git/ece327/new/lab3/ff.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 18:17:28 on Oct 31,2019
+# Start time: 12:07:39 on Nov 06,2019
 # vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab3/ff.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity ff
 # -- Compiling architecture mixed of ff
-# End time: 18:17:29 on Oct 31,2019, Elapsed time: 0:00:01
+# End time: 12:07:40 on Nov 06,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
-# vcom -93 -work work {/users/zicew/git/ece327/new/lab3/simulation/modelsim/ff.vht}
+# vcom -93 -work work {/users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 18:17:29 on Oct 31,2019
-# vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab3/simulation/modelsim/ff.vht 
+# Start time: 12:07:40 on Nov 06,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Compiling entity ff_vhd_tst
-# -- Compiling architecture ff_arch of ff_vhd_tst
-# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/ff.vht(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/ff.vht(75): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 18:17:29 on Oct 31,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 2
+# -- Compiling entity lab3_vhd_tst
+# -- Compiling architecture lab3_arch of lab3_vhd_tst
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(80): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(81): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(84): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(91): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(96): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(100): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(106): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(108): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(109): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(116): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(117): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(119): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(126): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(134): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(135): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(137): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(138): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(140): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(141): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(143): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(144): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(149): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(150): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(152): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(153): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(155): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(156): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(158): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(159): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(165): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(166): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(177): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(178): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(183): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht(184): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 12:07:40 on Nov 06,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 46
 # 
-# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  ff_vhd_tst
-# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" ff_vhd_tst 
-# Start time: 18:17:29 on Oct 31,2019
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  lab3_vhd_tst
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" lab3_vhd_tst 
+# Start time: 12:07:40 on Nov 06,2019
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading work.ff_vhd_tst(ff_arch)
-# Loading work.ff(mixed)
+# Loading work.lab3_vhd_tst(lab3_arch)
+# ** Warning: (vsim-3473) Component instance "i1 : lab3" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /lab3_vhd_tst File: /users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht
 # 
 # add wave *
-# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 1 times, errno 11
-# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 2 times, errno 11
-# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 3 times, errno 11
-# ** Error: Cannot lock WLF file: "vsim.wlf"
-#           errno 11: Resource temporarily unavailable.
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: zicew  Hostname: apollo08  ProcessID: 19452
-#           Attempting to use alternate WLF file "./wlftyN3UHA".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftyN3UHA
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# FATAL ERROR: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
-# End time: 18:22:29 on Oct 31,2019, Elapsed time: 0:05:00
-# Errors: 4, Warnings: 2

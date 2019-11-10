@@ -4,47 +4,7 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "output_adder[0]",
-					"strict" : false
-				},
-				{
-					"name" : "output_adder[1]",
-					"strict" : false
-				},
-				{
-					"name" : "output_adder[2]",
-					"strict" : false
-				},
-				{
-					"name" : "output_adder[3]",
-					"strict" : false
-				},
-				{
-					"name" : "output_adder[4]",
-					"strict" : false
-				},
-				{
-					"name" : "output_adder[5]",
-					"strict" : false
-				},
-				{
-					"name" : "output_adder[6]",
-					"strict" : false
-				},
-				{
-					"name" : "output_adder[7]",
-					"strict" : false
-				},
-				{
-					"name" : "output_adder[8]",
-					"strict" : false
-				},
-				{
-					"name" : "output_regB[0]",
-					"strict" : false
-				},
-				{
-					"name" : "output_regB[1]",
+					"name" : "busy",
 					"strict" : false
 				},
 				{
@@ -52,15 +12,39 @@
 					"strict" : false
 				},
 				{
+					"name" : "shiftreg",
+					"strict" : false
+				},
+				{
 					"name" : "addreg",
 					"strict" : false
 				},
 				{
-					"name" : "input[0]",
+					"name" : "count",
 					"strict" : false
 				},
 				{
-					"name" : "input[2]",
+					"name" : "done",
+					"strict" : false
+				},
+				{
+					"name" : "sel_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sel_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sel_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "is_done",
+					"strict" : false
+				},
+				{
+					"name" : "start",
 					"strict" : false
 				},
 				{
@@ -68,39 +52,19 @@
 					"strict" : false
 				},
 				{
-					"name" : "shift",
+					"name" : "rst",
 					"strict" : false
 				},
 				{
-					"name" : "input[1]",
+					"name" : "sel[0]",
 					"strict" : false
 				},
 				{
-					"name" : "input[3]",
+					"name" : "sel[1]",
 					"strict" : false
 				},
 				{
-					"name" : "input[4]",
-					"strict" : false
-				},
-				{
-					"name" : "input[5]",
-					"strict" : false
-				},
-				{
-					"name" : "input[6]",
-					"strict" : false
-				},
-				{
-					"name" : "input[7]",
-					"strict" : false
-				},
-				{
-					"name" : "input[8]",
-					"strict" : false
-				},
-				{
-					"name" : "carrier",
+					"name" : "sel[2]",
 					"strict" : false
 				}
 			]

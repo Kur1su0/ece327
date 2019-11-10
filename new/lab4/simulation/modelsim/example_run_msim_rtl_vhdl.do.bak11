@@ -5,11 +5,11 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vcom -93 -work work {C:/Users/W/Documents/ece327/new/lab4/two_one_mux.vhd}
+vcom -93 -work work {/users/zicew/git/ece327/new/lab4/fsm.vhd}
 
-vcom -93 -work work {C:/Users/W/Documents/ece327/new/lab4/simulation/modelsim/two_one_mux.vht}
+vcom -93 -work work {/users/zicew/git/ece327/new/lab4/simulation/modelsim/fsm.vht}
 
-vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  two_one_mux_vhd_tst
+vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  fsm_vhd_tst
 
 add wave *
 view structure

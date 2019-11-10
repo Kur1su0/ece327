@@ -1,0 +1,35 @@
+Quartus Prime Archive log --	/users/zicew/git/ece327/new/lab3/lab3_tmp_archive.qarlog
+
+Archive:	/users/zicew/git/ece327/new/lab3/lab3_tmp_archive.qar
+Date:		Fri Nov  8 13:21:48 2019
+Quartus Prime		16.0.0 Build 211 04/27/2016 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/users/zicew/git/ece327/new/lab3/Adder.vhd
+/users/zicew/git/ece327/new/lab3/addsub.vhd
+/users/zicew/git/ece327/new/lab3/assignment_defaults.qdf
+/users/zicew/git/ece327/new/lab3/example.qsf
+/users/zicew/git/ece327/new/lab3/example.vhd
+/users/zicew/git/ece327/new/lab3/example_assignment_defaults.qdf
+/users/zicew/git/ece327/new/lab3/ff.vhd
+/users/zicew/git/ece327/new/lab3/fsm.vhd
+/users/zicew/git/ece327/new/lab3/lab3.qpf
+/users/zicew/git/ece327/new/lab3/lab3.vhd
+/users/zicew/git/ece327/new/lab3/lab3_board.vhd
+/users/zicew/git/ece327/new/lab3/mux.vhd
+/users/zicew/git/ece327/new/lab3/simulation/modelsim/addsub.vht
+/users/zicew/git/ece327/new/lab3/simulation/modelsim/example.vht
+/users/zicew/git/ece327/new/lab3/simulation/modelsim/ff.vht
+/users/zicew/git/ece327/new/lab3/simulation/modelsim/fsm.vht
+/users/zicew/git/ece327/new/lab3/simulation/modelsim/lab3.vht
+/users/zicew/git/ece327/new/lab3/simulation/modelsim/mux.vht
+	======= Total: 18 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Fri Nov  8 13:21:50 2019
+Source archive file:	/users/zicew/git/ece327/new/lab3/lab3_tmp_archive.qar
+Archive was extracted into	/users/zicew/git/ece327/new/lab4/
+		 - successfully.
