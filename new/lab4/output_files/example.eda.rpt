@@ -1,5 +1,5 @@
 EDA Netlist Writer report for example
-Sun Nov 10 16:59:13 2019
+Sun Nov 10 19:36:45 2019
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
 
 
@@ -35,9 +35,9 @@ agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Sun Nov 10 16:59:13 2019 ;
+; EDA Netlist Writer Status ; Successful - Sun Nov 10 19:36:45 2019 ;
 ; Revision Name             ; example                               ;
-; Top-level Entity Name     ; fsm                                   ;
+; Top-level Entity Name     ; lab4                                  ;
 ; Family                    ; Cyclone V                             ;
 +---------------------------+---------------------------------------+
 
@@ -48,7 +48,7 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
-    Info: Processing started: Sun Nov 10 16:59:12 2019
+    Info: Processing started: Sun Nov 10 19:36:44 2019
 Info: Command: quartus_eda --read_settings_files=on --write_settings_files=off lab4 -c example --gen_testbench
 Warning (20013): Ignored 571 assignments for entity "DE1_SoC" -- entity does not exist in design
     Warning (20014): Assignment for entity set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_ADDR[0] -entity DE1_SoC was ignored
@@ -624,10 +624,10 @@ Warning (20013): Ignored 571 assignments for entity "DE1_SoC" -- entity does not
     Warning (20014): Assignment for entity set_instance_assignment -name D5_DELAY 2 -to HPS_DDR3_CK_P -entity DE1_SoC was ignored
 Info (119006): Selected device 5CSEMA5F31C6 for design "example"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (201002): Generated VHDL Test Bench File /users/zicew/git/ece327/new/lab4/simulation/modelsim/fsm.vht for simulation
+Info (201002): Generated VHDL Test Bench File /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht for simulation
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 573 warnings
-    Info: Peak virtual memory: 1411 megabytes
-    Info: Processing ended: Sun Nov 10 16:59:13 2019
+    Info: Peak virtual memory: 1412 megabytes
+    Info: Processing ended: Sun Nov 10 19:36:45 2019
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

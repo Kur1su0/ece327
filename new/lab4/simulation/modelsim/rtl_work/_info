@@ -8,81 +8,464 @@ z2
 !i10f 100
 cModel Technology
 Z0 d/users/zicew/git/ece327/new/lab4/simulation/modelsim
-Efsm
-Z1 w1573423108
-Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Eadder
+Z1 w1573442385
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
-Z4 8/users/zicew/git/ece327/new/lab4/fsm.vhd
-Z5 F/users/zicew/git/ece327/new/lab4/fsm.vhd
+Z6 8/users/zicew/git/ece327/new/lab4/Adder.vhd
+Z7 F/users/zicew/git/ece327/new/lab4/Adder.vhd
+l0
+L5
+V?;930^9iS?U<g31>`YeEn1
+!s100 I?=K87oBKIZ;HbT<o]l[d2
+Z8 OV;C;10.4d;61
+31
+Z9 !s110 1573448286
+!i10b 1
+Z10 !s108 1573448286.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab4/Adder.vhd|
+Z12 !s107 /users/zicew/git/ece327/new/lab4/Adder.vhd|
+!i113 1
+Z13 o-93 -work work
+Z14 tExplicit 1
+Astruc
+R2
+R3
+R4
+R5
+DEx4 work 5 adder 0 22 ?;930^9iS?U<g31>`YeEn1
+l20
+L17
+VA=fER<DDG<S[Pj]i3LgcJ2
+!s100 nlz>X=FOF9<;SlBaz4m]D1
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Efsm
+Z15 w1573447189
+R4
+R5
+R0
+Z16 8/users/zicew/git/ece327/new/lab4/fsm.vhd
+Z17 F/users/zicew/git/ece327/new/lab4/fsm.vhd
 l0
 L5
 V9UaUTY33lTBW`C@h_HB`G2
 !s100 HZXDB3NB@4dEG9bF?Bhk:3
-Z6 OV;C;10.4d;61
+R8
 31
-Z7 !s110 1573423984
+R9
 !i10b 1
-Z8 !s108 1573423984.000000
-Z9 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab4/fsm.vhd|
-Z10 !s107 /users/zicew/git/ece327/new/lab4/fsm.vhd|
+R10
+Z18 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab4/fsm.vhd|
+Z19 !s107 /users/zicew/git/ece327/new/lab4/fsm.vhd|
 !i113 1
-Z11 o-93 -work work
-Z12 tExplicit 1
+R13
+R14
 Astruct
-R2
-R3
+R4
+R5
 DEx4 work 3 fsm 0 22 9UaUTY33lTBW`C@h_HB`G2
 l24
 L19
-VY@jLQ6ooGGTa[B]@Ff`a51
-!s100 ek[0nUCKVOa9X@>GUbjnJ3
-R6
-31
-R7
-!i10b 1
+V]XcORlaKnK4Hj2;O_I1BM2
+!s100 fckcXK[oz:RWONIYUd9481
 R8
+31
 R9
+!i10b 1
 R10
-!i113 1
-R11
-R12
-Efsm_vhd_tst
-Z13 w1573423972
-R2
-R3
-R0
-Z14 8/users/zicew/git/ece327/new/lab4/simulation/modelsim/fsm.vht
-Z15 F/users/zicew/git/ece327/new/lab4/simulation/modelsim/fsm.vht
-l0
-L31
-V>9GVNIfmZ@5OhziO:PS8W3
-!s100 _z99_m7138X6I@nX>3gRE3
-R6
-31
-Z16 !s110 1573423985
-!i10b 1
-Z17 !s108 1573423985.000000
-Z18 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab4/simulation/modelsim/fsm.vht|
-Z19 !s107 /users/zicew/git/ece327/new/lab4/simulation/modelsim/fsm.vht|
-!i113 1
-R11
-R12
-Afsm_arch
-R2
-R3
-DEx4 work 11 fsm_vhd_tst 0 22 >9GVNIfmZ@5OhziO:PS8W3
-l64
-L33
-V<_]_]6bPIzG<@_X5]8S4S3
-!s100 @lN`3c4ABZEL>]mKcf::e2
-R6
-31
-R16
-!i10b 1
-R17
 R18
 R19
 !i113 1
-R11
-R12
+R13
+R14
+Elab4
+Z20 w1573432570
+R2
+R3
+R4
+R5
+R0
+Z21 8/users/zicew/git/ece327/new/lab4/lab4.vhd
+Z22 F/users/zicew/git/ece327/new/lab4/lab4.vhd
+l0
+L5
+V7aHOCH=dRA>cbogzWHL3F1
+!s100 @?WAoGY=8dUo`CY_m4YN91
+R8
+31
+R9
+!i10b 1
+R10
+Z23 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab4/lab4.vhd|
+Z24 !s107 /users/zicew/git/ece327/new/lab4/lab4.vhd|
+!i113 1
+R13
+R14
+Astruc
+R2
+R3
+R4
+R5
+DEx4 work 4 lab4 0 22 7aHOCH=dRA>cbogzWHL3F1
+l139
+L23
+Ve^NKmAYf1O15]7]ih552Q3
+!s100 WZfGhfTT2]O10=O`a9`7X1
+R8
+31
+R9
+!i10b 1
+R10
+R23
+R24
+!i113 1
+R13
+R14
+Elab4_vhd_tst
+Z25 w1573448267
+R4
+R5
+R0
+Z26 8/users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht
+Z27 F/users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht
+l0
+L31
+V0jkj]g5n0ZN4?zoXLEKWV3
+!s100 HdhdKlTb1=[NN0;hPPPof3
+R8
+31
+R9
+!i10b 1
+R10
+Z28 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht|
+Z29 !s107 /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht|
+!i113 1
+R13
+R14
+Alab4_arch
+R4
+R5
+DEx4 work 12 lab4_vhd_tst 0 22 0jkj]g5n0ZN4?zoXLEKWV3
+l56
+L33
+VaHd5Xl7lY17YLOi036M4H1
+!s100 YIR3BZU^mgATNM<FHCVV53
+R8
+31
+R9
+!i10b 1
+R10
+R28
+R29
+!i113 1
+R13
+R14
+Emux
+Z30 w1573440590
+R4
+R5
+R0
+Z31 8/users/zicew/git/ece327/new/lab4/mux.vhd
+Z32 F/users/zicew/git/ece327/new/lab4/mux.vhd
+l0
+L3
+VjZWX>bNLnYk>1^VR9R00:3
+!s100 Yl;CTa<C;LWA3UhdYQkX01
+R8
+31
+R9
+!i10b 1
+R10
+Z33 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab4/mux.vhd|
+Z34 !s107 /users/zicew/git/ece327/new/lab4/mux.vhd|
+!i113 1
+R13
+R14
+Astruct
+R4
+R5
+DEx4 work 3 mux 0 22 jZWX>bNLnYk>1^VR9R00:3
+l16
+L13
+VfDGA2S<QOKB?HOESA4=Db1
+!s100 P`B@2VCKVWLRc=Q@Cn<Cl0
+R8
+31
+R9
+!i10b 1
+R10
+R33
+R34
+!i113 1
+R13
+R14
+Ereal_adder
+Z35 w1573442388
+R2
+R3
+R4
+R5
+R0
+Z36 8/users/zicew/git/ece327/new/lab4/real_adder.vhd
+Z37 F/users/zicew/git/ece327/new/lab4/real_adder.vhd
+l0
+L5
+Vgi1HYJT4dGFNiSa9Eh_UF2
+!s100 n7AXB?>9nOTamNHfZD9c:2
+R8
+31
+R9
+!i10b 1
+R10
+Z38 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab4/real_adder.vhd|
+Z39 !s107 /users/zicew/git/ece327/new/lab4/real_adder.vhd|
+!i113 1
+R13
+R14
+Astruc
+R2
+R3
+R4
+R5
+DEx4 work 10 real_adder 0 22 gi1HYJT4dGFNiSa9Eh_UF2
+l31
+L16
+Vem=IP9>8Df_hPB?^bUZ]61
+!s100 hYb11?JRQk_;0QA3e1aK@0
+R8
+31
+R9
+!i10b 1
+R10
+R38
+R39
+!i113 1
+R13
+R14
+Erega
+Z40 w1573244249
+R2
+R3
+R4
+R5
+R0
+Z41 8/users/zicew/git/ece327/new/lab4/regA.vhd
+Z42 F/users/zicew/git/ece327/new/lab4/regA.vhd
+l0
+L5
+VJPFFHadXPFjT5UlodfCL62
+!s100 ozb484f3bd^RY;iOn;ocU0
+R8
+31
+R9
+!i10b 1
+R10
+Z43 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab4/regA.vhd|
+Z44 !s107 /users/zicew/git/ece327/new/lab4/regA.vhd|
+!i113 1
+R13
+R14
+Amixed
+R2
+R3
+R4
+R5
+DEx4 work 4 rega 0 22 JPFFHadXPFjT5UlodfCL62
+l23
+L20
+VNC3[JmVjAKkG2]6knAzNW1
+!s100 E8;UiOG@8mJ6heL<_HY@:3
+R8
+31
+R9
+!i10b 1
+R10
+R43
+R44
+!i113 1
+R13
+R14
+Eregb
+Z45 w1573438655
+R2
+R3
+R4
+R5
+R0
+Z46 8/users/zicew/git/ece327/new/lab4/regB.vhd
+Z47 F/users/zicew/git/ece327/new/lab4/regB.vhd
+l0
+L5
+VHkb=WFKDaWD5FnReM8FNF2
+!s100 CQ6E21XSk:QUJI8ezzOJ22
+R8
+31
+R9
+!i10b 1
+R10
+Z48 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab4/regB.vhd|
+Z49 !s107 /users/zicew/git/ece327/new/lab4/regB.vhd|
+!i113 1
+R13
+R14
+Amixed
+R2
+R3
+R4
+R5
+DEx4 work 4 regb 0 22 Hkb=WFKDaWD5FnReM8FNF2
+l23
+L21
+VLSNfi`8a]a?b1nb^bjbd`0
+!s100 [oO0lJOGZlNj:=8FhL^1C3
+R8
+31
+R9
+!i10b 1
+R10
+R48
+R49
+!i113 1
+R13
+R14
+Eregc
+Z50 w1573447657
+R2
+R3
+R4
+R5
+R0
+Z51 8/users/zicew/git/ece327/new/lab4/regC.vhd
+Z52 F/users/zicew/git/ece327/new/lab4/regC.vhd
+l0
+L5
+VAgn4HdjH5_jEjObmCkT8Z0
+!s100 iKeOMHI_FzLKCB=JFE;R81
+R8
+31
+R9
+!i10b 1
+R10
+Z53 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab4/regC.vhd|
+Z54 !s107 /users/zicew/git/ece327/new/lab4/regC.vhd|
+!i113 1
+R13
+R14
+Astruc
+R2
+R3
+R4
+R5
+DEx4 work 4 regc 0 22 Agn4HdjH5_jEjObmCkT8Z0
+l26
+L22
+VO:3n4=HHW6LThV<6cIDBm1
+!s100 B4M2]h`b4UCMCd=gjQIF20
+R8
+31
+R9
+!i10b 1
+R10
+R53
+R54
+!i113 1
+R13
+R14
+Eregd
+Z55 w1573439558
+R2
+R3
+R4
+R5
+R0
+Z56 8/users/zicew/git/ece327/new/lab4/regD.vhd
+Z57 F/users/zicew/git/ece327/new/lab4/regD.vhd
+l0
+L5
+VVHnXo9cg^[RXUk7?Ym1zj0
+!s100 f1^T8XfjNk6HEWQO^TzTo3
+R8
+31
+R9
+!i10b 1
+R10
+Z58 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab4/regD.vhd|
+Z59 !s107 /users/zicew/git/ece327/new/lab4/regD.vhd|
+!i113 1
+R13
+R14
+Amixed
+R2
+R3
+R4
+R5
+DEx4 work 4 regd 0 22 VHnXo9cg^[RXUk7?Ym1zj0
+l23
+L18
+VhZ]zP5nzA[e1nWf=cb4<z0
+!s100 MOfz9R1[g`fa5jk21[Qeh1
+R8
+31
+R9
+!i10b 1
+R10
+R58
+R59
+!i113 1
+R13
+R14
+Etwo_one_mux
+Z60 w1573407302
+R2
+R3
+R4
+R5
+R0
+Z61 8/users/zicew/git/ece327/new/lab4/two_one_mux.vhd
+Z62 F/users/zicew/git/ece327/new/lab4/two_one_mux.vhd
+l0
+L6
+VhRF2HO?=C<X>`DKPigm4Q1
+!s100 J<=4WJUlNCTAVIZo;Uhiz0
+R8
+31
+R9
+!i10b 1
+R10
+Z63 !s90 -reportprogress|300|-93|-work|work|/users/zicew/git/ece327/new/lab4/two_one_mux.vhd|
+Z64 !s107 /users/zicew/git/ece327/new/lab4/two_one_mux.vhd|
+!i113 1
+R13
+R14
+Astruc
+R2
+R3
+R4
+R5
+DEx4 work 11 two_one_mux 0 22 hRF2HO?=C<X>`DKPigm4Q1
+l18
+L17
+V8Un92;1QmNRf_n?PhEkEj3
+!s100 fogQOeN4RY7bi=<=:9]lV1
+R8
+31
+R9
+!i10b 1
+R10
+R63
+R64
+!i113 1
+R13
+R14
