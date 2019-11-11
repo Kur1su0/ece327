@@ -1,5 +1,5 @@
 Analysis & Synthesis report for example
-Mon Nov 11 00:45:56 2019
+Mon Nov 11 11:27:18 2019
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
 
 
@@ -13,27 +13,28 @@ Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. State Machine - |lab4|fsm:map_fsm|state
+  8. State Machine - |board_lab4|lab4:map_lab4|fsm:map_fsm|state
   9. User-Specified and Inferred Latches
  10. Registers Removed During Synthesis
  11. General Register Statistics
  12. Inverted Register Statistics
  13. Multiplexer Restructuring Statistics (Restructuring Performed)
- 14. Parameter Settings for User Entity Instance: Top-level Entity: |lab4
- 15. Parameter Settings for User Entity Instance: regA:map_regA
- 16. Parameter Settings for User Entity Instance: mux:map_mux
- 17. Parameter Settings for User Entity Instance: two_one_mux:map_2_1_mux
- 18. Parameter Settings for User Entity Instance: regC:map_regC
- 19. Parameter Settings for User Entity Instance: real_adder:map_adder
- 20. Parameter Settings for User Entity Instance: real_adder:map_adder|Adder:Ai
- 21. Parameter Settings for User Entity Instance: regB:map_regB
- 22. Parameter Settings for User Entity Instance: fsm:map_fsm
- 23. Parameter Settings for User Entity Instance: regD:map_regD
- 24. Port Connectivity Checks: "real_adder:map_adder|Adder:Ai"
- 25. Port Connectivity Checks: "mux:map_mux"
- 26. Post-Synthesis Netlist Statistics for Top Partition
- 27. Elapsed Time Per Partition
- 28. Analysis & Synthesis Messages
+ 14. Parameter Settings for User Entity Instance: Top-level Entity: |board_lab4
+ 15. Parameter Settings for User Entity Instance: lab4:map_lab4
+ 16. Parameter Settings for User Entity Instance: lab4:map_lab4|regA:map_regA
+ 17. Parameter Settings for User Entity Instance: lab4:map_lab4|mux:map_mux
+ 18. Parameter Settings for User Entity Instance: lab4:map_lab4|two_one_mux:map_2_1_mux
+ 19. Parameter Settings for User Entity Instance: lab4:map_lab4|regC:map_regC
+ 20. Parameter Settings for User Entity Instance: lab4:map_lab4|real_adder:map_adder
+ 21. Parameter Settings for User Entity Instance: lab4:map_lab4|real_adder:map_adder|Adder:Ai
+ 22. Parameter Settings for User Entity Instance: lab4:map_lab4|regB:map_regB
+ 23. Parameter Settings for User Entity Instance: lab4:map_lab4|fsm:map_fsm
+ 24. Parameter Settings for User Entity Instance: lab4:map_lab4|regD:map_regD
+ 25. Port Connectivity Checks: "lab4:map_lab4|real_adder:map_adder|Adder:Ai"
+ 26. Port Connectivity Checks: "lab4:map_lab4|mux:map_mux"
+ 27. Post-Synthesis Netlist Statistics for Top Partition
+ 28. Elapsed Time Per Partition
+ 29. Analysis & Synthesis Messages
 
 
 
@@ -60,14 +61,14 @@ agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Nov 11 00:45:55 2019           ;
+; Analysis & Synthesis Status     ; Successful - Mon Nov 11 11:27:18 2019           ;
 ; Quartus Prime Version           ; 16.0.0 Build 211 04/27/2016 SJ Standard Edition ;
 ; Revision Name                   ; example                                         ;
-; Top-level Entity Name           ; lab4                                            ;
+; Top-level Entity Name           ; board_lab4                                      ;
 ; Family                          ; Cyclone V                                       ;
 ; Logic utilization (in ALMs)     ; N/A                                             ;
-; Total registers                 ; 73                                              ;
-; Total pins                      ; 37                                              ;
+; Total registers                 ; 57                                              ;
+; Total pins                      ; 24                                              ;
 ; Total virtual pins              ; 0                                               ;
 ; Total block memory bits         ; 0                                               ;
 ; Total DSP Blocks                ; 0                                               ;
@@ -86,7 +87,7 @@ agreement for further details.
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CSEMA5F31C6       ;                    ;
-; Top-level entity name                                                           ; lab4               ; example            ;
+; Top-level entity name                                                           ; board_lab4         ; example            ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation      ; On                 ; On                 ;
@@ -190,6 +191,7 @@ agreement for further details.
 +----------------------------------+-----------------+-----------------+--------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                     ; Library ;
 +----------------------------------+-----------------+-----------------+--------------------------------------------------+---------+
+; board_lab4.vhd                   ; yes             ; User VHDL File  ; /users/zicew/git/ece327/new/lab4/board_lab4.vhd  ;         ;
 ; lab4.vhd                         ; yes             ; User VHDL File  ; /users/zicew/git/ece327/new/lab4/lab4.vhd        ;         ;
 ; fsm.vhd                          ; yes             ; User VHDL File  ; /users/zicew/git/ece327/new/lab4/fsm.vhd         ;         ;
 ; real_adder.vhd                   ; yes             ; User VHDL File  ; /users/zicew/git/ece327/new/lab4/real_adder.vhd  ;         ;
@@ -203,55 +205,56 @@ agreement for further details.
 +----------------------------------+-----------------+-----------------+--------------------------------------------------+---------+
 
 
-+---------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                               ;
-+---------------------------------------------+-----------------------------+
-; Resource                                    ; Usage                       ;
-+---------------------------------------------+-----------------------------+
-; Estimate of Logic utilization (ALMs needed) ; 66                          ;
-;                                             ;                             ;
-; Combinational ALUT usage for logic          ; 116                         ;
-;     -- 7 input functions                    ; 6                           ;
-;     -- 6 input functions                    ; 8                           ;
-;     -- 5 input functions                    ; 2                           ;
-;     -- 4 input functions                    ; 18                          ;
-;     -- <=3 input functions                  ; 82                          ;
-;                                             ;                             ;
-; Dedicated logic registers                   ; 73                          ;
-;                                             ;                             ;
-; I/O pins                                    ; 37                          ;
-;                                             ;                             ;
-; Total DSP Blocks                            ; 0                           ;
-;                                             ;                             ;
-; Maximum fan-out node                        ; fsm:map_fsm|state.load_regs ;
-; Maximum fan-out                             ; 96                          ;
-; Total fan-out                               ; 676                         ;
-; Average fan-out                             ; 2.57                        ;
-+---------------------------------------------+-----------------------------+
++-----------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                                             ;
++---------------------------------------------+-------------------------------------------+
+; Resource                                    ; Usage                                     ;
++---------------------------------------------+-------------------------------------------+
+; Estimate of Logic utilization (ALMs needed) ; 49                                        ;
+;                                             ;                                           ;
+; Combinational ALUT usage for logic          ; 87                                        ;
+;     -- 7 input functions                    ; 2                                         ;
+;     -- 6 input functions                    ; 8                                         ;
+;     -- 5 input functions                    ; 2                                         ;
+;     -- 4 input functions                    ; 11                                        ;
+;     -- <=3 input functions                  ; 64                                        ;
+;                                             ;                                           ;
+; Dedicated logic registers                   ; 57                                        ;
+;                                             ;                                           ;
+; I/O pins                                    ; 24                                        ;
+;                                             ;                                           ;
+; Total DSP Blocks                            ; 0                                         ;
+;                                             ;                                           ;
+; Maximum fan-out node                        ; lab4:map_lab4|fsm:map_fsm|state.load_regs ;
+; Maximum fan-out                             ; 68                                        ;
+; Total fan-out                               ; 500                                       ;
+; Average fan-out                             ; 2.60                                      ;
++---------------------------------------------+-------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                       ;
-+------------------------------+-------------------+--------------+-------------------+------------+------+--------------+-------------------------------------+-------------+--------------+
-; Compilation Hierarchy Node   ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                 ; Entity Name ; Library Name ;
-+------------------------------+-------------------+--------------+-------------------+------------+------+--------------+-------------------------------------+-------------+--------------+
-; |lab4                        ; 116 (0)           ; 73 (0)       ; 0                 ; 0          ; 37   ; 0            ; |lab4                               ; lab4        ; work         ;
-;    |fsm:map_fsm|             ; 9 (9)             ; 5 (5)        ; 0                 ; 0          ; 0    ; 0            ; |lab4|fsm:map_fsm                   ; fsm         ; work         ;
-;    |mux:map_mux|             ; 8 (8)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |lab4|mux:map_mux                   ; mux         ; work         ;
-;    |real_adder:map_adder|    ; 10 (0)            ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |lab4|real_adder:map_adder          ; real_adder  ; work         ;
-;       |Adder:Ai|             ; 10 (10)           ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |lab4|real_adder:map_adder|Adder:Ai ; Adder       ; work         ;
-;    |regA:map_regA|           ; 8 (8)             ; 16 (16)      ; 0                 ; 0          ; 0    ; 0            ; |lab4|regA:map_regA                 ; regA        ; work         ;
-;    |regB:map_regB|           ; 24 (24)           ; 9 (9)        ; 0                 ; 0          ; 0    ; 0            ; |lab4|regB:map_regB                 ; regB        ; work         ;
-;    |regC:map_regC|           ; 12 (12)           ; 10 (10)      ; 0                 ; 0          ; 0    ; 0            ; |lab4|regC:map_regC                 ; regC        ; work         ;
-;    |regD:map_regD|           ; 44 (44)           ; 33 (33)      ; 0                 ; 0          ; 0    ; 0            ; |lab4|regD:map_regD                 ; regD        ; work         ;
-;    |two_one_mux:map_2_1_mux| ; 1 (1)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |lab4|two_one_mux:map_2_1_mux       ; two_one_mux ; work         ;
-+------------------------------+-------------------+--------------+-------------------+------------+------+--------------+-------------------------------------+-------------+--------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                              ;
++---------------------------------+-------------------+--------------+-------------------+------------+------+--------------+---------------------------------------------------------+-------------+--------------+
+; Compilation Hierarchy Node      ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                     ; Entity Name ; Library Name ;
++---------------------------------+-------------------+--------------+-------------------+------------+------+--------------+---------------------------------------------------------+-------------+--------------+
+; |board_lab4                     ; 87 (0)            ; 57 (0)       ; 0                 ; 0          ; 24   ; 0            ; |board_lab4                                             ; board_lab4  ; work         ;
+;    |lab4:map_lab4|              ; 87 (0)            ; 57 (0)       ; 0                 ; 0          ; 0    ; 0            ; |board_lab4|lab4:map_lab4                               ; lab4        ; work         ;
+;       |fsm:map_fsm|             ; 9 (9)             ; 5 (5)        ; 0                 ; 0          ; 0    ; 0            ; |board_lab4|lab4:map_lab4|fsm:map_fsm                   ; fsm         ; work         ;
+;       |mux:map_mux|             ; 4 (4)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |board_lab4|lab4:map_lab4|mux:map_mux                   ; mux         ; work         ;
+;       |real_adder:map_adder|    ; 6 (0)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |board_lab4|lab4:map_lab4|real_adder:map_adder          ; real_adder  ; work         ;
+;          |Adder:Ai|             ; 6 (6)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |board_lab4|lab4:map_lab4|real_adder:map_adder|Adder:Ai ; Adder       ; work         ;
+;       |regA:map_regA|           ; 4 (4)             ; 8 (8)        ; 0                 ; 0          ; 0    ; 0            ; |board_lab4|lab4:map_lab4|regA:map_regA                 ; regA        ; work         ;
+;       |regB:map_regB|           ; 12 (12)           ; 5 (5)        ; 0                 ; 0          ; 0    ; 0            ; |board_lab4|lab4:map_lab4|regB:map_regB                 ; regB        ; work         ;
+;       |regC:map_regC|           ; 7 (7)             ; 6 (6)        ; 0                 ; 0          ; 0    ; 0            ; |board_lab4|lab4:map_lab4|regC:map_regC                 ; regC        ; work         ;
+;       |regD:map_regD|           ; 44 (44)           ; 33 (33)      ; 0                 ; 0          ; 0    ; 0            ; |board_lab4|lab4:map_lab4|regD:map_regD                 ; regD        ; work         ;
+;       |two_one_mux:map_2_1_mux| ; 1 (1)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |board_lab4|lab4:map_lab4|two_one_mux:map_2_1_mux       ; two_one_mux ; work         ;
++---------------------------------+-------------------+--------------+-------------------+------------+------+--------------+---------------------------------------------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
 Encoding Type:  One-Hot
 +----------------------------------------------------------------------------------------------------+
-; State Machine - |lab4|fsm:map_fsm|state                                                            ;
+; State Machine - |board_lab4|lab4:map_lab4|fsm:map_fsm|state                                        ;
 +------------------+-----------+------------------+----------------+-----------------+---------------+
 ; Name             ; state.res ; state.shift_regs ; state.add_regs ; state.load_regs ; state.notBusy ;
 +------------------+-----------+------------------+----------------+-----------------+---------------+
@@ -263,47 +266,39 @@ Encoding Type:  One-Hot
 +------------------+-----------+------------------+----------------+-----------------+---------------+
 
 
-+-----------------------------------------------------------------------------------------------------+
-; User-Specified and Inferred Latches                                                                 ;
-+----------------------------------------------------+-----------------------+------------------------+
-; Latch Name                                         ; Latch Enable Signal   ; Free of Timing Hazards ;
-+----------------------------------------------------+-----------------------+------------------------+
-; fsm:map_fsm|done                                   ; fsm:map_fsm|Selector0 ; yes                    ;
-; fsm:map_fsm|sel_out[2]                             ; fsm:map_fsm|sel_out   ; yes                    ;
-; fsm:map_fsm|sel_out[0]                             ; fsm:map_fsm|sel_out   ; yes                    ;
-; fsm:map_fsm|sel_out[1]                             ; fsm:map_fsm|sel_out   ; yes                    ;
-; Number of user-specified and inferred latches = 4  ;                       ;                        ;
-+----------------------------------------------------+-----------------------+------------------------+
++-------------------------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                               ;
++----------------------------------------------------+-------------------------------------+------------------------+
+; Latch Name                                         ; Latch Enable Signal                 ; Free of Timing Hazards ;
++----------------------------------------------------+-------------------------------------+------------------------+
+; lab4:map_lab4|fsm:map_fsm|done                     ; lab4:map_lab4|fsm:map_fsm|Selector0 ; yes                    ;
+; lab4:map_lab4|fsm:map_fsm|sel_out[2]               ; lab4:map_lab4|fsm:map_fsm|sel_out   ; yes                    ;
+; lab4:map_lab4|fsm:map_fsm|sel_out[0]               ; lab4:map_lab4|fsm:map_fsm|sel_out   ; yes                    ;
+; lab4:map_lab4|fsm:map_fsm|sel_out[1]               ; lab4:map_lab4|fsm:map_fsm|sel_out   ; yes                    ;
+; Number of user-specified and inferred latches = 4  ;                                     ;                        ;
++----------------------------------------------------+-------------------------------------+------------------------+
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
-+---------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                              ;
-+----------------------------------------+----------------------------------------+
-; Register name                          ; Reason for Removal                     ;
-+----------------------------------------+----------------------------------------+
-; regA:map_regA|pos2[0]                  ; Stuck at GND due to stuck port data_in ;
-; regA:map_regA|neg2[0]                  ; Stuck at GND due to stuck port data_in ;
-; regA:map_regA|neg2[3]                  ; Merged with regA:map_regA|neg1[2]      ;
-; regA:map_regA|neg2[4]                  ; Merged with regA:map_regA|neg1[3]      ;
-; regA:map_regA|pos2[4]                  ; Merged with regA:map_regA|pos1[3]      ;
-; regA:map_regA|pos2[3]                  ; Merged with regA:map_regA|pos1[2]      ;
-; regA:map_regA|neg2[1]                  ; Merged with regA:map_regA|neg1[0]      ;
-; regA:map_regA|neg2[2]                  ; Merged with regA:map_regA|neg1[1]      ;
-; regA:map_regA|pos2[2]                  ; Merged with regA:map_regA|pos1[1]      ;
-; regA:map_regA|pos2[1]                  ; Merged with regA:map_regA|pos1[0]      ;
-; regA:map_regA|neg2[5]                  ; Merged with regA:map_regA|neg1[4]      ;
-; regA:map_regA|pos2[5]                  ; Merged with regA:map_regA|pos1[4]      ;
-; regA:map_regA|neg2[6]                  ; Merged with regA:map_regA|neg1[5]      ;
-; regA:map_regA|pos2[6]                  ; Merged with regA:map_regA|pos1[5]      ;
-; regA:map_regA|neg2[7]                  ; Merged with regA:map_regA|neg1[6]      ;
-; regA:map_regA|pos2[7]                  ; Merged with regA:map_regA|pos1[6]      ;
-; regA:map_regA|neg2[8]                  ; Merged with regA:map_regA|neg1[7]      ;
-; regA:map_regA|pos1[8]                  ; Merged with regA:map_regA|pos1[7]      ;
-; regA:map_regA|pos2[8]                  ; Merged with regA:map_regA|pos1[7]      ;
-; regA:map_regA|pos1[0]                  ; Merged with regA:map_regA|neg1[0]      ;
-; Total Number of Removed Registers = 20 ;                                        ;
-+----------------------------------------+----------------------------------------+
++------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                       ;
++----------------------------------------+-------------------------------------------------+
+; Register name                          ; Reason for Removal                              ;
++----------------------------------------+-------------------------------------------------+
+; lab4:map_lab4|regA:map_regA|pos2[0]    ; Stuck at GND due to stuck port data_in          ;
+; lab4:map_lab4|regA:map_regA|neg2[0]    ; Stuck at GND due to stuck port data_in          ;
+; lab4:map_lab4|regA:map_regA|neg2[3]    ; Merged with lab4:map_lab4|regA:map_regA|neg1[2] ;
+; lab4:map_lab4|regA:map_regA|neg2[4]    ; Merged with lab4:map_lab4|regA:map_regA|neg1[3] ;
+; lab4:map_lab4|regA:map_regA|pos1[4]    ; Merged with lab4:map_lab4|regA:map_regA|pos1[3] ;
+; lab4:map_lab4|regA:map_regA|pos2[4]    ; Merged with lab4:map_lab4|regA:map_regA|pos1[3] ;
+; lab4:map_lab4|regA:map_regA|pos2[3]    ; Merged with lab4:map_lab4|regA:map_regA|pos1[2] ;
+; lab4:map_lab4|regA:map_regA|neg2[1]    ; Merged with lab4:map_lab4|regA:map_regA|neg1[0] ;
+; lab4:map_lab4|regA:map_regA|neg2[2]    ; Merged with lab4:map_lab4|regA:map_regA|neg1[1] ;
+; lab4:map_lab4|regA:map_regA|pos2[2]    ; Merged with lab4:map_lab4|regA:map_regA|pos1[1] ;
+; lab4:map_lab4|regA:map_regA|pos2[1]    ; Merged with lab4:map_lab4|regA:map_regA|pos1[0] ;
+; lab4:map_lab4|regA:map_regA|pos1[0]    ; Merged with lab4:map_lab4|regA:map_regA|neg1[0] ;
+; Total Number of Removed Registers = 12 ;                                                 ;
++----------------------------------------+-------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -311,155 +306,164 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 73    ;
-; Number of registers using Synchronous Clear  ; 38    ;
+; Total registers                              ; 57    ;
+; Number of registers using Synchronous Clear  ; 34    ;
 ; Number of registers using Synchronous Load   ; 1     ;
-; Number of registers using Asynchronous Clear ; 14    ;
+; Number of registers using Asynchronous Clear ; 10    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 65    ;
+; Number of registers using Clock Enable       ; 49    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
 
-+--------------------------------------------------+
-; Inverted Register Statistics                     ;
-+----------------------------------------+---------+
-; Inverted Register                      ; Fan out ;
-+----------------------------------------+---------+
-; regD:map_regD|count_val[0]             ; 2       ;
-; regD:map_regD|count_val[31]            ; 2       ;
-; Total number of inverted registers = 2 ;         ;
-+----------------------------------------+---------+
++-----------------------------------------------------+
+; Inverted Register Statistics                        ;
++-------------------------------------------+---------+
+; Inverted Register                         ; Fan out ;
++-------------------------------------------+---------+
+; lab4:map_lab4|regD:map_regD|count_val[0]  ; 2       ;
+; lab4:map_lab4|regD:map_regD|count_val[31] ; 2       ;
+; Total number of inverted registers = 2    ;         ;
++-------------------------------------------+---------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                        ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output              ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------+
-; 3:1                ; 29 bits   ; 58 LEs        ; 0 LEs                ; 58 LEs                 ; Yes        ; |lab4|regD:map_regD|count_val[13]       ;
-; 4:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; Yes        ; |lab4|regC:map_regC|sig_output_adder[4] ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |lab4|regD:map_regD|count_val[31]       ;
-; 6:1                ; 7 bits    ; 28 LEs        ; 28 LEs               ; 0 LEs                  ; No         ; |lab4|mux:map_mux|Mux1                  ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------+
-
-
-+----------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Top-level Entity: |lab4 ;
-+----------------+-------+---------------------------------------------+
-; Parameter Name ; Value ; Type                                        ;
-+----------------+-------+---------------------------------------------+
-; n              ; 8     ; Signed Integer                              ;
-+----------------+-------+---------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: regA:map_regA ;
-+----------------+-------+-----------------------------------+
-; Parameter Name ; Value ; Type                              ;
-+----------------+-------+-----------------------------------+
-; n              ; 8     ; Signed Integer                    ;
-+----------------+-------+-----------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------+
-; Parameter Settings for User Entity Instance: mux:map_mux ;
-+----------------+-------+---------------------------------+
-; Parameter Name ; Value ; Type                            ;
-+----------------+-------+---------------------------------+
-; n              ; 8     ; Signed Integer                  ;
-+----------------+-------+---------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+----------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: two_one_mux:map_2_1_mux ;
-+----------------+-------+---------------------------------------------+
-; Parameter Name ; Value ; Type                                        ;
-+----------------+-------+---------------------------------------------+
-; n              ; 8     ; Signed Integer                              ;
-+----------------+-------+---------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: regC:map_regC ;
-+----------------+-------+-----------------------------------+
-; Parameter Name ; Value ; Type                              ;
-+----------------+-------+-----------------------------------+
-; n              ; 8     ; Signed Integer                    ;
-+----------------+-------+-----------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
-+-------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: real_adder:map_adder ;
-+----------------+-------+------------------------------------------+
-; Parameter Name ; Value ; Type                                     ;
-+----------------+-------+------------------------------------------+
-; n              ; 9     ; Signed Integer                           ;
-+----------------+-------+------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                      ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                            ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------+
+; 3:1                ; 29 bits   ; 58 LEs        ; 0 LEs                ; 58 LEs                 ; Yes        ; |board_lab4|lab4:map_lab4|regD:map_regD|count_val[15] ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |board_lab4|lab4:map_lab4|regD:map_regD|count_val[0]  ;
+; 6:1                ; 3 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |board_lab4|lab4:map_lab4|mux:map_mux|Mux2            ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------+
 
 
 +----------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: real_adder:map_adder|Adder:Ai ;
+; Parameter Settings for User Entity Instance: Top-level Entity: |board_lab4 ;
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; n              ; 9     ; Signed Integer                                    ;
+; n              ; 4     ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: regB:map_regB ;
+; Parameter Settings for User Entity Instance: lab4:map_lab4 ;
 +----------------+-------+-----------------------------------+
 ; Parameter Name ; Value ; Type                              ;
 +----------------+-------+-----------------------------------+
-; n              ; 8     ; Signed Integer                    ;
+; n              ; 4     ; Signed Integer                    ;
 +----------------+-------+-----------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+----------------------------------------------------------+
-; Parameter Settings for User Entity Instance: fsm:map_fsm ;
-+----------------+-------+---------------------------------+
-; Parameter Name ; Value ; Type                            ;
-+----------------+-------+---------------------------------+
-; n              ; 8     ; Signed Integer                  ;
-+----------------+-------+---------------------------------+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: lab4:map_lab4|regA:map_regA ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; n              ; 4     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: regD:map_regD ;
-+----------------+-------+-----------------------------------+
-; Parameter Name ; Value ; Type                              ;
-+----------------+-------+-----------------------------------+
-; n              ; 8     ; Signed Integer                    ;
-+----------------+-------+-----------------------------------+
++------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: lab4:map_lab4|mux:map_mux ;
++----------------+-------+-----------------------------------------------+
+; Parameter Name ; Value ; Type                                          ;
++----------------+-------+-----------------------------------------------+
+; n              ; 4     ; Signed Integer                                ;
++----------------+-------+-----------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+-----------------------------------------------------------+
-; Port Connectivity Checks: "real_adder:map_adder|Adder:Ai" ;
-+------+-------+----------+---------------------------------+
-; Port ; Type  ; Severity ; Details                         ;
-+------+-------+----------+---------------------------------+
-; cin  ; Input ; Info     ; Stuck at GND                    ;
-+------+-------+----------+---------------------------------+
++------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: lab4:map_lab4|two_one_mux:map_2_1_mux ;
++----------------+-------+-----------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                      ;
++----------------+-------+-----------------------------------------------------------+
+; n              ; 4     ; Signed Integer                                            ;
++----------------+-------+-----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+-----------------------------------------+
-; Port Connectivity Checks: "mux:map_mux" ;
-+------+-------+----------+---------------+
-; Port ; Type  ; Severity ; Details       ;
-+------+-------+----------+---------------+
-; zero ; Input ; Info     ; Stuck at GND  ;
-+------+-------+----------+---------------+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: lab4:map_lab4|regC:map_regC ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; n              ; 4     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: lab4:map_lab4|real_adder:map_adder ;
++----------------+-------+--------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                   ;
++----------------+-------+--------------------------------------------------------+
+; n              ; 5     ; Signed Integer                                         ;
++----------------+-------+--------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: lab4:map_lab4|real_adder:map_adder|Adder:Ai ;
++----------------+-------+-----------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                            ;
++----------------+-------+-----------------------------------------------------------------+
+; n              ; 5     ; Signed Integer                                                  ;
++----------------+-------+-----------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: lab4:map_lab4|regB:map_regB ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; n              ; 4     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: lab4:map_lab4|fsm:map_fsm ;
++----------------+-------+-----------------------------------------------+
+; Parameter Name ; Value ; Type                                          ;
++----------------+-------+-----------------------------------------------+
+; n              ; 4     ; Signed Integer                                ;
++----------------+-------+-----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: lab4:map_lab4|regD:map_regD ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; n              ; 4     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------+
+; Port Connectivity Checks: "lab4:map_lab4|real_adder:map_adder|Adder:Ai" ;
++------+-------+----------+-----------------------------------------------+
+; Port ; Type  ; Severity ; Details                                       ;
++------+-------+----------+-----------------------------------------------+
+; cin  ; Input ; Info     ; Stuck at GND                                  ;
++------+-------+----------+-----------------------------------------------+
+
+
++-------------------------------------------------------+
+; Port Connectivity Checks: "lab4:map_lab4|mux:map_mux" ;
++------+-------+----------+-----------------------------+
+; Port ; Type  ; Severity ; Details                     ;
++------+-------+----------+-----------------------------+
+; zero ; Input ; Info     ; Stuck at GND                ;
++------+-------+----------+-----------------------------+
 
 
 +-----------------------------------------------------+
@@ -467,35 +471,34 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 73                          ;
+; arriav_ff             ; 57                          ;
 ;     CLR               ; 5                           ;
-;     ENA               ; 19                          ;
-;     ENA CLR           ; 9                           ;
-;     ENA SCLR          ; 37                          ;
+;     ENA               ; 11                          ;
+;     ENA CLR           ; 5                           ;
+;     ENA SCLR          ; 33                          ;
 ;     SCLR              ; 1                           ;
 ;     SLD               ; 1                           ;
 ;     plain             ; 1                           ;
-; arriav_lcell_comb     ; 116                         ;
-;     arith             ; 39                          ;
-;         1 data inputs ; 38                          ;
-;         2 data inputs ; 1                           ;
-;     extend            ; 6                           ;
-;         7 data inputs ; 6                           ;
-;     normal            ; 61                          ;
+; arriav_lcell_comb     ; 87                          ;
+;     arith             ; 32                          ;
+;         1 data inputs ; 32                          ;
+;     extend            ; 2                           ;
+;         7 data inputs ; 2                           ;
+;     normal            ; 47                          ;
 ;         1 data inputs ; 1                           ;
-;         2 data inputs ; 17                          ;
-;         3 data inputs ; 16                          ;
-;         4 data inputs ; 17                          ;
+;         2 data inputs ; 13                          ;
+;         3 data inputs ; 13                          ;
+;         4 data inputs ; 10                          ;
 ;         5 data inputs ; 2                           ;
 ;         6 data inputs ; 8                           ;
-;     shared            ; 10                          ;
+;     shared            ; 6                           ;
 ;         0 data inputs ; 1                           ;
-;         2 data inputs ; 8                           ;
+;         2 data inputs ; 4                           ;
 ;         4 data inputs ; 1                           ;
-; boundary_port         ; 37                          ;
+; boundary_port         ; 24                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 5.10                        ;
-; Average LUT depth     ; 2.90                        ;
+; Average LUT depth     ; 2.98                        ;
 +-----------------------+-----------------------------+
 
 
@@ -514,10 +517,13 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
-    Info: Processing started: Mon Nov 11 00:45:37 2019
+    Info: Processing started: Mon Nov 11 11:27:00 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab4 -c example
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file board_lab4.vhd
+    Info (12022): Found design unit 1: board_lab4-struct File: /users/zicew/git/ece327/new/lab4/board_lab4.vhd Line: 16
+    Info (12023): Found entity 1: board_lab4 File: /users/zicew/git/ece327/new/lab4/board_lab4.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file lab4.vhd
     Info (12022): Found design unit 1: lab4-struc File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 23
     Info (12023): Found entity 1: lab4 File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 5
@@ -552,17 +558,18 @@ Info (12021): Found 2 design units, including 1 entities, in source file Adder.v
 Info (12021): Found 2 design units, including 1 entities, in source file example.vhd
     Info (12022): Found design unit 1: example-mixed File: /users/zicew/git/ece327/new/lab4/example.vhd Line: 12
     Info (12023): Found entity 1: example File: /users/zicew/git/ece327/new/lab4/example.vhd Line: 6
-Info (12127): Elaborating entity "lab4" for the top level hierarchy
-Info (12128): Elaborating entity "regA" for hierarchy "regA:map_regA" File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 143
-Info (12128): Elaborating entity "mux" for hierarchy "mux:map_mux" File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 147
-Info (12128): Elaborating entity "two_one_mux" for hierarchy "two_one_mux:map_2_1_mux" File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 154
-Info (12128): Elaborating entity "regC" for hierarchy "regC:map_regC" File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 158
-Info (12128): Elaborating entity "real_adder" for hierarchy "real_adder:map_adder" File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 169
+Info (12127): Elaborating entity "board_lab4" for the top level hierarchy
+Info (12128): Elaborating entity "lab4" for hierarchy "lab4:map_lab4" File: /users/zicew/git/ece327/new/lab4/board_lab4.vhd Line: 33
+Info (12128): Elaborating entity "regA" for hierarchy "lab4:map_lab4|regA:map_regA" File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 143
+Info (12128): Elaborating entity "mux" for hierarchy "lab4:map_lab4|mux:map_mux" File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 147
+Info (12128): Elaborating entity "two_one_mux" for hierarchy "lab4:map_lab4|two_one_mux:map_2_1_mux" File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 154
+Info (12128): Elaborating entity "regC" for hierarchy "lab4:map_lab4|regC:map_regC" File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 158
+Info (12128): Elaborating entity "real_adder" for hierarchy "lab4:map_lab4|real_adder:map_adder" File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 169
 Warning (10540): VHDL Signal Declaration warning at real_adder.vhd(19): used explicit default value for signal "inter_sub_signal" because signal was never assigned a value File: /users/zicew/git/ece327/new/lab4/real_adder.vhd Line: 19
-Info (12128): Elaborating entity "Adder" for hierarchy "real_adder:map_adder|Adder:Ai" File: /users/zicew/git/ece327/new/lab4/real_adder.vhd Line: 36
-Info (12128): Elaborating entity "regB" for hierarchy "regB:map_regB" File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 177
+Info (12128): Elaborating entity "Adder" for hierarchy "lab4:map_lab4|real_adder:map_adder|Adder:Ai" File: /users/zicew/git/ece327/new/lab4/real_adder.vhd Line: 36
+Info (12128): Elaborating entity "regB" for hierarchy "lab4:map_lab4|regB:map_regB" File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 177
 Warning (10492): VHDL Process Statement warning at regB.vhd(30): signal "multiplier" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /users/zicew/git/ece327/new/lab4/regB.vhd Line: 30
-Info (12128): Elaborating entity "fsm" for hierarchy "fsm:map_fsm" File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 188
+Info (12128): Elaborating entity "fsm" for hierarchy "lab4:map_lab4|fsm:map_fsm" File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 188
 Warning (10492): VHDL Process Statement warning at fsm.vhd(70): signal "sel" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /users/zicew/git/ece327/new/lab4/fsm.vhd Line: 70
 Warning (10492): VHDL Process Statement warning at fsm.vhd(79): signal "sel" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /users/zicew/git/ece327/new/lab4/fsm.vhd Line: 79
 Warning (10631): VHDL Process Statement warning at fsm.vhd(61): inferring latch(es) for signal or variable "done", which holds its previous value in one or more paths through the process File: /users/zicew/git/ece327/new/lab4/fsm.vhd Line: 61
@@ -571,18 +578,14 @@ Info (10041): Inferred latch for "sel_out[0]" at fsm.vhd(61) File: /users/zicew/
 Info (10041): Inferred latch for "sel_out[1]" at fsm.vhd(61) File: /users/zicew/git/ece327/new/lab4/fsm.vhd Line: 61
 Info (10041): Inferred latch for "sel_out[2]" at fsm.vhd(61) File: /users/zicew/git/ece327/new/lab4/fsm.vhd Line: 61
 Info (10041): Inferred latch for "done" at fsm.vhd(61) File: /users/zicew/git/ece327/new/lab4/fsm.vhd Line: 61
-Info (12128): Elaborating entity "regD" for hierarchy "regD:map_regD" File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 198
-Warning (13012): Latch fsm:map_fsm|done has unsafe behavior File: /users/zicew/git/ece327/new/lab4/fsm.vhd Line: 11
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal fsm:map_fsm|state.res File: /users/zicew/git/ece327/new/lab4/fsm.vhd Line: 22
+Info (12128): Elaborating entity "regD" for hierarchy "lab4:map_lab4|regD:map_regD" File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 198
+Warning (13012): Latch lab4:map_lab4|fsm:map_fsm|done has unsafe behavior File: /users/zicew/git/ece327/new/lab4/fsm.vhd Line: 11
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal lab4:map_lab4|fsm:map_fsm|state.res File: /users/zicew/git/ece327/new/lab4/fsm.vhd Line: 22
 Warning (13004): Presettable and clearable registers converted to equivalent circuits with latches. Registers power-up to an undefined state, and DEVCLRn places the registers in an undefined state.
-    Warning (13310): Register "regB:map_regB|internal_buffer[1]" is converted into an equivalent circuit using register "regB:map_regB|internal_buffer[1]~_emulated" and latch "regB:map_regB|internal_buffer[1]~1" File: /users/zicew/git/ece327/new/lab4/regB.vhd Line: 29
-    Warning (13310): Register "regB:map_regB|internal_buffer[2]" is converted into an equivalent circuit using register "regB:map_regB|internal_buffer[2]~_emulated" and latch "regB:map_regB|internal_buffer[2]~5" File: /users/zicew/git/ece327/new/lab4/regB.vhd Line: 29
-    Warning (13310): Register "regB:map_regB|internal_buffer[3]" is converted into an equivalent circuit using register "regB:map_regB|internal_buffer[3]~_emulated" and latch "regB:map_regB|internal_buffer[3]~9" File: /users/zicew/git/ece327/new/lab4/regB.vhd Line: 29
-    Warning (13310): Register "regB:map_regB|internal_buffer[4]" is converted into an equivalent circuit using register "regB:map_regB|internal_buffer[4]~_emulated" and latch "regB:map_regB|internal_buffer[4]~13" File: /users/zicew/git/ece327/new/lab4/regB.vhd Line: 29
-    Warning (13310): Register "regB:map_regB|internal_buffer[5]" is converted into an equivalent circuit using register "regB:map_regB|internal_buffer[5]~_emulated" and latch "regB:map_regB|internal_buffer[5]~17" File: /users/zicew/git/ece327/new/lab4/regB.vhd Line: 29
-    Warning (13310): Register "regB:map_regB|internal_buffer[6]" is converted into an equivalent circuit using register "regB:map_regB|internal_buffer[6]~_emulated" and latch "regB:map_regB|internal_buffer[6]~21" File: /users/zicew/git/ece327/new/lab4/regB.vhd Line: 29
-    Warning (13310): Register "regB:map_regB|internal_buffer[7]" is converted into an equivalent circuit using register "regB:map_regB|internal_buffer[7]~_emulated" and latch "regB:map_regB|internal_buffer[7]~25" File: /users/zicew/git/ece327/new/lab4/regB.vhd Line: 29
-    Warning (13310): Register "regB:map_regB|internal_buffer[8]" is converted into an equivalent circuit using register "regB:map_regB|internal_buffer[8]~_emulated" and latch "regB:map_regB|internal_buffer[8]~29" File: /users/zicew/git/ece327/new/lab4/regB.vhd Line: 29
+    Warning (13310): Register "lab4:map_lab4|regB:map_regB|internal_buffer[1]" is converted into an equivalent circuit using register "lab4:map_lab4|regB:map_regB|internal_buffer[1]~_emulated" and latch "lab4:map_lab4|regB:map_regB|internal_buffer[1]~1" File: /users/zicew/git/ece327/new/lab4/regB.vhd Line: 29
+    Warning (13310): Register "lab4:map_lab4|regB:map_regB|internal_buffer[2]" is converted into an equivalent circuit using register "lab4:map_lab4|regB:map_regB|internal_buffer[2]~_emulated" and latch "lab4:map_lab4|regB:map_regB|internal_buffer[2]~5" File: /users/zicew/git/ece327/new/lab4/regB.vhd Line: 29
+    Warning (13310): Register "lab4:map_lab4|regB:map_regB|internal_buffer[3]" is converted into an equivalent circuit using register "lab4:map_lab4|regB:map_regB|internal_buffer[3]~_emulated" and latch "lab4:map_lab4|regB:map_regB|internal_buffer[3]~9" File: /users/zicew/git/ece327/new/lab4/regB.vhd Line: 29
+    Warning (13310): Register "lab4:map_lab4|regB:map_regB|internal_buffer[4]" is converted into an equivalent circuit using register "lab4:map_lab4|regB:map_regB|internal_buffer[4]~_emulated" and latch "lab4:map_lab4|regB:map_regB|internal_buffer[4]~13" File: /users/zicew/git/ece327/new/lab4/regB.vhd Line: 29
 Info (286030): Timing-Driven Synthesis is running
 Warning (20013): Ignored 571 assignments for entity "DE1_SoC" -- entity does not exist in design
     Warning (20014): Assignment for entity set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_ADDR[0] -entity DE1_SoC was ignored
@@ -1158,14 +1161,18 @@ Warning (20013): Ignored 571 assignments for entity "DE1_SoC" -- entity does not
     Warning (20014): Assignment for entity set_instance_assignment -name D5_DELAY 2 -to HPS_DDR3_CK_P -entity DE1_SoC was ignored
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 164 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 19 input pins
-    Info (21059): Implemented 18 output pins
-    Info (21061): Implemented 127 logic cells
+Warning (21074): Design contains 3 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "KEY[1]" File: /users/zicew/git/ece327/new/lab4/board_lab4.vhd Line: 9
+    Warning (15610): No output dependent on input pin "KEY[2]" File: /users/zicew/git/ece327/new/lab4/board_lab4.vhd Line: 9
+    Warning (15610): No output dependent on input pin "KEY[3]" File: /users/zicew/git/ece327/new/lab4/board_lab4.vhd Line: 9
+Info (21057): Implemented 118 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 14 input pins
+    Info (21059): Implemented 10 output pins
+    Info (21061): Implemented 94 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 591 warnings
-    Info: Peak virtual memory: 1339 megabytes
-    Info: Processing ended: Mon Nov 11 00:45:56 2019
-    Info: Elapsed time: 00:00:19
-    Info: Total CPU time (on all processors): 00:00:24
+    Info: Peak virtual memory: 1342 megabytes
+    Info: Processing ended: Mon Nov 11 11:27:18 2019
+    Info: Elapsed time: 00:00:18
+    Info: Total CPU time (on all processors): 00:00:30
 
 

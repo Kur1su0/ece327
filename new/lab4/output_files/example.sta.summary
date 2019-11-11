@@ -1,0 +1,197 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'KEY[0]'
+Slack : -9.740
+TNS   : -468.897
+
+Type  : Slow 1100mV 85C Model Setup 'lab4:map_lab4|fsm:map_fsm|state.add_regs'
+Slack : -9.236
+TNS   : -25.726
+
+Type  : Slow 1100mV 85C Model Setup 'lab4:map_lab4|fsm:map_fsm|state.res'
+Slack : -8.928
+TNS   : -25.924
+
+Type  : Slow 1100mV 85C Model Hold 'KEY[0]'
+Slack : -7.784
+TNS   : -32.753
+
+Type  : Slow 1100mV 85C Model Hold 'lab4:map_lab4|fsm:map_fsm|state.res'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'lab4:map_lab4|fsm:map_fsm|state.add_regs'
+Slack : 1.290
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'KEY[0]'
+Slack : -8.639
+TNS   : -42.311
+
+Type  : Slow 1100mV 85C Model Removal 'KEY[0]'
+Slack : 1.488
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.394
+TNS   : -40.339
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'lab4:map_lab4|fsm:map_fsm|state.res'
+Slack : 0.377
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'lab4:map_lab4|fsm:map_fsm|state.load_regs'
+Slack : 0.393
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'lab4:map_lab4|fsm:map_fsm|state.add_regs'
+Slack : 0.437
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'KEY[0]'
+Slack : -9.460
+TNS   : -437.202
+
+Type  : Slow 1100mV 0C Model Setup 'lab4:map_lab4|fsm:map_fsm|state.add_regs'
+Slack : -9.150
+TNS   : -25.436
+
+Type  : Slow 1100mV 0C Model Setup 'lab4:map_lab4|fsm:map_fsm|state.res'
+Slack : -8.825
+TNS   : -25.535
+
+Type  : Slow 1100mV 0C Model Hold 'KEY[0]'
+Slack : -7.648
+TNS   : -33.304
+
+Type  : Slow 1100mV 0C Model Hold 'lab4:map_lab4|fsm:map_fsm|state.res'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'lab4:map_lab4|fsm:map_fsm|state.add_regs'
+Slack : 1.275
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'KEY[0]'
+Slack : -8.017
+TNS   : -39.308
+
+Type  : Slow 1100mV 0C Model Removal 'KEY[0]'
+Slack : 1.088
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.394
+TNS   : -37.113
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'lab4:map_lab4|fsm:map_fsm|state.res'
+Slack : 0.336
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'lab4:map_lab4|fsm:map_fsm|state.load_regs'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'lab4:map_lab4|fsm:map_fsm|state.add_regs'
+Slack : 0.421
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'KEY[0]'
+Slack : -7.137
+TNS   : -371.610
+
+Type  : Fast 1100mV 85C Model Setup 'lab4:map_lab4|fsm:map_fsm|state.add_regs'
+Slack : -4.941
+TNS   : -13.468
+
+Type  : Fast 1100mV 85C Model Setup 'lab4:map_lab4|fsm:map_fsm|state.res'
+Slack : -4.788
+TNS   : -13.401
+
+Type  : Fast 1100mV 85C Model Hold 'KEY[0]'
+Slack : -4.341
+TNS   : -14.905
+
+Type  : Fast 1100mV 85C Model Hold 'lab4:map_lab4|fsm:map_fsm|state.res'
+Slack : 0.410
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'lab4:map_lab4|fsm:map_fsm|state.add_regs'
+Slack : 0.783
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'KEY[0]'
+Slack : -6.980
+TNS   : -34.494
+
+Type  : Fast 1100mV 85C Model Removal 'KEY[0]'
+Slack : 1.912
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.347
+TNS   : -19.732
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'lab4:map_lab4|fsm:map_fsm|state.res'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'lab4:map_lab4|fsm:map_fsm|state.load_regs'
+Slack : 0.430
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'lab4:map_lab4|fsm:map_fsm|state.add_regs'
+Slack : 0.438
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'KEY[0]'
+Slack : -5.825
+TNS   : -302.612
+
+Type  : Fast 1100mV 0C Model Setup 'lab4:map_lab4|fsm:map_fsm|state.add_regs'
+Slack : -4.738
+TNS   : -12.995
+
+Type  : Fast 1100mV 0C Model Setup 'lab4:map_lab4|fsm:map_fsm|state.res'
+Slack : -4.590
+TNS   : -12.845
+
+Type  : Fast 1100mV 0C Model Hold 'KEY[0]'
+Slack : -4.222
+TNS   : -15.899
+
+Type  : Fast 1100mV 0C Model Hold 'lab4:map_lab4|fsm:map_fsm|state.res'
+Slack : 0.350
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'lab4:map_lab4|fsm:map_fsm|state.add_regs'
+Slack : 0.708
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'KEY[0]'
+Slack : -5.678
+TNS   : -28.012
+
+Type  : Fast 1100mV 0C Model Removal 'KEY[0]'
+Slack : 1.333
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.325
+TNS   : -18.544
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'lab4:map_lab4|fsm:map_fsm|state.res'
+Slack : 0.419
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'lab4:map_lab4|fsm:map_fsm|state.load_regs'
+Slack : 0.442
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'lab4:map_lab4|fsm:map_fsm|state.add_regs'
+Slack : 0.445
+TNS   : 0.000
+
+------------------------------------------------------------

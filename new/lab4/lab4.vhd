@@ -137,8 +137,8 @@ component fsm
 end component;
 
 begin
-sig_zero<="000000000";
-
+--sig_zero<="000000000";
+sig_zero<=(others=>'0');
 --- MAP HERE -----------------------------
 map_regA : regA
 generic map(n)
