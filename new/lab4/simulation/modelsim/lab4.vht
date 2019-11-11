@@ -83,7 +83,7 @@ BEGIN
 			rst<='1';
 			
 			
-			multiplicand<="11111101";
+			multiplicand<="00000010";
          multiplier <= "00001000";
 			
 	      clk<='0'; wait for 10ns;

@@ -1,5 +1,5 @@
 Flow report for example
-Sun Nov 10 23:48:08 2019
+Mon Nov 11 00:45:56 2019
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
 
 
@@ -41,7 +41,7 @@ agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Flow Summary                                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Flow Status                     ; Successful - Sun Nov 10 23:48:08 2019           ;
+; Flow Status                     ; Successful - Mon Nov 11 00:45:55 2019           ;
 ; Quartus Prime Version           ; 16.0.0 Build 211 04/27/2016 SJ Standard Edition ;
 ; Revision Name                   ; example                                         ;
 ; Top-level Entity Name           ; lab4                                            ;
@@ -68,7 +68,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/10/2019 23:47:53 ;
+; Start date & time ; 11/11/2019 00:45:37 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; example             ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ agreement for further details.
 +--------------------------------------+---------------------------------------+---------------+-------------+---------------------+
 ; Assignment Name                      ; Value                                 ; Default Value ; Entity Name ; Section Id          ;
 +--------------------------------------+---------------------------------------+---------------+-------------+---------------------+
-; COMPILER_SIGNATURE_ID                ; 0.157344767221205                     ; --            ; --          ; --                  ;
+; COMPILER_SIGNATURE_ID                ; 0.157345113729371                     ; --            ; --          ; --                  ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; fsm_vhd_tst         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; real_adder_vhd_tst  ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; mux_vhd_tst         ;
@@ -142,8 +142,8 @@ agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:16     ; 1.0                     ; 1295 MB             ; 00:00:24                           ;
-; Total                ; 00:00:16     ; --                      ; --                  ; 00:00:24                           ;
+; Analysis & Synthesis ; 00:00:18     ; 1.0                     ; 1296 MB             ; 00:00:23                           ;
+; Total                ; 00:00:18     ; --                      ; --                  ; 00:00:23                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

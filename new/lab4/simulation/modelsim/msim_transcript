@@ -12,7 +12,7 @@
 # 
 # vcom -93 -work work {/users/zicew/git/ece327/new/lab4/lab4.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 23:58:06 on Nov 10,2019
+# Start time: 00:49:43 on Nov 11,2019
 # vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab4/lab4.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -21,22 +21,22 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity lab4
 # -- Compiling architecture struc of lab4
-# End time: 23:58:06 on Nov 10,2019, Elapsed time: 0:00:00
+# End time: 00:49:44 on Nov 11,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/users/zicew/git/ece327/new/lab4/fsm.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 23:58:06 on Nov 10,2019
+# Start time: 00:49:44 on Nov 11,2019
 # vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab4/fsm.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity fsm
 # -- Compiling architecture struct of fsm
-# End time: 23:58:06 on Nov 10,2019, Elapsed time: 0:00:00
+# End time: 00:49:44 on Nov 11,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/users/zicew/git/ece327/new/lab4/real_adder.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 23:58:06 on Nov 10,2019
+# Start time: 00:49:44 on Nov 11,2019
 # vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab4/real_adder.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -45,11 +45,11 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity real_adder
 # -- Compiling architecture struc of real_adder
-# End time: 23:58:06 on Nov 10,2019, Elapsed time: 0:00:00
+# End time: 00:49:44 on Nov 11,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/users/zicew/git/ece327/new/lab4/regB.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 23:58:06 on Nov 10,2019
+# Start time: 00:49:44 on Nov 11,2019
 # vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab4/regB.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -58,11 +58,11 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity regB
 # -- Compiling architecture mixed of regB
-# End time: 23:58:06 on Nov 10,2019, Elapsed time: 0:00:00
+# End time: 00:49:44 on Nov 11,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/users/zicew/git/ece327/new/lab4/regC.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 23:58:06 on Nov 10,2019
+# Start time: 00:49:44 on Nov 11,2019
 # vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab4/regC.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -71,11 +71,11 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity regC
 # -- Compiling architecture struc of regC
-# End time: 23:58:06 on Nov 10,2019, Elapsed time: 0:00:00
+# End time: 00:49:44 on Nov 11,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/users/zicew/git/ece327/new/lab4/two_one_mux.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 23:58:06 on Nov 10,2019
+# Start time: 00:49:44 on Nov 11,2019
 # vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab4/two_one_mux.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -84,11 +84,11 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity two_one_mux
 # -- Compiling architecture struc of two_one_mux
-# End time: 23:58:06 on Nov 10,2019, Elapsed time: 0:00:00
+# End time: 00:49:44 on Nov 11,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/users/zicew/git/ece327/new/lab4/regD.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 23:58:06 on Nov 10,2019
+# Start time: 00:49:44 on Nov 11,2019
 # vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab4/regD.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -97,22 +97,22 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity regD
 # -- Compiling architecture mixed of regD
-# End time: 23:58:06 on Nov 10,2019, Elapsed time: 0:00:00
+# End time: 00:49:44 on Nov 11,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/users/zicew/git/ece327/new/lab4/mux.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 23:58:06 on Nov 10,2019
+# Start time: 00:49:44 on Nov 11,2019
 # vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab4/mux.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity mux
 # -- Compiling architecture struct of mux
-# End time: 23:58:06 on Nov 10,2019, Elapsed time: 0:00:00
+# End time: 00:49:44 on Nov 11,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/users/zicew/git/ece327/new/lab4/regA.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 23:58:06 on Nov 10,2019
+# Start time: 00:49:44 on Nov 11,2019
 # vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab4/regA.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -121,11 +121,11 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity regA
 # -- Compiling architecture mixed of regA
-# End time: 23:58:06 on Nov 10,2019, Elapsed time: 0:00:00
+# End time: 00:49:44 on Nov 11,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {/users/zicew/git/ece327/new/lab4/Adder.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 23:58:06 on Nov 10,2019
+# Start time: 00:49:44 on Nov 11,2019
 # vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab4/Adder.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -134,12 +134,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity Adder
 # -- Compiling architecture struc of Adder
-# End time: 23:58:06 on Nov 10,2019, Elapsed time: 0:00:00
+# End time: 00:49:44 on Nov 11,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vcom -93 -work work {/users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 23:58:06 on Nov 10,2019
+# Start time: 00:49:44 on Nov 11,2019
 # vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -203,12 +203,12 @@
 # ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(172): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(174): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(175): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 23:58:06 on Nov 10,2019, Elapsed time: 0:00:00
+# End time: 00:49:44 on Nov 11,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 57
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  lab4_vhd_tst
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" lab4_vhd_tst 
-# Start time: 23:58:07 on Nov 10,2019
+# Start time: 00:49:44 on Nov 11,2019
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -242,5 +242,5 @@
 #    Time: 0 ps  Iteration: 3  Instance: /lab4_vhd_tst/i1/map_adder/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ps  Iteration: 3  Instance: /lab4_vhd_tst/i1/map_adder/Ai
-# End time: 23:58:28 on Nov 10,2019, Elapsed time: 0:00:21
+# End time: 00:50:14 on Nov 11,2019, Elapsed time: 0:00:30
 # Errors: 0, Warnings: 5

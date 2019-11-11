@@ -38,16 +38,15 @@ begin
 								 state<=shift_regs;
 								 
 							when shift_regs=>
-							     
-							   state<=res;
-								 
+			    				state<=res;
+								  
 							when res=>
 							    
-							   if (is_done='1') then
-									  state<=notBusy;
+						     if (is_done='1') then
+							 	  state<=notBusy;
 								 else 
-								     state<=add_regs;
-								 end if;
+							     state<=add_regs;
+							  end if;
 								
 								
 							
@@ -72,6 +71,7 @@ begin
 				     busy<='1';loadreg<='0';shiftreg<='0';addreg<='1';count<='0';done<='0';
 					  
 				when shift_regs=>
+				     
 				     
 				     busy<='1';loadreg<='0';shiftreg<='1';addreg<='0';count<='1';
 
