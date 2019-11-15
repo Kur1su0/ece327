@@ -10,10 +10,10 @@
 # Copying /usr/commercial_amd64/altera/16.0/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vcom -93 -work work {/users/zicew/git/ece327/new/lab4/lab4.vhd}
+# vcom -93 -work work {/users/zicew/ece327/new/lab4/lab4.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:49:43 on Nov 11,2019
-# vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab4/lab4.vhd 
+# Start time: 20:52:13 on Nov 14,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/ece327/new/lab4/lab4.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -21,23 +21,23 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity lab4
 # -- Compiling architecture struc of lab4
-# End time: 00:49:44 on Nov 11,2019, Elapsed time: 0:00:01
+# End time: 20:52:14 on Nov 14,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/users/zicew/git/ece327/new/lab4/fsm.vhd}
+# vcom -93 -work work {/users/zicew/ece327/new/lab4/fsm.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:49:44 on Nov 11,2019
-# vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab4/fsm.vhd 
+# Start time: 20:52:14 on Nov 14,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/ece327/new/lab4/fsm.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity fsm
 # -- Compiling architecture struct of fsm
-# End time: 00:49:44 on Nov 11,2019, Elapsed time: 0:00:00
+# End time: 20:52:14 on Nov 14,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/users/zicew/git/ece327/new/lab4/real_adder.vhd}
+# vcom -93 -work work {/users/zicew/ece327/new/lab4/real_adder.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:49:44 on Nov 11,2019
-# vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab4/real_adder.vhd 
+# Start time: 20:52:14 on Nov 14,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/ece327/new/lab4/real_adder.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -45,12 +45,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity real_adder
 # -- Compiling architecture struc of real_adder
-# End time: 00:49:44 on Nov 11,2019, Elapsed time: 0:00:00
+# End time: 20:52:14 on Nov 14,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/users/zicew/git/ece327/new/lab4/regB.vhd}
+# vcom -93 -work work {/users/zicew/ece327/new/lab4/regB.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:49:44 on Nov 11,2019
-# vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab4/regB.vhd 
+# Start time: 20:52:14 on Nov 14,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/ece327/new/lab4/regB.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -58,12 +58,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity regB
 # -- Compiling architecture mixed of regB
-# End time: 00:49:44 on Nov 11,2019, Elapsed time: 0:00:00
+# End time: 20:52:14 on Nov 14,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/users/zicew/git/ece327/new/lab4/regC.vhd}
+# vcom -93 -work work {/users/zicew/ece327/new/lab4/regC.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:49:44 on Nov 11,2019
-# vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab4/regC.vhd 
+# Start time: 20:52:14 on Nov 14,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/ece327/new/lab4/regC.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -71,12 +71,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity regC
 # -- Compiling architecture struc of regC
-# End time: 00:49:44 on Nov 11,2019, Elapsed time: 0:00:00
+# End time: 20:52:14 on Nov 14,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/users/zicew/git/ece327/new/lab4/two_one_mux.vhd}
+# vcom -93 -work work {/users/zicew/ece327/new/lab4/two_one_mux.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:49:44 on Nov 11,2019
-# vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab4/two_one_mux.vhd 
+# Start time: 20:52:14 on Nov 14,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/ece327/new/lab4/two_one_mux.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -84,12 +84,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity two_one_mux
 # -- Compiling architecture struc of two_one_mux
-# End time: 00:49:44 on Nov 11,2019, Elapsed time: 0:00:00
+# End time: 20:52:14 on Nov 14,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/users/zicew/git/ece327/new/lab4/regD.vhd}
+# vcom -93 -work work {/users/zicew/ece327/new/lab4/regD.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:49:44 on Nov 11,2019
-# vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab4/regD.vhd 
+# Start time: 20:52:14 on Nov 14,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/ece327/new/lab4/regD.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -97,23 +97,23 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity regD
 # -- Compiling architecture mixed of regD
-# End time: 00:49:44 on Nov 11,2019, Elapsed time: 0:00:00
+# End time: 20:52:14 on Nov 14,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/users/zicew/git/ece327/new/lab4/mux.vhd}
+# vcom -93 -work work {/users/zicew/ece327/new/lab4/mux.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:49:44 on Nov 11,2019
-# vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab4/mux.vhd 
+# Start time: 20:52:14 on Nov 14,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/ece327/new/lab4/mux.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity mux
 # -- Compiling architecture struct of mux
-# End time: 00:49:44 on Nov 11,2019, Elapsed time: 0:00:00
+# End time: 20:52:14 on Nov 14,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/users/zicew/git/ece327/new/lab4/regA.vhd}
+# vcom -93 -work work {/users/zicew/ece327/new/lab4/regA.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:49:44 on Nov 11,2019
-# vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab4/regA.vhd 
+# Start time: 20:52:14 on Nov 14,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/ece327/new/lab4/regA.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -121,12 +121,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity regA
 # -- Compiling architecture mixed of regA
-# End time: 00:49:44 on Nov 11,2019, Elapsed time: 0:00:00
+# End time: 20:52:15 on Nov 14,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {/users/zicew/git/ece327/new/lab4/Adder.vhd}
+# vcom -93 -work work {/users/zicew/ece327/new/lab4/Adder.vhd}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:49:44 on Nov 11,2019
-# vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab4/Adder.vhd 
+# Start time: 20:52:15 on Nov 14,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/ece327/new/lab4/Adder.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -134,81 +134,55 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity Adder
 # -- Compiling architecture struc of Adder
-# End time: 00:49:44 on Nov 11,2019, Elapsed time: 0:00:00
+# End time: 20:52:15 on Nov 14,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vcom -93 -work work {/users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht}
+# vcom -93 -work work {/users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht}
 # Model Technology ModelSim ALTERA vcom 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 00:49:44 on Nov 11,2019
-# vcom -reportprogress 300 -93 -work work /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht 
+# Start time: 20:52:15 on Nov 14,2019
+# vcom -reportprogress 300 -93 -work work /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lab4_vhd_tst
 # -- Compiling architecture lab4_arch of lab4_vhd_tst
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(82): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(93): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(94): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(96): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(100): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(102): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(107): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(108): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(109): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(110): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(111): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(112): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(115): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(116): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(117): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(118): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(124): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(127): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(128): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(136): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(137): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(140): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(141): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(142): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(143): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(144): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(145): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(147): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(148): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(149): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(150): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(151): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(152): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(154): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(155): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(156): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(157): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(158): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(159): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(162): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(163): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(164): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(165): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(171): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(172): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(174): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: /users/zicew/git/ece327/new/lab4/simulation/modelsim/lab4.vht(175): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# End time: 00:49:44 on Nov 11,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 57
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(82): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(93): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(94): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(96): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(100): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(102): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(107): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(108): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(109): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(110): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(111): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(112): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(115): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(116): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(117): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(118): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(124): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(127): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(128): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(130): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /users/zicew/ece327/new/lab4/simulation/modelsim/lab4.vht(131): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 20:52:15 on Nov 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 31
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  lab4_vhd_tst
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" lab4_vhd_tst 
-# Start time: 00:49:44 on Nov 11,2019
+# Start time: 20:52:15 on Nov 14,2019
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -239,8 +213,22 @@
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ps  Iteration: 0  Instance: /lab4_vhd_tst/i1/map_adder/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 3  Instance: /lab4_vhd_tst/i1/map_adder/Ai
+#    Time: 0 ps  Iteration: 1  Instance: /lab4_vhd_tst/i1/map_adder/Ai
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 3  Instance: /lab4_vhd_tst/i1/map_adder/Ai
-# End time: 00:50:14 on Nov 11,2019, Elapsed time: 0:00:30
-# Errors: 0, Warnings: 5
+#    Time: 0 ps  Iteration: 1  Instance: /lab4_vhd_tst/i1/map_adder/Ai
+add wave -position insertpoint  \
+sim:/lab4_vhd_tst/i1/map_regC/sig_out_B
+restart -f
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /lab4_vhd_tst/i1/map_adder/Ai
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /lab4_vhd_tst/i1/map_adder/Ai
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /lab4_vhd_tst/i1/map_adder/Ai
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /lab4_vhd_tst/i1/map_adder/Ai
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /lab4_vhd_tst/i1/map_adder/Ai
+# End time: 20:52:54 on Nov 14,2019, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 10

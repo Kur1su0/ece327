@@ -25,7 +25,7 @@ architecture mixed of regD is
     process(clk, load_reg, count_flag)
         begin
         if(rising_edge(clk) ) then
-        	 if (load_reg='1') then count_val<=(n/2);
+        	 if (load_reg='1') then count_val<=(n/2);is_finished<='0';
 			 else
 			     if(count_val=1) then is_finished<='1'; ---val=0 --->ori
 	           

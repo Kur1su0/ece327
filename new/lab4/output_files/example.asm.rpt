@@ -1,5 +1,5 @@
 Assembler report for example
-Mon Nov 11 11:28:23 2019
+Thu Nov 14 18:39:41 2019
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
 
 
@@ -38,7 +38,7 @@ agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Mon Nov 11 11:28:23 2019 ;
+; Assembler Status      ; Successful - Thu Nov 14 18:39:41 2019 ;
 ; Revision Name         ; example                               ;
 ; Top-level Entity Name ; board_lab4                            ;
 ; Family                ; Cyclone V                             ;
@@ -68,8 +68,8 @@ agreement for further details.
 ; Option         ; Setting              ;
 +----------------+----------------------+
 ; Device         ; 5CSEMA5F31C6         ;
-; JTAG usercode  ; 0x00B18DC8           ;
-; Checksum       ; 0x00B18DC8           ;
+; JTAG usercode  ; 0x00B1B197           ;
+; Checksum       ; 0x00B1B197           ;
 +----------------+----------------------+
 
 
@@ -79,14 +79,14 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
-    Info: Processing started: Mon Nov 11 11:28:13 2019
+    Info: Processing started: Thu Nov 14 18:39:32 2019
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off lab4 -c example
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 1222 megabytes
-    Info: Processing ended: Mon Nov 11 11:28:23 2019
-    Info: Elapsed time: 00:00:10
+    Info: Peak virtual memory: 1221 megabytes
+    Info: Processing ended: Thu Nov 14 18:39:41 2019
+    Info: Elapsed time: 00:00:09
     Info: Total CPU time (on all processors): 00:00:08
 
 

@@ -20,22 +20,23 @@ entity regC is
 end regC;
 
 architecture struc of regC is
-signal sig_output_adder : std_logic_vector(n downto 0);
+signal sig_output_adder : std_logic_vector(n downto 0):=(others=>'0');
+signal sig_out_B: std_logic_vector(1 downto 0);
 --signal sig_input : std_logic_vector(n downto 0);
 
 begin    
-	 process(loadreg,shift,addreg,clk,input)
+	 process(loadreg,shift,addreg,clk)
 	 begin
 	     if(rising_edge(clk)) then
 		      if (loadreg='1') then
 				    sig_output_adder(n downto 0)<=(others=>'0');
-					 output_regB<="00";
+					 sig_out_B<="00";
 					  --sig_output_adder<=input;
 					
 					 
 			    elsif(addreg='1') then
 					 sig_output_adder<=input;
-					 output_regB<=input(1 downto 0);
+					 sig_out_B<=input(1 downto 0);
 					 
 				 elsif(shift='1') then
 				      --output_regB<=input(1 downto 0);
@@ -56,8 +57,11 @@ begin
 	 end process;
 	 
 	 
-	     output_adder<=sig_output_adder(n) & sig_output_adder(n downto 1);
-        output_prodH<=sig_output_adder(n downto 1);
+	    -- output_adder<=sig_output_adder(n)&sig_output_adder(n) & sig_output_adder(n downto 2);
+		 output_regB<=sig_out_B;
+		 output_adder<= sig_output_adder;
+
+       output_prodH<=sig_output_adder(n downto 1);
 		
 
 

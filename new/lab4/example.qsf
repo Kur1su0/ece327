@@ -77,7 +77,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSEMA5F31C6
-set_global_assignment -name TOP_LEVEL_ENTITY board_lab4
+set_global_assignment -name TOP_LEVEL_ENTITY lab4
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 17.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:17:30  AUGUST 29, 2019"
 set_global_assignment -name LAST_QUARTUS_VERSION 16.0.0
@@ -948,19 +948,9 @@ set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME real_adder_vhd_tst -secti
 set_global_assignment -name EDA_TEST_BENCH_NAME fsm_vhd_tst -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id fsm_vhd_tst
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME fsm_vhd_tst -section_id fsm_vhd_tst
-set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/regA.vht -section_id regA_vhd_tst
-set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/regD.vht -section_id regD_vhd_tst
-set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/regddd.vht -section_id regddd_vhd_tst
-set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/mux.vht -section_id mux_vhd_tst
-set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/two_one_mux.vht -section_id two_one_mux_vhd_tst
-set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/regB.vht -section_id regB_vhd_tst
-set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/regC.vht -section_id regC_vhd_tst
-set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/real_adder.vht -section_id real_adder_vhd_tst
-set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/fsm.vht -section_id fsm_vhd_tst
 set_global_assignment -name EDA_TEST_BENCH_NAME lab4_vhd_tst -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id lab4_vhd_tst
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME lab4_vhd_tst -section_id lab4_vhd_tst
-set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/lab4.vht -section_id lab4_vhd_tst
 set_global_assignment -name VHDL_FILE board_lab4.vhd
 set_global_assignment -name VHDL_TEST_BENCH_FILE simulation/modelsim/lab4.vht
 set_global_assignment -name VHDL_FILE lab4.vhd
@@ -981,8 +971,18 @@ set_global_assignment -name VHDL_TEST_BENCH_FILE simulation/modelsim/regA.vht
 set_global_assignment -name VHDL_FILE regA.vhd
 set_global_assignment -name VHDL_FILE Adder.vhd
 set_global_assignment -name VHDL_FILE example.vhd
+set_global_assignment -name CDF_FILE output_files/Chain1.cdf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name CDF_FILE output_files/Chain1.cdf
+set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/regA.vht -section_id regA_vhd_tst
+set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/regD.vht -section_id regD_vhd_tst
+set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/regddd.vht -section_id regddd_vhd_tst
+set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/mux.vht -section_id mux_vhd_tst
+set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/two_one_mux.vht -section_id two_one_mux_vhd_tst
+set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/regB.vht -section_id regB_vhd_tst
+set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/regC.vht -section_id regC_vhd_tst
+set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/real_adder.vht -section_id real_adder_vhd_tst
+set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/fsm.vht -section_id fsm_vhd_tst
+set_global_assignment -name EDA_TEST_BENCH_FILE simulation/modelsim/lab4.vht -section_id lab4_vhd_tst
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

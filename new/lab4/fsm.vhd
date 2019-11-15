@@ -64,14 +64,14 @@ begin
 				    busy<='0';loadreg<='0';shiftreg<='0';addreg<='0';count<='0';done<='0';
 				when load_regs=>
 				    busy<='1';loadreg<='1';shiftreg<='0';addreg<='0';count<='0';done<='0';
-					 --sel_out<=sel;
+					 sel_out<=sel;
 				
 				when add_regs=>
 				     sel_out<=sel;
 				     busy<='1';loadreg<='0';shiftreg<='0';addreg<='1';count<='0';done<='0';
-					  
+					   sel_out<=sel;
 				when shift_regs=>
-				     
+				      sel_out<=sel;
 				     
 				     busy<='1';loadreg<='0';shiftreg<='1';addreg<='0';count<='1';
 

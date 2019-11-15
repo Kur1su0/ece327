@@ -23,7 +23,7 @@ signal internal_buffer: std_logic_vector(n downto 0);
 begin
     process(loadreg,shift,clk)
 	 begin
-	 --if(rising_edge(clk)) then
+	 if(rising_edge(clk)) then
 	 
 	 
 	     if(loadreg='1') then
@@ -31,14 +31,14 @@ begin
 				internal_buffer(0)<='0';
 				
 		      
-	     elsif rising_edge(clk) and shift='1' then
+	     elsif  shift='1' then
         
 
 		  internal_buffer(n downto 0)<=input_regC_shift(1 downto 0)&internal_buffer(n downto 2);
 --				output_sel(0) <= internal_buffer(0);
         end if;
 		  
-	 --end if;
+	 end if;
 	 end process;
     output_sel(2 downto 0)<=internal_buffer(2 downto 0); 
     output_proL<=internal_buffer(n downto 1);
