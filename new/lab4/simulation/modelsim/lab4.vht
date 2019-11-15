@@ -83,8 +83,9 @@ BEGIN
 			rst<='1';
 			
 			
-			multiplicand<="00000101";
+			multiplicand<="00000111";
          multiplier <= "00000001";
+			
 			
 	      clk<='0'; wait for 10ns;
 			clk<='1'; wait for 10ns;		
@@ -117,20 +118,6 @@ BEGIN
 			clk<='0'; wait for 10ns;
 			clk<='1'; wait for 10ns;	
 	
-			
-			
-		 
-			
-			clk<='0'; wait for 10ns;
-			clk<='1'; wait for 10ns;
-			
-			clk<='0'; wait for 10ns;
-			clk<='1'; wait for 10ns;
-		
-			clk<='0'; wait for 10ns;
-			clk<='1'; wait for 10ns;
-	
-			
 
 			
 			

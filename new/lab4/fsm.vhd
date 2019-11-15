@@ -18,7 +18,7 @@ end fsm;
 
 ARCHITECTURE struct OF fsm IS
     
-	 TYPE fsm_state IS (notBusy, load_regs, add_regs, shift_regs,res);
+	 TYPE fsm_state IS (notBusy, load_regs, add_regs, shift_regs,fin);
 	 signal state:fsm_state;
 
 begin
@@ -38,15 +38,15 @@ begin
 								 state<=shift_regs;
 								 
 							when shift_regs=>
-			    				state<=res;
-								  
-							when res=>
 							    
 						     if (is_done='1') then
-							 	  state<=notBusy;
+							 	  state<=fin;
 								 else 
 							     state<=add_regs;
 							  end if;
+							when fin=>
+							    state<=notBusy;
+								 
 								
 								
 							
@@ -58,7 +58,7 @@ begin
 	 
 	 end process;
 	 
-	 process(state,is_done) begin
+	 process(state,is_done,sel) begin
         case state is
             when notBusy=>
 				    busy<='0';loadreg<='0';shiftreg<='0';addreg<='0';count<='0';done<='0';
@@ -71,16 +71,22 @@ begin
 				     busy<='1';loadreg<='0';shiftreg<='0';addreg<='1';count<='0';done<='0';
 					   sel_out<=sel;
 				when shift_regs=>
-				      sel_out<=sel;
-				     
-				     busy<='1';loadreg<='0';shiftreg<='1';addreg<='0';count<='1';
-
-				when res=>
-   			     sel_out<=sel;
-				     busy<='1';loadreg<='0';shiftreg<='0';addreg<='0';count<='0';
+				     sel_out<=sel;
+					  busy<='1';loadreg<='0';shiftreg<='1';addreg<='0';count<='1';					  
 					  
-					  if(is_done='1') then done<='1';
-					  end if;
+			  when fin=>
+			        busy<='1';loadreg<='0';shiftreg<='0';addreg<='0';count<='0';	done<='1';				  
+					  --if(is_done='1') then done<='1';
+					  --end if;
+				     
+				     --busy<='1';loadreg<='0';shiftreg<='1';addreg<='0';count<='1';
+
+				--when res=>
+   			     --sel_out<=sel;
+				     --busy<='1';loadreg<='0';shiftreg<='0';addreg<='0';count<='0';
+					  
+					  --if(is_done='1') then done<='1';
+					  --end if;
 				
 			end case;	  
 	 end process;

@@ -32,12 +32,14 @@ begin
 --- MAP HERE -----------------------------
 map_lab4 : lab4
 generic map(n)
-port map(    sw(9),sw(8),key(0),
-			sw(7 downto 4),
-         sw(3 downto 0),
+port map(    
+
+         start=>SW(9),rst=>SW(8),clk=>KEY(0),
+			multiplicand=>SW(7 downto 4),
+         multiplier=>SW(3 downto 0),
 		   
-			ledr(9), ledr(8),
-         ledr(7 downto 0)
+			busy=>LEDR(9), done=>LEDR(8),
+         result=>LEDR(7 downto 0)
 	 );
 
 

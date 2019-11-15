@@ -1,24 +1,23 @@
--- Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
--- Your use of Altera Corporation's design tools, logic functions 
+-- Copyright (C) 2017  Intel Corporation. All rights reserved.
+-- Your use of Intel Corporation's design tools, logic functions 
 -- and other software and tools, and its AMPP partner logic 
 -- functions, and any output files from any of the foregoing 
 -- (including device programming or simulation files), and any 
 -- associated documentation or information are expressly subject 
--- to the terms and conditions of the Altera Program License 
--- Subscription Agreement, the Altera Quartus Prime License Agreement,
--- the Altera MegaCore Function License Agreement, or other 
--- applicable license agreement, including, without limitation, 
--- that your use is for the sole purpose of programming logic 
--- devices manufactured by Altera and sold by Altera or its 
--- authorized distributors.  Please refer to the applicable 
--- agreement for further details.
+-- to the terms and conditions of the Intel Program License 
+-- Subscription Agreement, the Intel Quartus Prime License Agreement,
+-- the Intel FPGA IP License Agreement, or other applicable license
+-- agreement, including, without limitation, that your use is for
+-- the sole purpose of programming logic devices manufactured by
+-- Intel and sold by Intel or its authorized distributors.  Please
+-- refer to the applicable agreement for further details.
 
 -- ***************************************************************************
 -- This file contains a Vhdl test bench template that is freely editable to   
 -- suit user's needs .Comments are provided in each section to help the user  
 -- fill out necessary details.                                                
 -- ***************************************************************************
--- Generated on "11/11/2019 11:26:26"
+-- Generated on "11/15/2019 00:41:54"
                                                             
 -- Vhdl Test Bench template for design  :  board_lab4
 -- 
@@ -63,6 +62,34 @@ always : PROCESS
 -- variable declarations                                      
 BEGIN                                                         
         -- code executes for every event on sensitivity list  
+		  
+		  
+		  SW(9)<='1';SW(8)<='1';
+		       
+
+			SW(7 downto 4)<="0111";
+         SW(3 downto 0)<="0111";
+		   KEY(0)<='0'; wait for 10ns;
+		   KEY(0)<='1'; wait for 10ns;
+			
+			KEY(0)<='0'; wait for 10ns;
+		   KEY(0)<='1'; wait for 10ns;
+			
+			KEY(0)<='0'; wait for 10ns;
+		   KEY(0)<='1'; wait for 10ns;
+			
+			KEY(0)<='0'; wait for 10ns;
+		   KEY(0)<='1'; wait for 10ns;
+			
+			KEY(0)<='0'; wait for 10ns;
+		   KEY(0)<='1'; wait for 10ns;
+			
+			KEY(0)<='0'; wait for 10ns;
+		   KEY(0)<='1'; wait for 10ns;
+			
+			KEY(0)<='0'; wait for 10ns;
+		   KEY(0)<='1'; wait for 10ns;
+			
 WAIT;                                                        
 END PROCESS always;                                          
 END board_lab4_arch;

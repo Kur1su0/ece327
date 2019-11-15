@@ -1,6 +1,6 @@
 Flow report for example
-Thu Nov 14 20:52:00 2019
-Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+Fri Nov 15 00:58:08 2019
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
 ---------------------
@@ -21,46 +21,45 @@ Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
-Your use of Altera Corporation's design tools, logic functions 
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Altera Program License 
-Subscription Agreement, the Altera Quartus Prime License Agreement,
-the Altera MegaCore Function License Agreement, or other 
-applicable license agreement, including, without limitation, 
-that your use is for the sole purpose of programming logic 
-devices manufactured by Altera and sold by Altera or its 
-authorized distributors.  Please refer to the applicable 
-agreement for further details.
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
 
 
 
-+-----------------------------------------------------------------------------------+
-; Flow Summary                                                                      ;
-+---------------------------------+-------------------------------------------------+
-; Flow Status                     ; Successful - Thu Nov 14 20:52:00 2019           ;
-; Quartus Prime Version           ; 16.0.0 Build 211 04/27/2016 SJ Standard Edition ;
-; Revision Name                   ; example                                         ;
-; Top-level Entity Name           ; lab4                                            ;
-; Family                          ; Cyclone V                                       ;
-; Device                          ; 5CSEMA5F31C6                                    ;
-; Timing Models                   ; Final                                           ;
-; Logic utilization (in ALMs)     ; N/A                                             ;
-; Total registers                 ; 74                                              ;
-; Total pins                      ; 37                                              ;
-; Total virtual pins              ; 0                                               ;
-; Total block memory bits         ; 0                                               ;
-; Total DSP Blocks                ; 0                                               ;
-; Total HSSI RX PCSs              ; 0                                               ;
-; Total HSSI PMA RX Deserializers ; 0                                               ;
-; Total HSSI TX PCSs              ; 0                                               ;
-; Total HSSI PMA TX Serializers   ; 0                                               ;
-; Total PLLs                      ; 0                                               ;
-; Total DLLs                      ; 0                                               ;
-+---------------------------------+-------------------------------------------------+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Fri Nov 15 00:58:08 2019       ;
+; Quartus Prime Version           ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
+; Revision Name                   ; example                                     ;
+; Top-level Entity Name           ; board_lab4                                  ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CSEMA5F31C6                                ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; 46 / 32,070 ( < 1 % )                       ;
+; Total registers                 ; 58                                          ;
+; Total pins                      ; 24 / 457 ( 5 % )                            ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0 / 4,065,280 ( 0 % )                       ;
+; Total DSP Blocks                ; 0 / 87 ( 0 % )                              ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0 / 6 ( 0 % )                               ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
++---------------------------------+---------------------------------------------+
 
 
 +-----------------------------------------+
@@ -68,98 +67,114 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/14/2019 20:51:39 ;
+; Start date & time ; 11/15/2019 00:56:49 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; example             ;
 +-------------------+---------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                 ;
-+--------------------------------------+---------------------------------------+---------------+-------------+---------------------+
-; Assignment Name                      ; Value                                 ; Default Value ; Entity Name ; Section Id          ;
-+--------------------------------------+---------------------------------------+---------------+-------------+---------------------+
-; COMPILER_SIGNATURE_ID                ; 132129495700532.157378269922645       ; --            ; --          ; --                  ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; fsm_vhd_tst         ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; real_adder_vhd_tst  ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; mux_vhd_tst         ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; lab4_vhd_tst        ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; regA_vhd_tst        ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; regC_vhd_tst        ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; regB_vhd_tst        ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; regddd_vhd_tst      ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; regD_vhd_tst        ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                    ; --            ; --          ; two_one_mux_vhd_tst ;
-; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; lab4_vhd_tst                          ; --            ; --          ; eda_simulation      ;
-; EDA_OUTPUT_DATA_FORMAT               ; Vhdl                                  ; --            ; --          ; eda_simulation      ;
-; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (VHDL)                ; <None>        ; --          ; --                  ;
-; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                       ; --            ; --          ; eda_simulation      ;
-; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/fsm.vht           ; --            ; --          ; fsm_vhd_tst         ;
-; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/real_adder.vht    ; --            ; --          ; real_adder_vhd_tst  ;
-; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/mux.vht           ; --            ; --          ; mux_vhd_tst         ;
-; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/lab4.vht          ; --            ; --          ; lab4_vhd_tst        ;
-; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/regA.vht          ; --            ; --          ; regA_vhd_tst        ;
-; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/regC.vht          ; --            ; --          ; regC_vhd_tst        ;
-; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/regB.vht          ; --            ; --          ; regB_vhd_tst        ;
-; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/regddd.vht        ; --            ; --          ; regddd_vhd_tst      ;
-; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/regD.vht          ; --            ; --          ; regD_vhd_tst        ;
-; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/two_one_mux.vht   ; --            ; --          ; two_one_mux_vhd_tst ;
-; EDA_TEST_BENCH_MODULE_NAME           ; fsm_vhd_tst                           ; --            ; --          ; fsm_vhd_tst         ;
-; EDA_TEST_BENCH_MODULE_NAME           ; real_adder_vhd_tst                    ; --            ; --          ; real_adder_vhd_tst  ;
-; EDA_TEST_BENCH_MODULE_NAME           ; mux_vhd_tst                           ; --            ; --          ; mux_vhd_tst         ;
-; EDA_TEST_BENCH_MODULE_NAME           ; lab4_vhd_tst                          ; --            ; --          ; lab4_vhd_tst        ;
-; EDA_TEST_BENCH_MODULE_NAME           ; regA_vhd_tst                          ; --            ; --          ; regA_vhd_tst        ;
-; EDA_TEST_BENCH_MODULE_NAME           ; regC_vhd_tst                          ; --            ; --          ; regC_vhd_tst        ;
-; EDA_TEST_BENCH_MODULE_NAME           ; regB_vhd_tst                          ; --            ; --          ; regB_vhd_tst        ;
-; EDA_TEST_BENCH_MODULE_NAME           ; regddd_vhd_tst                        ; --            ; --          ; regddd_vhd_tst      ;
-; EDA_TEST_BENCH_MODULE_NAME           ; regD_vhd_tst                          ; --            ; --          ; regD_vhd_tst        ;
-; EDA_TEST_BENCH_MODULE_NAME           ; two_one_mux_vhd_tst                   ; --            ; --          ; two_one_mux_vhd_tst ;
-; EDA_TEST_BENCH_NAME                  ; regA_vhd_tst                          ; --            ; --          ; eda_simulation      ;
-; EDA_TEST_BENCH_NAME                  ; regD_vhd_tst                          ; --            ; --          ; eda_simulation      ;
-; EDA_TEST_BENCH_NAME                  ; regddd_vhd_tst                        ; --            ; --          ; eda_simulation      ;
-; EDA_TEST_BENCH_NAME                  ; mux_vhd_tst                           ; --            ; --          ; eda_simulation      ;
-; EDA_TEST_BENCH_NAME                  ; two_one_mux_vhd_tst                   ; --            ; --          ; eda_simulation      ;
-; EDA_TEST_BENCH_NAME                  ; regB_vhd_tst                          ; --            ; --          ; eda_simulation      ;
-; EDA_TEST_BENCH_NAME                  ; regC_vhd_tst                          ; --            ; --          ; eda_simulation      ;
-; EDA_TEST_BENCH_NAME                  ; real_adder_vhd_tst                    ; --            ; --          ; eda_simulation      ;
-; EDA_TEST_BENCH_NAME                  ; fsm_vhd_tst                           ; --            ; --          ; eda_simulation      ;
-; EDA_TEST_BENCH_NAME                  ; lab4_vhd_tst                          ; --            ; --          ; eda_simulation      ;
-; EDA_TIME_SCALE                       ; 1 ps                                  ; --            ; --          ; eda_simulation      ;
-; MAX_CORE_JUNCTION_TEMP               ; 85                                    ; --            ; --          ; --                  ;
-; MIN_CORE_JUNCTION_TEMP               ; 0                                     ; --            ; --          ; --                  ;
-; PARTITION_COLOR                      ; 16764057                              ; --            ; lab4        ; Top                 ;
-; PARTITION_FITTER_PRESERVATION_LEVEL  ; PLACEMENT_AND_ROUTING                 ; --            ; lab4        ; Top                 ;
-; PARTITION_NETLIST_TYPE               ; SOURCE                                ; --            ; lab4        ; Top                 ;
-; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                   ; --            ; --          ; --                  ;
-; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --          ; --                  ;
-; PROJECT_OUTPUT_DIRECTORY             ; output_files                          ; --            ; --          ; --                  ;
-; TOP_LEVEL_ENTITY                     ; lab4                                  ; example       ; --          ; --                  ;
-+--------------------------------------+---------------------------------------+---------------+-------------+---------------------+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                  ;
++--------------------------------------+----------------------------------------+---------------+-------------+---------------------+
+; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id          ;
++--------------------------------------+----------------------------------------+---------------+-------------+---------------------+
+; COMPILER_SIGNATURE_ID                ; 1096833163585.157379740907348          ; --            ; --          ; --                  ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; fsm_vhd_tst         ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; real_adder_vhd_tst  ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; mux_vhd_tst         ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; lab4_vhd_tst        ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; regA_vhd_tst        ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; regC_vhd_tst        ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; board_lab4_vhd_tst  ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; regB_vhd_tst        ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; regddd_vhd_tst      ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; regD_vhd_tst        ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; two_one_mux_vhd_tst ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; board_lab4_vhd_tst                     ; --            ; --          ; eda_simulation      ;
+; EDA_OUTPUT_DATA_FORMAT               ; Vhdl                                   ; --            ; --          ; eda_simulation      ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (VHDL)                 ; <None>        ; --          ; --                  ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --            ; --          ; eda_simulation      ;
+; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/fsm.vht            ; --            ; --          ; fsm_vhd_tst         ;
+; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/real_adder.vht     ; --            ; --          ; real_adder_vhd_tst  ;
+; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/mux.vht            ; --            ; --          ; mux_vhd_tst         ;
+; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/lab4.vht           ; --            ; --          ; lab4_vhd_tst        ;
+; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/regA.vht           ; --            ; --          ; regA_vhd_tst        ;
+; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/regC.vht           ; --            ; --          ; regC_vhd_tst        ;
+; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/board_lab4.vht     ; --            ; --          ; board_lab4_vhd_tst  ;
+; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/regB.vht           ; --            ; --          ; regB_vhd_tst        ;
+; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/regddd.vht         ; --            ; --          ; regddd_vhd_tst      ;
+; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/regD.vht           ; --            ; --          ; regD_vhd_tst        ;
+; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/two_one_mux.vht    ; --            ; --          ; two_one_mux_vhd_tst ;
+; EDA_TEST_BENCH_MODULE_NAME           ; fsm_vhd_tst                            ; --            ; --          ; fsm_vhd_tst         ;
+; EDA_TEST_BENCH_MODULE_NAME           ; real_adder_vhd_tst                     ; --            ; --          ; real_adder_vhd_tst  ;
+; EDA_TEST_BENCH_MODULE_NAME           ; mux_vhd_tst                            ; --            ; --          ; mux_vhd_tst         ;
+; EDA_TEST_BENCH_MODULE_NAME           ; lab4_vhd_tst                           ; --            ; --          ; lab4_vhd_tst        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; regA_vhd_tst                           ; --            ; --          ; regA_vhd_tst        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; regC_vhd_tst                           ; --            ; --          ; regC_vhd_tst        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; board_lab4_vhd_tst                     ; --            ; --          ; board_lab4_vhd_tst  ;
+; EDA_TEST_BENCH_MODULE_NAME           ; regB_vhd_tst                           ; --            ; --          ; regB_vhd_tst        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; regddd_vhd_tst                         ; --            ; --          ; regddd_vhd_tst      ;
+; EDA_TEST_BENCH_MODULE_NAME           ; regD_vhd_tst                           ; --            ; --          ; regD_vhd_tst        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; two_one_mux_vhd_tst                    ; --            ; --          ; two_one_mux_vhd_tst ;
+; EDA_TEST_BENCH_NAME                  ; regA_vhd_tst                           ; --            ; --          ; eda_simulation      ;
+; EDA_TEST_BENCH_NAME                  ; regD_vhd_tst                           ; --            ; --          ; eda_simulation      ;
+; EDA_TEST_BENCH_NAME                  ; regddd_vhd_tst                         ; --            ; --          ; eda_simulation      ;
+; EDA_TEST_BENCH_NAME                  ; mux_vhd_tst                            ; --            ; --          ; eda_simulation      ;
+; EDA_TEST_BENCH_NAME                  ; two_one_mux_vhd_tst                    ; --            ; --          ; eda_simulation      ;
+; EDA_TEST_BENCH_NAME                  ; regB_vhd_tst                           ; --            ; --          ; eda_simulation      ;
+; EDA_TEST_BENCH_NAME                  ; regC_vhd_tst                           ; --            ; --          ; eda_simulation      ;
+; EDA_TEST_BENCH_NAME                  ; real_adder_vhd_tst                     ; --            ; --          ; eda_simulation      ;
+; EDA_TEST_BENCH_NAME                  ; fsm_vhd_tst                            ; --            ; --          ; eda_simulation      ;
+; EDA_TEST_BENCH_NAME                  ; lab4_vhd_tst                           ; --            ; --          ; eda_simulation      ;
+; EDA_TEST_BENCH_NAME                  ; board_lab4_vhd_tst                     ; --            ; --          ; eda_simulation      ;
+; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation      ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --          ; --                  ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --          ; --                  ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; board_lab4  ; Top                 ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; board_lab4  ; Top                 ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; board_lab4  ; Top                 ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --            ; --          ; --                  ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --                  ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --            ; --          ; --                  ;
+; TOP_LEVEL_ENTITY                     ; board_lab4                             ; example       ; --          ; --                  ;
++--------------------------------------+----------------------------------------+---------------+-------------+---------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                        ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:21     ; 1.0                     ; 1298 MB             ; 00:00:29                           ;
-; Total                ; 00:00:21     ; --                      ; --                  ; 00:00:29                           ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:12     ; 1.0                     ; 4872 MB             ; 00:00:24                           ;
+; Fitter                    ; 00:00:46     ; 1.0                     ; 6645 MB             ; 00:01:06                           ;
+; Assembler                 ; 00:00:07     ; 1.0                     ; 4844 MB             ; 00:00:07                           ;
+; TimeQuest Timing Analyzer ; 00:00:07     ; 1.1                     ; 5150 MB             ; 00:00:06                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4756 MB             ; 00:00:02                           ;
+; Total                     ; 00:01:14     ; --                      ; --                  ; 00:01:45                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+----------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                        ;
-+----------------------+------------------+----------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name        ; OS Version ; Processor type ;
-+----------------------+------------------+----------------+------------+----------------+
-; Analysis & Synthesis ; ullab04          ; Ubuntu 14.04.5 ; 14         ; x86_64         ;
-+----------------------+------------------+----------------+------------+----------------+
++-----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                         ;
++---------------------------+------------------+------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++---------------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis      ; DESKTOP-B557VTL  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter                    ; DESKTOP-B557VTL  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler                 ; DESKTOP-B557VTL  ; Windows 10 ; 10.0       ; x86_64         ;
+; TimeQuest Timing Analyzer ; DESKTOP-B557VTL  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-B557VTL  ; Windows 10 ; 10.0       ; x86_64         ;
++---------------------------+------------------+------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off lab4 -c example
+quartus_fit --read_settings_files=off --write_settings_files=off lab4 -c example
+quartus_asm --read_settings_files=off --write_settings_files=off lab4 -c example
+quartus_sta lab4 -c example
+quartus_eda --read_settings_files=off --write_settings_files=off lab4 -c example
 
 
 

@@ -4,151 +4,87 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "busy",
+					"name" : "LEDR[0]",
 					"strict" : false
 				},
 				{
-					"name" : "done",
+					"name" : "LEDR[1]",
 					"strict" : false
 				},
 				{
-					"name" : "result[0]",
+					"name" : "LEDR[2]",
 					"strict" : false
 				},
 				{
-					"name" : "result[1]",
+					"name" : "LEDR[3]",
 					"strict" : false
 				},
 				{
-					"name" : "result[2]",
+					"name" : "LEDR[4]",
 					"strict" : false
 				},
 				{
-					"name" : "result[3]",
+					"name" : "LEDR[5]",
 					"strict" : false
 				},
 				{
-					"name" : "result[4]",
+					"name" : "LEDR[6]",
 					"strict" : false
 				},
 				{
-					"name" : "result[5]",
+					"name" : "LEDR[7]",
 					"strict" : false
 				},
 				{
-					"name" : "result[6]",
+					"name" : "LEDR[8]",
 					"strict" : false
 				},
 				{
-					"name" : "result[7]",
+					"name" : "LEDR[9]",
 					"strict" : false
 				},
 				{
-					"name" : "result[8]",
+					"name" : "SW[0]",
 					"strict" : false
 				},
 				{
-					"name" : "result[9]",
+					"name" : "KEY[0]",
 					"strict" : false
 				},
 				{
-					"name" : "result[10]",
+					"name" : "SW[1]",
 					"strict" : false
 				},
 				{
-					"name" : "result[11]",
+					"name" : "SW[2]",
 					"strict" : false
 				},
 				{
-					"name" : "result[12]",
+					"name" : "SW[3]",
 					"strict" : false
 				},
 				{
-					"name" : "result[13]",
+					"name" : "SW[9]",
 					"strict" : false
 				},
 				{
-					"name" : "result[14]",
+					"name" : "SW[8]",
 					"strict" : false
 				},
 				{
-					"name" : "result[15]",
+					"name" : "SW[4]",
 					"strict" : false
 				},
 				{
-					"name" : "start",
+					"name" : "SW[5]",
 					"strict" : false
 				},
 				{
-					"name" : "clk",
+					"name" : "SW[6]",
 					"strict" : false
 				},
 				{
-					"name" : "rst",
-					"strict" : false
-				},
-				{
-					"name" : "multiplier[0]",
-					"strict" : false
-				},
-				{
-					"name" : "multiplier[1]",
-					"strict" : false
-				},
-				{
-					"name" : "multiplier[2]",
-					"strict" : false
-				},
-				{
-					"name" : "multiplier[3]",
-					"strict" : false
-				},
-				{
-					"name" : "multiplier[4]",
-					"strict" : false
-				},
-				{
-					"name" : "multiplier[5]",
-					"strict" : false
-				},
-				{
-					"name" : "multiplier[6]",
-					"strict" : false
-				},
-				{
-					"name" : "multiplier[7]",
-					"strict" : false
-				},
-				{
-					"name" : "multiplicand[0]",
-					"strict" : false
-				},
-				{
-					"name" : "multiplicand[1]",
-					"strict" : false
-				},
-				{
-					"name" : "multiplicand[2]",
-					"strict" : false
-				},
-				{
-					"name" : "multiplicand[3]",
-					"strict" : false
-				},
-				{
-					"name" : "multiplicand[4]",
-					"strict" : false
-				},
-				{
-					"name" : "multiplicand[5]",
-					"strict" : false
-				},
-				{
-					"name" : "multiplicand[6]",
-					"strict" : false
-				},
-				{
-					"name" : "multiplicand[7]",
+					"name" : "SW[7]",
 					"strict" : false
 				}
 			]

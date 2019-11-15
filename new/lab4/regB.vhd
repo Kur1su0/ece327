@@ -36,7 +36,7 @@ begin
 
 		  internal_buffer(n downto 0)<=input_regC_shift(1 downto 0)&internal_buffer(n downto 2);
 --				output_sel(0) <= internal_buffer(0);
-        end if;
+       end if;
 		  
 	 end if;
 	 end process;

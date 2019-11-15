@@ -21,7 +21,7 @@ end regC;
 
 architecture struc of regC is
 signal sig_output_adder : std_logic_vector(n downto 0):=(others=>'0');
-signal sig_out_B: std_logic_vector(1 downto 0);
+signal sig_out_B: std_logic_vector(1 downto 0):="00";
 --signal sig_input : std_logic_vector(n downto 0);
 
 begin    
@@ -29,9 +29,9 @@ begin
 	 begin
 	     if(rising_edge(clk)) then
 		      if (loadreg='1') then
-				    sig_output_adder(n downto 0)<=(others=>'0');
-					 sig_out_B<="00";
-					  --sig_output_adder<=input;
+				    --sig_output_adder(n downto 0)<=(others=>'0');
+					 --sig_out_B<="00";
+					  sig_output_adder<=input;
 					
 					 
 			    elsif(addreg='1') then
@@ -41,9 +41,12 @@ begin
 				 elsif(shift='1') then
 				      --output_regB<=input(1 downto 0);
 					  if(carrier='1') then
-					      sig_output_adder<=input(n)&carrier&input(n downto 2);
+					      --sig_output_adder<=input(n)&carrier&input(n downto 2);
+							sig_output_adder<=input(n)&carrier&sig_output_adder(n downto 2);
 					  else 
-					      sig_output_adder<=input(n)&input(n)&input(n downto 2);   
+					      --sig_output_adder<=input(n)&input(n)&input(n downto 2);   
+							sig_output_adder<=input(n)&input(n)&sig_output_adder(n downto 2);   
+
 					  end if;
 				end if;
 				
