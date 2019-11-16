@@ -18,7 +18,7 @@
 -- suit user's needs .Comments are provided in each section to help the user  
 -- fill out necessary details.                                                
 -- ***************************************************************************
--- Generated on "11/10/2019 19:36:45"
+-- Generated on "11/15/2019 20:34:07"
                                                             
 -- Vhdl Test Bench template for design  :  lab4
 -- 
@@ -84,7 +84,7 @@ BEGIN
 			
 			
 			multiplicand<="00000111";
-         multiplier <= "00000001";
+         multiplier <= "00000011";
 			
 			
 	      clk<='0'; wait for 10ns;
@@ -117,10 +117,6 @@ BEGIN
 			clk<='1'; wait for 10ns;	
 			clk<='0'; wait for 10ns;
 			clk<='1'; wait for 10ns;	
-	
-
-			
-			
 WAIT;                                                        
 END PROCESS always;                                          
 END lab4_arch;

@@ -82,20 +82,20 @@ always : PROCESS
 BEGIN                                                         
         -- code executes for every event on sensitivity list  
 		  
-		carrier<='0';
-		  
-		  loadreg<='1';
-		  addreg<='0';
-		  shift<='0';
-		  clk<='0'; wait for 10ns;
-		  clk<='1'; wait for 10ns;
-		  
+		carrier<='1';
+		
 		  loadreg<='0';
-		  addreg<='1';
+		  addreg<='0';
 		  shift<='1';
-		  input<="000000101";
+		  input<="001111111";
+		  loadreg<='1';
 		  clk<='0'; wait for 10ns;
 		  clk<='1'; wait for 10ns;
+		  loadreg<='0';
+		  shift<='1';
+		  clk<='0'; wait for 10ns;
+		  clk<='1'; wait for 10ns;
+		  
 
 		
 		  

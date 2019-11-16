@@ -7,7 +7,7 @@ entity board_lab4 is
     port(
         SW   : in std_logic_vector(9 downto 0);
         KEY  : in std_logic_vector(3 downto 0);
-        LEDR : out std_logic_vector(9 downto 0)
+        LEDR : out std_logic_vector(9 downto 0):=(others=>'0')
 
     );
 end board_lab4;

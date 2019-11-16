@@ -19,15 +19,8 @@ architecture struc of Adder is
 	 -- signal sum1 : std_logic_vector(n downto 0 );
 	 begin 
 	 
-	     sum<=('0' & a) + ('0' & b) + cin;
-		  --sum1<=('0' & a) + ('0' & b) + cin;
-		  --process(addreg)
+	     sum<=('0' & a) + ('0'& b) + cin;
 		  
-		  --begin
-		  --if rising_edge(addreg) then  sum <= sum1;
-		  -- else sum <= sum;
-		  ---end if;
-		  --end process;
 		  cout <= sum(n);
 		  
 		  

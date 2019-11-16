@@ -63,12 +63,12 @@ always : PROCESS
 BEGIN                                                         
         -- code executes for every event on sensitivity list  
 		  
-		  
+		   SW(9)<='0';SW(8)<='0'; wait for 10ns;
 		  SW(9)<='1';SW(8)<='1';
 		       
 
 			SW(7 downto 4)<="0111";
-         SW(3 downto 0)<="0111";
+         SW(3 downto 0)<="0011";
 		   KEY(0)<='0'; wait for 10ns;
 		   KEY(0)<='1'; wait for 10ns;
 			

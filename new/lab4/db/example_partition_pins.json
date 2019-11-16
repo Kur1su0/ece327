@@ -4,87 +4,151 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "LEDR[0]",
+					"name" : "busy",
 					"strict" : false
 				},
 				{
-					"name" : "LEDR[1]",
+					"name" : "done",
 					"strict" : false
 				},
 				{
-					"name" : "LEDR[2]",
+					"name" : "result[0]",
 					"strict" : false
 				},
 				{
-					"name" : "LEDR[3]",
+					"name" : "result[1]",
 					"strict" : false
 				},
 				{
-					"name" : "LEDR[4]",
+					"name" : "result[2]",
 					"strict" : false
 				},
 				{
-					"name" : "LEDR[5]",
+					"name" : "result[3]",
 					"strict" : false
 				},
 				{
-					"name" : "LEDR[6]",
+					"name" : "result[4]",
 					"strict" : false
 				},
 				{
-					"name" : "LEDR[7]",
+					"name" : "result[5]",
 					"strict" : false
 				},
 				{
-					"name" : "LEDR[8]",
+					"name" : "result[6]",
 					"strict" : false
 				},
 				{
-					"name" : "LEDR[9]",
+					"name" : "result[7]",
 					"strict" : false
 				},
 				{
-					"name" : "SW[0]",
+					"name" : "result[8]",
 					"strict" : false
 				},
 				{
-					"name" : "KEY[0]",
+					"name" : "result[9]",
 					"strict" : false
 				},
 				{
-					"name" : "SW[1]",
+					"name" : "result[10]",
 					"strict" : false
 				},
 				{
-					"name" : "SW[2]",
+					"name" : "result[11]",
 					"strict" : false
 				},
 				{
-					"name" : "SW[3]",
+					"name" : "result[12]",
 					"strict" : false
 				},
 				{
-					"name" : "SW[9]",
+					"name" : "result[13]",
 					"strict" : false
 				},
 				{
-					"name" : "SW[8]",
+					"name" : "result[14]",
 					"strict" : false
 				},
 				{
-					"name" : "SW[4]",
+					"name" : "result[15]",
 					"strict" : false
 				},
 				{
-					"name" : "SW[5]",
+					"name" : "start",
 					"strict" : false
 				},
 				{
-					"name" : "SW[6]",
+					"name" : "clk",
 					"strict" : false
 				},
 				{
-					"name" : "SW[7]",
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "multiplier[0]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplier[1]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplier[2]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplier[3]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplier[4]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplier[5]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplier[6]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplier[7]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplicand[0]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplicand[1]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplicand[2]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplicand[3]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplicand[4]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplicand[5]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplicand[6]",
+					"strict" : false
+				},
+				{
+					"name" : "multiplicand[7]",
 					"strict" : false
 				}
 			]

@@ -40,14 +40,14 @@ begin
 					 
 				 elsif(shift='1') then
 				      --output_regB<=input(1 downto 0);
-					  if(carrier='1') then
+					 
 					      --sig_output_adder<=input(n)&carrier&input(n downto 2);
-							sig_output_adder<=input(n)&carrier&sig_output_adder(n downto 2);
-					  else 
+							sig_output_adder<=sig_output_adder(n)&sig_output_adder(n)&sig_output_adder(n downto 2);
+					  
 					      --sig_output_adder<=input(n)&input(n)&input(n downto 2);   
-							sig_output_adder<=input(n)&input(n)&sig_output_adder(n downto 2);   
+				 
 
-					  end if;
+					  
 				end if;
 				
 					  
@@ -63,8 +63,9 @@ begin
 	    -- output_adder<=sig_output_adder(n)&sig_output_adder(n) & sig_output_adder(n downto 2);
 		 output_regB<=sig_out_B;
 		 output_adder<= sig_output_adder;
-
-       output_prodH<=sig_output_adder(n downto 1);
+		 
+       output_prodH<=sig_output_adder(n-1 downto 0);
+       --output_prodH<=sig_output_adder(n downto 1);
 		
 
 

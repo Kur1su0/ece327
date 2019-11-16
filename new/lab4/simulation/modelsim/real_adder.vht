@@ -67,11 +67,16 @@ always : PROCESS
 BEGIN                                                         
         -- code executes for every event on sensitivity list  
 		   a<="100000000";
-		  b<="100000000";
+		   b<="100000000";
 		  wait for 10ns;
 		  
 		  a<="010000000";
 		  b<="011111111";
+		  wait for 10ns;
+		  
+		  	  
+		  a<="010000000";
+		  b<="111111111";
 		  wait for 10ns;
 WAIT;                                                        
 END PROCESS always;                                          

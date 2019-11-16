@@ -80,7 +80,7 @@ BEGIN
 		  
 		  clk<='1';
 		  load_reg<='1';
-		  multiplicand<="00000001";
+		  multiplicand<="00000111";
 		  wait for 10ns;
 		  
 WAIT;                                                        

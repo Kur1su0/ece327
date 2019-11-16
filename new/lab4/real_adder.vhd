@@ -34,8 +34,7 @@ architecture struc of real_adder is
 		  --add non sign bit.
 		  b_xor<= b(n-1 downto 0 ) xor (n-1 downto 0 => inter_sub_signal);
 	    Ai : Adder generic map(n)
-		   port map(a(n-1 downto 0 ),b_xor, 
-		inter_sub_signal,c1,s(n-1 downto 0));
+		   port map(a(n-1 downto 0 ),b_xor,inter_sub_signal,c1,s(n-1 downto 0));
 				
 		  --add sign bit
 --		  As: Adder generic map(n)
