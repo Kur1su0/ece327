@@ -146,8 +146,8 @@ BEGIN
 		  clk<='1'; wait for 10ns;
 		  
 		  
-		  --notBusy
-		  is_done<='0';
+		  --fin
+		  is_done<='1';
 		  clk<='0'; wait for 10ns;
 		  clk<='1'; wait for 10ns;
 WAIT;                                                        

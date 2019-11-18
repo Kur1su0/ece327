@@ -1,6 +1,6 @@
 Analysis & Synthesis report for example
-Fri Nov 15 20:36:07 2019
-Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+Sun Nov 17 21:54:18 2019
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
 ---------------------
@@ -40,44 +40,43 @@ Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
-Your use of Altera Corporation's design tools, logic functions 
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Altera Program License 
-Subscription Agreement, the Altera Quartus Prime License Agreement,
-the Altera MegaCore Function License Agreement, or other 
-applicable license agreement, including, without limitation, 
-that your use is for the sole purpose of programming logic 
-devices manufactured by Altera and sold by Altera or its 
-authorized distributors.  Please refer to the applicable 
-agreement for further details.
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
 
 
 
-+-----------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                      ;
-+---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Fri Nov 15 20:36:07 2019           ;
-; Quartus Prime Version           ; 16.0.0 Build 211 04/27/2016 SJ Standard Edition ;
-; Revision Name                   ; example                                         ;
-; Top-level Entity Name           ; lab4                                            ;
-; Family                          ; Cyclone V                                       ;
-; Logic utilization (in ALMs)     ; N/A                                             ;
-; Total registers                 ; 73                                              ;
-; Total pins                      ; 37                                              ;
-; Total virtual pins              ; 0                                               ;
-; Total block memory bits         ; 0                                               ;
-; Total DSP Blocks                ; 0                                               ;
-; Total HSSI RX PCSs              ; 0                                               ;
-; Total HSSI PMA RX Deserializers ; 0                                               ;
-; Total HSSI TX PCSs              ; 0                                               ;
-; Total HSSI PMA TX Serializers   ; 0                                               ;
-; Total PLLs                      ; 0                                               ;
-; Total DLLs                      ; 0                                               ;
-+---------------------------------+-------------------------------------------------+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Sun Nov 17 21:54:18 2019       ;
+; Quartus Prime Version           ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
+; Revision Name                   ; example                                     ;
+; Top-level Entity Name           ; lab4                                        ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 73                                          ;
+; Total pins                      ; 37                                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
@@ -95,7 +94,7 @@ agreement for further details.
 ; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
 ; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
 ; Preserve fewer node names                                                       ; On                 ; On                 ;
-; Disable OpenCore Plus hardware evaluation                                       ; Off                ; Off                ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
 ; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
 ; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
 ; State Machine Processing                                                        ; Auto               ; Auto               ;
@@ -146,7 +145,7 @@ agreement for further details.
 ; Report Connectivity Checks                                                      ; On                 ; On                 ;
 ; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
 ; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
-; PowerPlay Power Optimization During Synthesis                                   ; Normal compilation ; Normal compilation ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
 ; HDL message level                                                               ; Level2             ; Level2             ;
 ; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
 ; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
@@ -162,7 +161,6 @@ agreement for further details.
 ; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
 ; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
 ; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
-; Synthesis Seed                                                                  ; 1                  ; 1                  ;
 ; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
 ; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
@@ -173,7 +171,7 @@ agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
+; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
@@ -181,26 +179,27 @@ agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processors 3-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                            ;
-+----------------------------------+-----------------+-----------------+--------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                     ; Library ;
-+----------------------------------+-----------------+-----------------+--------------------------------------------------+---------+
-; lab4.vhd                         ; yes             ; User VHDL File  ; /users/zicew/git/ece327/new/lab4/lab4.vhd        ;         ;
-; fsm.vhd                          ; yes             ; User VHDL File  ; /users/zicew/git/ece327/new/lab4/fsm.vhd         ;         ;
-; real_adder.vhd                   ; yes             ; User VHDL File  ; /users/zicew/git/ece327/new/lab4/real_adder.vhd  ;         ;
-; regB.vhd                         ; yes             ; User VHDL File  ; /users/zicew/git/ece327/new/lab4/regB.vhd        ;         ;
-; regC.vhd                         ; yes             ; User VHDL File  ; /users/zicew/git/ece327/new/lab4/regC.vhd        ;         ;
-; two_one_mux.vhd                  ; yes             ; User VHDL File  ; /users/zicew/git/ece327/new/lab4/two_one_mux.vhd ;         ;
-; regD.vhd                         ; yes             ; User VHDL File  ; /users/zicew/git/ece327/new/lab4/regD.vhd        ;         ;
-; mux.vhd                          ; yes             ; User VHDL File  ; /users/zicew/git/ece327/new/lab4/mux.vhd         ;         ;
-; regA.vhd                         ; yes             ; User VHDL File  ; /users/zicew/git/ece327/new/lab4/regA.vhd        ;         ;
-; Adder.vhd                        ; yes             ; User VHDL File  ; /users/zicew/git/ece327/new/lab4/Adder.vhd       ;         ;
-+----------------------------------+-----------------+-----------------+--------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                         ; Library ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------+---------+
+; lab4.vhd                         ; yes             ; User VHDL File  ; C:/Users/W/Documents/ece327/new/lab4/lab4.vhd        ;         ;
+; fsm.vhd                          ; yes             ; User VHDL File  ; C:/Users/W/Documents/ece327/new/lab4/fsm.vhd         ;         ;
+; real_adder.vhd                   ; yes             ; User VHDL File  ; C:/Users/W/Documents/ece327/new/lab4/real_adder.vhd  ;         ;
+; regB.vhd                         ; yes             ; User VHDL File  ; C:/Users/W/Documents/ece327/new/lab4/regB.vhd        ;         ;
+; regC.vhd                         ; yes             ; User VHDL File  ; C:/Users/W/Documents/ece327/new/lab4/regC.vhd        ;         ;
+; two_one_mux.vhd                  ; yes             ; User VHDL File  ; C:/Users/W/Documents/ece327/new/lab4/two_one_mux.vhd ;         ;
+; regD.vhd                         ; yes             ; User VHDL File  ; C:/Users/W/Documents/ece327/new/lab4/regD.vhd        ;         ;
+; mux.vhd                          ; yes             ; User VHDL File  ; C:/Users/W/Documents/ece327/new/lab4/mux.vhd         ;         ;
+; regA.vhd                         ; yes             ; User VHDL File  ; C:/Users/W/Documents/ece327/new/lab4/regA.vhd        ;         ;
+; Adder.vhd                        ; yes             ; User VHDL File  ; C:/Users/W/Documents/ece327/new/lab4/Adder.vhd       ;         ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------------------------+
@@ -230,22 +229,22 @@ agreement for further details.
 +---------------------------------------------+-----------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                       ;
-+------------------------------+-------------------+--------------+-------------------+------------+------+--------------+-------------------------------------+-------------+--------------+
-; Compilation Hierarchy Node   ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                 ; Entity Name ; Library Name ;
-+------------------------------+-------------------+--------------+-------------------+------------+------+--------------+-------------------------------------+-------------+--------------+
-; |lab4                        ; 91 (0)            ; 73 (0)       ; 0                 ; 0          ; 37   ; 0            ; |lab4                               ; lab4        ; work         ;
-;    |fsm:map_fsm|             ; 9 (9)             ; 5 (5)        ; 0                 ; 0          ; 0    ; 0            ; |lab4|fsm:map_fsm                   ; fsm         ; work         ;
-;    |mux:map_mux|             ; 8 (8)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |lab4|mux:map_mux                   ; mux         ; work         ;
-;    |real_adder:map_adder|    ; 9 (0)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |lab4|real_adder:map_adder          ; real_adder  ; work         ;
-;       |Adder:Ai|             ; 9 (9)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |lab4|real_adder:map_adder|Adder:Ai ; Adder       ; work         ;
-;    |regA:map_regA|           ; 7 (7)             ; 15 (15)      ; 0                 ; 0          ; 0    ; 0            ; |lab4|regA:map_regA                 ; regA        ; work         ;
-;    |regB:map_regB|           ; 2 (2)             ; 9 (9)        ; 0                 ; 0          ; 0    ; 0            ; |lab4|regB:map_regB                 ; regB        ; work         ;
-;    |regC:map_regC|           ; 10 (10)           ; 11 (11)      ; 0                 ; 0          ; 0    ; 0            ; |lab4|regC:map_regC                 ; regC        ; work         ;
-;    |regD:map_regD|           ; 44 (44)           ; 33 (33)      ; 0                 ; 0          ; 0    ; 0            ; |lab4|regD:map_regD                 ; regD        ; work         ;
-;    |two_one_mux:map_2_1_mux| ; 2 (2)             ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |lab4|two_one_mux:map_2_1_mux       ; two_one_mux ; work         ;
-+------------------------------+-------------------+--------------+-------------------+------------+------+--------------+-------------------------------------+-------------+--------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                      ;
++------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------+-------------+--------------+
+; Compilation Hierarchy Node   ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                 ; Entity Name ; Library Name ;
++------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------+-------------+--------------+
+; |lab4                        ; 91 (0)              ; 73 (0)                    ; 0                 ; 0          ; 37   ; 0            ; |lab4                               ; lab4        ; work         ;
+;    |fsm:map_fsm|             ; 9 (9)               ; 5 (5)                     ; 0                 ; 0          ; 0    ; 0            ; |lab4|fsm:map_fsm                   ; fsm         ; work         ;
+;    |mux:map_mux|             ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |lab4|mux:map_mux                   ; mux         ; work         ;
+;    |real_adder:map_adder|    ; 9 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |lab4|real_adder:map_adder          ; real_adder  ; work         ;
+;       |Adder:Ai|             ; 9 (9)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |lab4|real_adder:map_adder|Adder:Ai ; Adder       ; work         ;
+;    |regA:map_regA|           ; 7 (7)               ; 15 (15)                   ; 0                 ; 0          ; 0    ; 0            ; |lab4|regA:map_regA                 ; regA        ; work         ;
+;    |regB:map_regB|           ; 2 (2)               ; 9 (9)                     ; 0                 ; 0          ; 0    ; 0            ; |lab4|regB:map_regB                 ; regB        ; work         ;
+;    |regC:map_regC|           ; 10 (10)             ; 11 (11)                   ; 0                 ; 0          ; 0    ; 0            ; |lab4|regC:map_regC                 ; regC        ; work         ;
+;    |regD:map_regD|           ; 44 (44)             ; 33 (33)                   ; 0                 ; 0          ; 0    ; 0            ; |lab4|regD:map_regD                 ; regD        ; work         ;
+;    |two_one_mux:map_2_1_mux| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |lab4|two_one_mux:map_2_1_mux       ; two_one_mux ; work         ;
++------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -337,13 +336,13 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output              ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------+
-; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |lab4|regB:map_regB|internal_buffer[1]  ;
-; 3:1                ; 29 bits   ; 58 LEs        ; 0 LEs                ; 58 LEs                 ; Yes        ; |lab4|regD:map_regD|count_val[17]       ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 0 LEs                ; 16 LEs                 ; Yes        ; |lab4|regB:map_regB|internal_buffer[7]  ;
+; 3:1                ; 29 bits   ; 58 LEs        ; 0 LEs                ; 58 LEs                 ; Yes        ; |lab4|regD:map_regD|count_val[11]       ;
 ; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |lab4|regC:map_regC|sig_output_adder[0] ;
-; 5:1                ; 6 bits    ; 18 LEs        ; 12 LEs               ; 6 LEs                  ; Yes        ; |lab4|regC:map_regC|sig_output_adder[7] ;
+; 5:1                ; 6 bits    ; 18 LEs        ; 12 LEs               ; 6 LEs                  ; Yes        ; |lab4|regC:map_regC|sig_output_adder[2] ;
 ; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |lab4|regD:map_regD|count_val[31]       ;
 ; 6:1                ; 2 bits    ; 8 LEs         ; 6 LEs                ; 2 LEs                  ; No         ; |lab4|mux:map_mux|Mux1                  ;
-; 6:1                ; 6 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; No         ; |lab4|mux:map_mux|Mux2                  ;
+; 6:1                ; 6 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; No         ; |lab4|mux:map_mux|Mux7                  ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------+
 
 
@@ -513,66 +512,65 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
-    Info: Processing started: Fri Nov 15 20:35:49 2019
+    Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+    Info: Processing started: Sun Nov 17 21:54:04 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab4 -c example
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
-Warning (12019): Can't analyze file -- file old_fsm.vhd is missing
 Info (12021): Found 2 design units, including 1 entities, in source file board_lab4.vhd
-    Info (12022): Found design unit 1: board_lab4-struct File: /users/zicew/git/ece327/new/lab4/board_lab4.vhd Line: 16
-    Info (12023): Found entity 1: board_lab4 File: /users/zicew/git/ece327/new/lab4/board_lab4.vhd Line: 5
+    Info (12022): Found design unit 1: board_lab4-struct File: C:/Users/W/Documents/ece327/new/lab4/board_lab4.vhd Line: 16
+    Info (12023): Found entity 1: board_lab4 File: C:/Users/W/Documents/ece327/new/lab4/board_lab4.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file lab4.vhd
-    Info (12022): Found design unit 1: lab4-struc File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 23
-    Info (12023): Found entity 1: lab4 File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 5
+    Info (12022): Found design unit 1: lab4-struc File: C:/Users/W/Documents/ece327/new/lab4/lab4.vhd Line: 23
+    Info (12023): Found entity 1: lab4 File: C:/Users/W/Documents/ece327/new/lab4/lab4.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file fsm.vhd
-    Info (12022): Found design unit 1: fsm-struct File: /users/zicew/git/ece327/new/lab4/fsm.vhd Line: 19
-    Info (12023): Found entity 1: fsm File: /users/zicew/git/ece327/new/lab4/fsm.vhd Line: 5
+    Info (12022): Found design unit 1: fsm-struct File: C:/Users/W/Documents/ece327/new/lab4/fsm.vhd Line: 19
+    Info (12023): Found entity 1: fsm File: C:/Users/W/Documents/ece327/new/lab4/fsm.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file real_adder.vhd
-    Info (12022): Found design unit 1: real_adder-struc File: /users/zicew/git/ece327/new/lab4/real_adder.vhd Line: 16
-    Info (12023): Found entity 1: real_adder File: /users/zicew/git/ece327/new/lab4/real_adder.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file regB.vhd
-    Info (12022): Found design unit 1: regB-mixed File: /users/zicew/git/ece327/new/lab4/regB.vhd Line: 21
-    Info (12023): Found entity 1: regB File: /users/zicew/git/ece327/new/lab4/regB.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file regC.vhd
-    Info (12022): Found design unit 1: regC-struc File: /users/zicew/git/ece327/new/lab4/regC.vhd Line: 22
-    Info (12023): Found entity 1: regC File: /users/zicew/git/ece327/new/lab4/regC.vhd Line: 5
+    Info (12022): Found design unit 1: real_adder-struc File: C:/Users/W/Documents/ece327/new/lab4/real_adder.vhd Line: 16
+    Info (12023): Found entity 1: real_adder File: C:/Users/W/Documents/ece327/new/lab4/real_adder.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file regb.vhd
+    Info (12022): Found design unit 1: regB-mixed File: C:/Users/W/Documents/ece327/new/lab4/regB.vhd Line: 21
+    Info (12023): Found entity 1: regB File: C:/Users/W/Documents/ece327/new/lab4/regB.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file regc.vhd
+    Info (12022): Found design unit 1: regC-struc File: C:/Users/W/Documents/ece327/new/lab4/regC.vhd Line: 22
+    Info (12023): Found entity 1: regC File: C:/Users/W/Documents/ece327/new/lab4/regC.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file two_one_mux.vhd
-    Info (12022): Found design unit 1: two_one_mux-struc File: /users/zicew/git/ece327/new/lab4/two_one_mux.vhd Line: 17
-    Info (12023): Found entity 1: two_one_mux File: /users/zicew/git/ece327/new/lab4/two_one_mux.vhd Line: 6
-Info (12021): Found 2 design units, including 1 entities, in source file regD.vhd
-    Info (12022): Found design unit 1: regD-mixed File: /users/zicew/git/ece327/new/lab4/regD.vhd Line: 18
-    Info (12023): Found entity 1: regD File: /users/zicew/git/ece327/new/lab4/regD.vhd Line: 5
-Warning (12090): Entity "mux" obtained from "mux.vhd" instead of from Quartus Prime megafunction library File: /users/zicew/git/ece327/new/lab4/mux.vhd Line: 3
+    Info (12022): Found design unit 1: two_one_mux-struc File: C:/Users/W/Documents/ece327/new/lab4/two_one_mux.vhd Line: 17
+    Info (12023): Found entity 1: two_one_mux File: C:/Users/W/Documents/ece327/new/lab4/two_one_mux.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file regd.vhd
+    Info (12022): Found design unit 1: regD-mixed File: C:/Users/W/Documents/ece327/new/lab4/regD.vhd Line: 18
+    Info (12023): Found entity 1: regD File: C:/Users/W/Documents/ece327/new/lab4/regD.vhd Line: 5
+Warning (12090): Entity "mux" obtained from "mux.vhd" instead of from Quartus Prime megafunction library File: C:/Users/W/Documents/ece327/new/lab4/mux.vhd Line: 3
 Info (12021): Found 2 design units, including 1 entities, in source file mux.vhd
-    Info (12022): Found design unit 1: mux-struct File: /users/zicew/git/ece327/new/lab4/mux.vhd Line: 13
-    Info (12023): Found entity 1: mux File: /users/zicew/git/ece327/new/lab4/mux.vhd Line: 3
-Info (12021): Found 2 design units, including 1 entities, in source file regA.vhd
-    Info (12022): Found design unit 1: regA-mixed File: /users/zicew/git/ece327/new/lab4/regA.vhd Line: 20
-    Info (12023): Found entity 1: regA File: /users/zicew/git/ece327/new/lab4/regA.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file Adder.vhd
-    Info (12022): Found design unit 1: Adder-struc File: /users/zicew/git/ece327/new/lab4/Adder.vhd Line: 17
-    Info (12023): Found entity 1: Adder File: /users/zicew/git/ece327/new/lab4/Adder.vhd Line: 5
+    Info (12022): Found design unit 1: mux-struct File: C:/Users/W/Documents/ece327/new/lab4/mux.vhd Line: 13
+    Info (12023): Found entity 1: mux File: C:/Users/W/Documents/ece327/new/lab4/mux.vhd Line: 3
+Info (12021): Found 2 design units, including 1 entities, in source file rega.vhd
+    Info (12022): Found design unit 1: regA-mixed File: C:/Users/W/Documents/ece327/new/lab4/regA.vhd Line: 20
+    Info (12023): Found entity 1: regA File: C:/Users/W/Documents/ece327/new/lab4/regA.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file adder.vhd
+    Info (12022): Found design unit 1: Adder-struc File: C:/Users/W/Documents/ece327/new/lab4/Adder.vhd Line: 17
+    Info (12023): Found entity 1: Adder File: C:/Users/W/Documents/ece327/new/lab4/Adder.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file example.vhd
-    Info (12022): Found design unit 1: example-mixed File: /users/zicew/git/ece327/new/lab4/example.vhd Line: 12
-    Info (12023): Found entity 1: example File: /users/zicew/git/ece327/new/lab4/example.vhd Line: 6
+    Info (12022): Found design unit 1: example-mixed File: C:/Users/W/Documents/ece327/new/lab4/example.vhd Line: 12
+    Info (12023): Found entity 1: example File: C:/Users/W/Documents/ece327/new/lab4/example.vhd Line: 6
 Info (12127): Elaborating entity "lab4" for the top level hierarchy
-Info (12128): Elaborating entity "regA" for hierarchy "regA:map_regA" File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 143
-Info (12128): Elaborating entity "mux" for hierarchy "mux:map_mux" File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 147
-Info (12128): Elaborating entity "two_one_mux" for hierarchy "two_one_mux:map_2_1_mux" File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 154
-Info (12128): Elaborating entity "regC" for hierarchy "regC:map_regC" File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 158
-Info (12128): Elaborating entity "real_adder" for hierarchy "real_adder:map_adder" File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 169
-Warning (10540): VHDL Signal Declaration warning at real_adder.vhd(19): used explicit default value for signal "inter_sub_signal" because signal was never assigned a value File: /users/zicew/git/ece327/new/lab4/real_adder.vhd Line: 19
-Info (12128): Elaborating entity "Adder" for hierarchy "real_adder:map_adder|Adder:Ai" File: /users/zicew/git/ece327/new/lab4/real_adder.vhd Line: 36
-Info (12128): Elaborating entity "regB" for hierarchy "regB:map_regB" File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 177
-Info (12128): Elaborating entity "fsm" for hierarchy "fsm:map_fsm" File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 188
-Warning (10631): VHDL Process Statement warning at fsm.vhd(61): inferring latch(es) for signal or variable "done", which holds its previous value in one or more paths through the process File: /users/zicew/git/ece327/new/lab4/fsm.vhd Line: 61
-Warning (10631): VHDL Process Statement warning at fsm.vhd(61): inferring latch(es) for signal or variable "sel_out", which holds its previous value in one or more paths through the process File: /users/zicew/git/ece327/new/lab4/fsm.vhd Line: 61
-Info (10041): Inferred latch for "sel_out[0]" at fsm.vhd(61) File: /users/zicew/git/ece327/new/lab4/fsm.vhd Line: 61
-Info (10041): Inferred latch for "sel_out[1]" at fsm.vhd(61) File: /users/zicew/git/ece327/new/lab4/fsm.vhd Line: 61
-Info (10041): Inferred latch for "sel_out[2]" at fsm.vhd(61) File: /users/zicew/git/ece327/new/lab4/fsm.vhd Line: 61
-Info (10041): Inferred latch for "done" at fsm.vhd(61) File: /users/zicew/git/ece327/new/lab4/fsm.vhd Line: 61
-Info (12128): Elaborating entity "regD" for hierarchy "regD:map_regD" File: /users/zicew/git/ece327/new/lab4/lab4.vhd Line: 198
+Info (12128): Elaborating entity "regA" for hierarchy "regA:map_regA" File: C:/Users/W/Documents/ece327/new/lab4/lab4.vhd Line: 143
+Info (12128): Elaborating entity "mux" for hierarchy "mux:map_mux" File: C:/Users/W/Documents/ece327/new/lab4/lab4.vhd Line: 147
+Info (12128): Elaborating entity "two_one_mux" for hierarchy "two_one_mux:map_2_1_mux" File: C:/Users/W/Documents/ece327/new/lab4/lab4.vhd Line: 154
+Info (12128): Elaborating entity "regC" for hierarchy "regC:map_regC" File: C:/Users/W/Documents/ece327/new/lab4/lab4.vhd Line: 158
+Info (12128): Elaborating entity "real_adder" for hierarchy "real_adder:map_adder" File: C:/Users/W/Documents/ece327/new/lab4/lab4.vhd Line: 169
+Warning (10540): VHDL Signal Declaration warning at real_adder.vhd(19): used explicit default value for signal "inter_sub_signal" because signal was never assigned a value File: C:/Users/W/Documents/ece327/new/lab4/real_adder.vhd Line: 19
+Info (12128): Elaborating entity "Adder" for hierarchy "real_adder:map_adder|Adder:Ai" File: C:/Users/W/Documents/ece327/new/lab4/real_adder.vhd Line: 36
+Info (12128): Elaborating entity "regB" for hierarchy "regB:map_regB" File: C:/Users/W/Documents/ece327/new/lab4/lab4.vhd Line: 177
+Info (12128): Elaborating entity "fsm" for hierarchy "fsm:map_fsm" File: C:/Users/W/Documents/ece327/new/lab4/lab4.vhd Line: 188
+Warning (10631): VHDL Process Statement warning at fsm.vhd(61): inferring latch(es) for signal or variable "done", which holds its previous value in one or more paths through the process File: C:/Users/W/Documents/ece327/new/lab4/fsm.vhd Line: 61
+Warning (10631): VHDL Process Statement warning at fsm.vhd(61): inferring latch(es) for signal or variable "sel_out", which holds its previous value in one or more paths through the process File: C:/Users/W/Documents/ece327/new/lab4/fsm.vhd Line: 61
+Info (10041): Inferred latch for "sel_out[0]" at fsm.vhd(61) File: C:/Users/W/Documents/ece327/new/lab4/fsm.vhd Line: 61
+Info (10041): Inferred latch for "sel_out[1]" at fsm.vhd(61) File: C:/Users/W/Documents/ece327/new/lab4/fsm.vhd Line: 61
+Info (10041): Inferred latch for "sel_out[2]" at fsm.vhd(61) File: C:/Users/W/Documents/ece327/new/lab4/fsm.vhd Line: 61
+Info (10041): Inferred latch for "done" at fsm.vhd(61) File: C:/Users/W/Documents/ece327/new/lab4/fsm.vhd Line: 61
+Info (12128): Elaborating entity "regD" for hierarchy "regD:map_regD" File: C:/Users/W/Documents/ece327/new/lab4/lab4.vhd Line: 198
 Info (286030): Timing-Driven Synthesis is running
 Warning (20013): Ignored 571 assignments for entity "DE1_SoC" -- entity does not exist in design
     Warning (20014): Assignment for entity set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_ADDR[0] -entity DE1_SoC was ignored
@@ -1152,10 +1150,10 @@ Info (21057): Implemented 145 device resources after synthesis - the final resou
     Info (21058): Implemented 19 input pins
     Info (21059): Implemented 18 output pins
     Info (21061): Implemented 108 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 578 warnings
-    Info: Peak virtual memory: 1336 megabytes
-    Info: Processing ended: Fri Nov 15 20:36:07 2019
-    Info: Elapsed time: 00:00:18
-    Info: Total CPU time (on all processors): 00:00:24
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 577 warnings
+    Info: Peak virtual memory: 4871 megabytes
+    Info: Processing ended: Sun Nov 17 21:54:18 2019
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:26
 
 

@@ -74,6 +74,17 @@ always : PROCESS
 -- variable declarations                                      
 BEGIN                                                         
         -- code executes for every event on sensitivity list  
+		  neg1<="100000001";
+		  neg2<="100000010";
+		  
+		  pos1<="000000001";
+		  pos2<="000000010";
+		  zero<="000000000";
+		  sel<="000";
+		  wait for 10ns;
+		  
+		  
+		  
 WAIT;                                                        
 END PROCESS always;                                          
 END mux_arch;

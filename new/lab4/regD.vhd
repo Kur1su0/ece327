@@ -27,7 +27,7 @@ architecture mixed of regD is
         if(rising_edge(clk) ) then
         	 if (load_reg='1') then count_val<=(n/2);is_finished<='0';
 			 else
-			     if(count_val=1) then is_finished<='1'; ---val=0 --->ori
+			     if(count_val=1) then is_finished<='1'; 
 	           
 				  elsif(count_flag='1')then
 				          count_val<=count_val-1;

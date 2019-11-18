@@ -18,7 +18,7 @@ entity regA is
         );
 end regA;
 architecture mixed of regA is
-    --signal not_val: std_logic_vector(n-1 downto 0);
+    
 	 --signal sig_neg1: std_logic;
 
 	 begin
@@ -28,7 +28,7 @@ architecture mixed of regA is
         begin
         if(rising_edge(clk) and load_Reg='1') then
             ---2's comp  
-            --not_val <= not(multiplicand) + 1;
+           
             --sig_neg1(n-1 downto 0) <= not(multiplicand) + 1;
            
 			 

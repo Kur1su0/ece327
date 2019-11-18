@@ -29,8 +29,6 @@ begin
 	 begin
 	     if(rising_edge(clk)) then
 		      if (loadreg='1') then
-				    --sig_output_adder(n downto 0)<=(others=>'0');
-					 --sig_out_B<="00";
 					  sig_output_adder<=input;
 					
 					 
@@ -39,20 +37,10 @@ begin
 					 sig_out_B<=input(1 downto 0);
 					 
 				 elsif(shift='1') then
-				      --output_regB<=input(1 downto 0);
-					 
-					      --sig_output_adder<=input(n)&carrier&input(n downto 2);
 							sig_output_adder<=sig_output_adder(n)&sig_output_adder(n)&sig_output_adder(n downto 2);
-					  
-					      --sig_output_adder<=input(n)&input(n)&input(n downto 2);   
-				 
-
+							
 					  
 				end if;
-				
-					  
-				     
-				
 		  
 		  end if;
 	 

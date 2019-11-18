@@ -78,35 +78,66 @@ always : PROCESS
 -- variable declarations                                      
 BEGIN                                                         
         -- code executes for every event on sensitivity list  
-		  start<='1';
+		   start<='1';
 			rst<='0';wait for 10ns;
 			rst<='1';
 			
 			
-			multiplicand<="00000111";
+--			multiplicand<="00000010";
+--         multiplier <= "00000010";
+--			
+--			
+--	      clk<='0'; wait for 10ns;
+--			clk<='1'; wait for 10ns;		
+--			
+--			
+--			clk<='0'; wait for 10ns;
+--			clk<='1'; wait for 10ns;
+--			
+--			clk<='0'; wait for 10ns;
+--			clk<='1'; wait for 10ns;	
+--			clk<='0'; wait for 10ns;
+--			clk<='1'; wait for 10ns;	
+--			
+--			clk<='0'; wait for 10ns;
+--			clk<='1'; wait for 10ns;	
+--			clk<='0'; wait for 10ns;
+--			clk<='1'; wait for 10ns;	
+--			
+--			
+--			clk<='0'; wait for 10ns;
+--			clk<='1'; wait for 10ns;	
+--			clk<='0'; wait for 10ns;
+--			clk<='1'; wait for 10ns;	
+--		
+--			
+--			
+--			clk<='0'; wait for 10ns;
+--			clk<='1'; wait for 10ns;	
+--			clk<='0'; wait for 10ns;
+--			clk<='1'; wait for 10ns;
+--		
+--	
+--         	
+--			clk<='0'; wait for 10ns;
+--			clk<='1'; wait for 10ns;	
+			
+		
+	      multiplicand<="00000111";
          multiplier <= "00000011";
 			
-			
-	      clk<='0'; wait for 10ns;
+			clk<='0'; wait for 10ns;
 			clk<='1'; wait for 10ns;		
 			
 			
 			clk<='0'; wait for 10ns;
-			clk<='1'; wait for 10ns;	
-			clk<='0'; wait for 10ns;
-			clk<='1'; wait for 10ns;	
-			clk<='0'; wait for 10ns;
-			clk<='1'; wait for 10ns;	
+			clk<='1'; wait for 10ns;
 			
 			clk<='0'; wait for 10ns;
 			clk<='1'; wait for 10ns;	
 			clk<='0'; wait for 10ns;
 			clk<='1'; wait for 10ns;	
-			clk<='0'; wait for 10ns;
-			clk<='1'; wait for 10ns;	
 			
-			clk<='0'; wait for 10ns;
-			clk<='1'; wait for 10ns;	
 			clk<='0'; wait for 10ns;
 			clk<='1'; wait for 10ns;	
 			clk<='0'; wait for 10ns;
@@ -117,6 +148,20 @@ BEGIN
 			clk<='1'; wait for 10ns;	
 			clk<='0'; wait for 10ns;
 			clk<='1'; wait for 10ns;	
+		
+			
+			
+			clk<='0'; wait for 10ns;
+			clk<='1'; wait for 10ns;	
+			clk<='0'; wait for 10ns;
+			clk<='1'; wait for 10ns;
+		
+	
+         	
+	
+			
+
+         	
 WAIT;                                                        
 END PROCESS always;                                          
 END lab4_arch;

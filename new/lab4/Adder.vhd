@@ -16,7 +16,7 @@ end Adder;
 
 architecture struc of Adder is
     signal sum: std_logic_vector(n downto 0 );
-	 -- signal sum1 : std_logic_vector(n downto 0 );
+	 
 	 begin 
 	 
 	     sum<=('0' & a) + ('0'& b) + cin;
