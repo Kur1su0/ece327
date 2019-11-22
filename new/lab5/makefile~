@@ -1,0 +1,4 @@
+all:
+	gcc gen.c -o gen
+clean:
+	rm gen
