@@ -1,0 +1,7 @@
+size	64x64	add	0.110	mul	0.090	
+size	128x128	add	0.211	mul	0.261	
+size	256x256	add	0.565	mul	0.891	
+size	512x512	add	1.967	mul	3.486	
+size	1024x1024	add	7.603	mul	14.880	
+size	2048x2048	add	30.078	mul	59.999	
+size	4096x4096	add	119.997	mul	460.069	

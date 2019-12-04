@@ -1,0 +1,337 @@
+{
+  "kernels":
+  [
+    {
+      "name":"kernel_add"
+      , "bbtables":
+      [
+        {
+          "header":
+          [
+            {
+              "data":
+              [
+                {
+                  "value":"entry"
+                  , "colspan":2
+                }
+                , {
+                  "value":"Resources"
+                  , "colspan":4
+                }
+              ]
+            }
+            , {
+              "data":
+              [
+                {
+                  "value":"Operations"
+                  , "colspan":2
+                }
+                , "LEs"
+                , "FFs"
+                , "RAMs"
+                , "DSPs"
+              ]
+            }
+          ]
+          , "body":
+          [
+            {
+              "data":
+              [
+                {
+                  "value":"mat_cl.cl:16"
+                  , "file":1
+                  , "line":16
+                  , "colspan":2
+                }
+                , "1758"
+                , "2367"
+                , "40"
+                , "0"
+              ]
+            }
+            , {
+              "data":
+              [
+                {
+                  "value":"mat_cl.cl:18"
+                  , "file":1
+                  , "line":18
+                  , "colspan":2
+                }
+                , "1"
+                , "1"
+                , "0"
+                , "0"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+    , {
+      "name":"kernel_mul"
+      , "bbtables":
+      [
+        {
+          "header":
+          [
+            {
+              "data":
+              [
+                {
+                  "value":"kernel_mul.wii_blk"
+                  , "colspan":2
+                }
+                , {
+                  "value":"Resources"
+                  , "colspan":4
+                }
+              ]
+            }
+            , {
+              "data":
+              [
+                {
+                  "value":"Operations"
+                  , "colspan":2
+                }
+                , "LEs"
+                , "FFs"
+                , "RAMs"
+                , "DSPs"
+              ]
+            }
+          ]
+          , "body":
+          [
+          ]
+        }
+        , {
+          "header":
+          [
+            {
+              "data":
+              [
+                {
+                  "value":"non_wii"
+                  , "colspan":2
+                }
+                , {
+                  "value":"Resources"
+                  , "colspan":4
+                }
+              ]
+            }
+            , {
+              "data":
+              [
+                {
+                  "value":"Operations"
+                  , "colspan":2
+                }
+                , "LEs"
+                , "FFs"
+                , "RAMs"
+                , "DSPs"
+              ]
+            }
+          ]
+          , "body":
+          [
+            {
+              "data":
+              [
+                {
+                  "value":"mat_cl.cl:34"
+                  , "file":1
+                  , "line":34
+                  , "colspan":2
+                }
+                , "341"
+                , "399"
+                , "13"
+                , "0"
+              ]
+            }
+            , {
+              "data":
+              [
+                {
+                  "value":"No Source Line"
+                  , "file":0
+                  , "line":0
+                  , "colspan":2
+                }
+                , "75"
+                , "318"
+                , "0"
+                , "0"
+              ]
+            }
+          ]
+        }
+        , {
+          "header":
+          [
+            {
+              "data":
+              [
+                {
+                  "value":"for.cond2.preheader"
+                  , "colspan":2
+                }
+                , {
+                  "value":"Resources"
+                  , "colspan":4
+                }
+              ]
+            }
+            , {
+              "data":
+              [
+                {
+                  "value":"Operations"
+                  , "colspan":2
+                }
+                , "LEs"
+                , "FFs"
+                , "RAMs"
+                , "DSPs"
+              ]
+            }
+          ]
+          , "body":
+          [
+            {
+              "data":
+              [
+                {
+                  "value":"mat_cl.cl:30"
+                  , "file":1
+                  , "line":30
+                  , "colspan":2
+                }
+                , "76"
+                , "448"
+                , "4"
+                , "0"
+              ]
+            }
+            , {
+              "data":
+              [
+                {
+                  "value":"mat_cl.cl:32"
+                  , "file":1
+                  , "line":32
+                  , "colspan":2
+                }
+                , "88"
+                , "48"
+                , "0"
+                , "0"
+              ]
+            }
+            , {
+              "data":
+              [
+                {
+                  "value":"mat_cl.cl:34"
+                  , "file":1
+                  , "line":34
+                  , "colspan":2
+                }
+                , "3956"
+                , "7021"
+                , "59"
+                , "8"
+              ]
+            }
+            , {
+              "data":
+              [
+                {
+                  "value":"No Source Line"
+                  , "file":0
+                  , "line":0
+                  , "colspan":2
+                }
+                , "1495"
+                , "3723"
+                , "11"
+                , "0"
+              ]
+            }
+          ]
+        }
+        , {
+          "header":
+          [
+            {
+              "data":
+              [
+                {
+                  "value":"for.cond2.preheader.UnifiedLatchBlock.switch"
+                  , "colspan":2
+                }
+                , {
+                  "value":"Resources"
+                  , "colspan":4
+                }
+              ]
+            }
+            , {
+              "data":
+              [
+                {
+                  "value":"Operations"
+                  , "colspan":2
+                }
+                , "LEs"
+                , "FFs"
+                , "RAMs"
+                , "DSPs"
+              ]
+            }
+          ]
+          , "body":
+          [
+            {
+              "data":
+              [
+                {
+                  "value":"mat_cl.cl:34"
+                  , "file":1
+                  , "line":34
+                  , "colspan":2
+                }
+                , "809"
+                , "1293"
+                , "14"
+                , "0"
+              ]
+            }
+            , {
+              "data":
+              [
+                {
+                  "value":"mat_cl.cl:44"
+                  , "file":1
+                  , "line":44
+                  , "colspan":2
+                }
+                , "1"
+                , "1"
+                , "0"
+                , "0"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+size	64x64	add_timing	0.363	mul_timing	0.411
+size	128x128	add_timing	1.431	mul_timing	1.597
+size	256x256	add_timing	5.774	mul_timing	6.446
+size	512x512	add_timing	24.034	mul_timing	26.415
+size	1024x1024	add_timing	96.479	mul_timing	105.371
+size	2048x2048	add_timing	386.980	mul_timing	421.676
+size	4096x4096	add_timing	1536.126	mul_timing	1691.198

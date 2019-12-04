@@ -67,8 +67,8 @@ BEGIN
 		  SW(9)<='1';SW(8)<='1';
 		       
 
-			SW(7 downto 4)<="1000";
-         SW(3 downto 0)<="0010";
+			SW(7 downto 4)<="0101";
+         SW(3 downto 0)<="1001";
 		   KEY(0)<='0'; wait for 10ns;
 		   KEY(0)<='1'; wait for 10ns;
 			

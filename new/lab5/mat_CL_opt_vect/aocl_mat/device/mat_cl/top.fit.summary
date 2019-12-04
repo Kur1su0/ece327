@@ -1,0 +1,20 @@
+Fitter Status : Successful - Mon Dec  2 18:09:29 2019
+Quartus Prime Version : 15.1.0 Build 185 10/21/2015 SJ Standard Edition
+Revision Name : top
+Top-level Entity Name : top
+Family : Cyclone V
+Device : 5CSEMA5F31C6
+Timing Models : Final
+Logic utilization (in ALMs) : 11,529 / 32,070 ( 36 % )
+Total registers : 22776
+Total pins : 103 / 457 ( 23 % )
+Total virtual pins : 0
+Total block memory bits : 706,488 / 4,065,280 ( 17 % )
+Total RAM Blocks : 153 / 397 ( 39 % )
+Total DSP Blocks : 10 / 87 ( 11 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 2 / 6 ( 33 % )
+Total DLLs : 1 / 4 ( 25 % )

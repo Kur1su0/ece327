@@ -1,0 +1,7 @@
+size	64x64	add	0.101	mul	0.061	Pipe	0.707
+size	128x128	add	0.211	mul	0.160	Pipe	1.289
+size	256x256	add	0.556	mul	0.466	Pipe	3.378
+size	512x512	add	1.937	mul	1.744	Pipe	11.976
+size	1024x1024	add	7.453	mul	7.529	Pipe	46.912
+size	2048x2048	add	29.513	mul	30.100	Pipe	191.712
+size	4096x4096	add	117.768	mul	230.825	Pipe	875.804

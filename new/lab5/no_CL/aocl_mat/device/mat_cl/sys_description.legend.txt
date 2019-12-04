@@ -1,0 +1,9 @@
+- Version Identifier
+- Board name
+- Specifies if the kernel is a virtual fabric
+- Specifies whether the kernel was built in big-endian mode
+- Number of memory interfaces (DIMMS or banks) usable as device global memory
+   - Global memory start address for interface 0
+   - Global memory end address for interface 0
+- Size of global memory allocated by program
+- Number of kernels
